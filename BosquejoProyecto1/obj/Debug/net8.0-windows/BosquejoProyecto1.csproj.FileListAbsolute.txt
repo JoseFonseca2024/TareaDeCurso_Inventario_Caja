@@ -25,3 +25,5 @@ C:\Users\Usuario\Documents\UNI\2025\Programación II\BosquejoProyecto1\BosquejoP
 C:\Users\Usuario\Documents\UNI\2025\Programación II\BosquejoProyecto1\BosquejoProyecto1\obj\Debug\net8.0-windows\BosquejoProyecto1.Forms.FormVerRegistros.resources
 C:\Users\Usuario\Documents\UNI\2025\Programación II\BosquejoProyecto1\BosquejoProyecto1\obj\Debug\net8.0-windows\BosquejoProyecto1.Forms.FormsInvetario.FormInventario.resources
 C:\Users\Usuario\Documents\UNI\2025\Programación II\BosquejoProyecto1\BosquejoProyecto1\obj\Debug\net8.0-windows\BosquejoProyecto1.Forms.FormsInvetario.FormRegistroCompra.resources
+C:\Users\Usuario\Documents\UNI\2025\Programación II\BosquejoProyecto1\BosquejoProyecto1\obj\Debug\net8.0-windows\BosquejoProyecto1.Forms.FormsInvetario.FormInicializacionInventario.resources
+C:\Users\Usuario\Documents\UNI\2025\Programación II\BosquejoProyecto1\BosquejoProyecto1\obj\Debug\net8.0-windows\BosquejoProyecto1.sourcelink.json

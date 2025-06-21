@@ -1,13 +1,4 @@
 ﻿using BosquejoProyecto1.Class;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace BosquejoProyecto1.Forms.FormsInvetario
 {
@@ -24,6 +15,12 @@ namespace BosquejoProyecto1.Forms.FormsInvetario
         private void button1_Click(object sender, EventArgs e)
         {
             var form = new FormRegistroCompra();
+            form.ShowDialog();
+        }
+
+        private void btnInicializar_Click(object sender, EventArgs e)
+        {
+            var form = new FormInicializacionInventario();
             form.ShowDialog();
         }
     }

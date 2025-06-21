@@ -1,20 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using BosquejoProyecto1.Class;
+
 
 namespace BosquejoProyecto1.Forms.FormsInvetario
 {
     public partial class FormInicializacionInventario : Form
     {
+        private readonly FormService formService = new FormService();
         public FormInicializacionInventario()
         {
             InitializeComponent();
+            formService.CerrarConValidación(lblExit,this);
+            formService.CambiodeColor(lblExit);
         }
 
         private void txtNombreProducto_KeyPress(object sender, KeyPressEventArgs e)
@@ -24,5 +20,7 @@ namespace BosquejoProyecto1.Forms.FormsInvetario
                 e.Handled = true; // Bloquea la tecla
             }
         }
+
+
     }
 }

@@ -94,6 +94,7 @@
             btnInicializar.TabIndex = 17;
             btnInicializar.Text = "Inicializar Saldo de inventario";
             btnInicializar.UseVisualStyleBackColor = true;
+            btnInicializar.Click += btnInicializar_Click;
             // 
             // btnVerIngresos
             // 
