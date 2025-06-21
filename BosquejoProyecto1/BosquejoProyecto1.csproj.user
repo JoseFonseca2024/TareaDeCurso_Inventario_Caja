@@ -25,6 +25,9 @@
     <Compile Update="Forms\FormsFacturación\FormsPago.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\FormsInvetario\FormInicializacionInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\FormsInvetario\FormInventario.cs">
       <SubType>Form</SubType>
     </Compile>
