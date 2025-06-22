@@ -136,7 +136,13 @@ namespace APISistemaCaja_Inventario.Controllers
             _context.Facturas.Add(factura);
             await _context.SaveChangesAsync();
 
-            var caja = await _context.Cajas.Include(c => c.Movimientos).FirstOrDefaultAsync(c => c.FechaCierre == null);
+            var caja = await _context.Cajas.FirstOrDefaultAsync();
+            if (caja == null)
+                return BadRequest("No existe caja para registrar el ingreso.");
+
+            // Opcional: validar que caja esté abierta
+            if (caja.Saldo < 0)
+                return BadRequest("La caja está cerrada.");
 
             var movimiento = new MovimientoCaja
             {

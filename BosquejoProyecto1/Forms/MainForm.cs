@@ -1,6 +1,8 @@
 ﻿using BosquejoProyecto1.Class;
+using BosquejoProyecto1.DTO_s;
 using BosquejoProyecto1.Forms;
 using BosquejoProyecto1.Forms.FormsInvetario;
+using System.Net.Http.Json;
 
 
 namespace BosquejoProyecto1
@@ -8,6 +10,8 @@ namespace BosquejoProyecto1
     public partial class MainForm : Form
     {
         private readonly FormService formService = new FormService();
+        public readonly string url = "https://localhost:7064/api/Cajas";
+        HttpClient cliente = new HttpClient();
 
         public MainForm(string usuario)
         {
@@ -76,10 +80,21 @@ namespace BosquejoProyecto1
             }
         }
 
-        private void btnFacturar_Click(object sender, EventArgs e)
+        private async void btnFacturar_Click(object sender, EventArgs e)
         {
-            var form = new FormFacturación();
-            form.ShowDialog();
+
+            var cajas = await cliente.GetFromJsonAsync<List<CajaDTO>>(url);
+            var caja = cajas?.FirstOrDefault();
+
+            if (caja != null && caja.Saldo > 0)
+            {
+                var form = new FormFacturación();
+                form.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("No hay caja abierta para facturar. Inicialice saldo en caja primeramente", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void btnInventario_Click(object sender, EventArgs e)

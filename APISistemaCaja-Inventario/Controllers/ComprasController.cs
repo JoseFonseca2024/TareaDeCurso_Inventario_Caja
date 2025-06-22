@@ -143,10 +143,13 @@ namespace APISistemaCaja_Inventario.Controllers
 
 
             // Registrar egreso en caja
-            var caja = await _context.Cajas.FirstOrDefaultAsync(c => c.FechaCierre == null);
+            var caja = await _context.Cajas.FirstOrDefaultAsync();
             if (caja == null)
-                return BadRequest("No existe caja abierta para registrar el egreso.");
+                return BadRequest("No existe caja para registrar el egreso.");
 
+            if (caja.Saldo <= 0)
+                return BadRequest("La caja está cerrada o sin saldo disponible para registrar egresos.");
+            
             var movimientoCaja = new MovimientoCaja
             {
                 CajaID = caja.CajaID,

@@ -7,7 +7,6 @@ namespace APISistemaCaja_Inventario.DTO_s.Caja
     {
         [Key]
         public int CajaID { get; set; }
-        [Column(TypeName = "decimal(18,2)")]
         public decimal Saldo { get; set; }
     }
 }

@@ -4,6 +4,7 @@ using APISistemaCaja_Inventario.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace APISistemaCaja_Inventario.Migrations
 {
     [DbContext(typeof(Sistema_Context))]
-    partial class Sistema_ContextModelSnapshot : ModelSnapshot
+    [Migration("20250622192917_CorrigiendoCaja")]
+    partial class CorrigiendoCaja
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
