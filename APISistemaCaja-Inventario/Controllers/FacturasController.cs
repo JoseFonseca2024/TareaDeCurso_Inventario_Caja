@@ -129,7 +129,6 @@ namespace APISistemaCaja_Inventario.Controllers
                 factura.Detalles.Add(detalle);
             }
 
-
             factura.Subtotal = Math.Round(subtotal, 2);
             factura.IVA = Math.Round(factura.Subtotal * IVA, 2);
             factura.Total = factura.Subtotal + factura.IVA;

@@ -8187,23 +8187,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fares\\.nuget\\packages\\": {},
+    "C:\\Users\\luiss\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fares\\Source\\Repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj",
+      "projectUniqueName": "C:\\Users\\luiss\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj",
       "projectName": "APISistemaCaja-Inventario",
-      "projectPath": "C:\\Users\\fares\\Source\\Repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj",
-      "packagesPath": "C:\\Users\\fares\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fares\\Source\\Repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\obj\\",
+      "projectPath": "C:\\Users\\luiss\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj",
+      "packagesPath": "C:\\Users\\luiss\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\luiss\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\fares\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\luiss\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
