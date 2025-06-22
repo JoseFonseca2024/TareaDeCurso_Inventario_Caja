@@ -254,7 +254,7 @@
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Controllers\\ProductoesController.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\ProductoesController.cs",
               "RelativeToolTip": "APISistemaCaja-Inventario\\Controllers\\ProductoesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T02:43:22.268Z",
               "EditorCaption": ""
@@ -269,8 +269,7 @@
               "RelativeToolTip": "APISistemaCaja-Inventario\\Controllers\\MovimientoCajasController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T02:42:16.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T02:42:16.414Z"
             },
             {
               "$type": "Document",
@@ -282,8 +281,7 @@
               "RelativeToolTip": "APISistemaCaja-Inventario\\Controllers\\FacturasController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T02:41:30.323Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T02:41:30.323Z"
             },
             {
               "$type": "Document",
@@ -295,8 +293,7 @@
               "RelativeToolTip": "APISistemaCaja-Inventario\\Controllers\\ComprasController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T02:40:09.376Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T02:40:09.376Z"
             },
             {
               "$type": "Document",
@@ -308,8 +305,7 @@
               "RelativeToolTip": "APISistemaCaja-Inventario\\Controllers\\CajasController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T02:37:04.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T02:37:04.761Z"
             },
             {
               "$type": "Document",

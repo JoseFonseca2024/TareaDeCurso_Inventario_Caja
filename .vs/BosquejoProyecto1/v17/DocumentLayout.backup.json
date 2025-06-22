@@ -206,7 +206,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
@@ -220,71 +220,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-19T00:32:04.138Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductoesController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\ProductoesController.cs",
-              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Controllers\\ProductoesController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\ProductoesController.cs",
-              "RelativeToolTip": "APISistemaCaja-Inventario\\Controllers\\ProductoesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T02:43:22.268Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MovimientoCajasController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\MovimientoCajasController.cs",
-              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Controllers\\MovimientoCajasController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\MovimientoCajasController.cs",
-              "RelativeToolTip": "APISistemaCaja-Inventario\\Controllers\\MovimientoCajasController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T02:42:16.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FacturasController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\FacturasController.cs",
-              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Controllers\\FacturasController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\FacturasController.cs",
-              "RelativeToolTip": "APISistemaCaja-Inventario\\Controllers\\FacturasController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T02:41:30.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ComprasController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\ComprasController.cs",
-              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Controllers\\ComprasController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\ComprasController.cs",
-              "RelativeToolTip": "APISistemaCaja-Inventario\\Controllers\\ComprasController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T02:40:09.376Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CajasController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\CajasController.cs",
-              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Controllers\\CajasController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\CajasController.cs",
-              "RelativeToolTip": "APISistemaCaja-Inventario\\Controllers\\CajasController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T02:37:04.761Z",
               "EditorCaption": ""
             },
             {
@@ -310,6 +245,67 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductoesController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\ProductoesController.cs",
+              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Controllers\\ProductoesController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\ProductoesController.cs",
+              "RelativeToolTip": "APISistemaCaja-Inventario\\Controllers\\ProductoesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T02:43:22.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovimientoCajasController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\MovimientoCajasController.cs",
+              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Controllers\\MovimientoCajasController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\MovimientoCajasController.cs",
+              "RelativeToolTip": "APISistemaCaja-Inventario\\Controllers\\MovimientoCajasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T02:42:16.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FacturasController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\FacturasController.cs",
+              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Controllers\\FacturasController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\FacturasController.cs",
+              "RelativeToolTip": "APISistemaCaja-Inventario\\Controllers\\FacturasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T02:41:30.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ComprasController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\ComprasController.cs",
+              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Controllers\\ComprasController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\ComprasController.cs",
+              "RelativeToolTip": "APISistemaCaja-Inventario\\Controllers\\ComprasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T02:40:09.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CajasController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\CajasController.cs",
+              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Controllers\\CajasController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\CajasController.cs",
+              "RelativeToolTip": "APISistemaCaja-Inventario\\Controllers\\CajasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T02:37:04.761Z"
             },
             {
               "$type": "Document",
