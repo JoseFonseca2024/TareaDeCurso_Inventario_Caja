@@ -50,30 +50,18 @@ namespace APISistemaCaja_Inventario.Controllers
         // PUT: api/Productoes/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutProducto(int id, Producto producto)
+        public async Task<IActionResult> PutProducto(int id, ProductoUPDATE dto)
         {
-            if (id != producto.ProductoID)
-            {
-                return BadRequest();
-            }
+            var producto = await _context.Productos.FindAsync(id);
+            if (producto == null) return NotFound();
 
-            _context.Entry(producto).State = EntityState.Modified;
+            producto.NombreProducto = dto.NombreProducto;
+            producto.CostoProducto = dto.CostoProducto;
+            producto.PrecioconIVA = dto.PrecioConIVA;
+            producto.Cantidad = dto.Cantidad;
 
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!ProductoExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+            await _context.SaveChangesAsync();
+
 
             return NoContent();
         }

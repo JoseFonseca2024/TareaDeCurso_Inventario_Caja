@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\apisistemacaja-inventario\\controllers\\productoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\controllers\\productoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\dto\u0027s\\producto\\productoupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\dto\u0027s\\producto\\productoupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\apisistemacaja-inventario\\dto\u0027s\\producto\\productoupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\dto\u0027s\\producto\\productoupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\apisistemacaja-inventario\\dto\u0027s\\producto\\productocreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\dto\u0027s\\producto\\productocreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\forms\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\forms\\formscaja\\formcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formscaja\\formcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,11 +31,7 @@
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formscaja\\forminicializarsaldo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\forms\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\forms\\formscaja\\formcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\bosquejoproyecto1\\forms\\formscaja\\formcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formscaja\\formcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -83,16 +99,16 @@
       "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\models\\tipodemovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\dto\u0027s\\cajaupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\dto\u0027s\\cajaupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\dto\u0027s\\caja\\cajaupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\dto\u0027s\\caja\\cajaupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\dto\u0027s\\cajadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\dto\u0027s\\cajadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\dto\u0027s\\caja\\cajadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\dto\u0027s\\caja\\cajadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\dto\u0027s\\cajacreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\dto\u0027s\\cajacreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\dto\u0027s\\caja\\cajacreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\dto\u0027s\\caja\\cajacreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\apisistemacaja-inventario\\dto\u0027s\\caja\\cajacreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -113,10 +129,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\apisistemacaja-inventario\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\apisistemacaja-inventario\\controllers\\productoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\controllers\\productoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\apisistemacaja-inventario\\controllers\\facturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -155,10 +167,6 @@
       "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\dto\u0027s\\producto\\productoread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\apisistemacaja-inventario\\dto\u0027s\\producto\\productocreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\dto\u0027s\\producto\\productocreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\apisistemacaja-inventario\\dto\u0027s\\factura\\facturaread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\dto\u0027s\\factura\\facturaread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -178,20 +186,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "FormInicioSesion.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormInicioSesion.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormInicioSesion.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormInicioSesion.cs",
               "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormInicioSesion.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowBIAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-19T00:32:04.138Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductoUPDATE.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\DTO\u0027s\\Producto\\ProductoUPDATE.cs",
+              "RelativeDocumentMoniker": "BosquejoProyecto1\\DTO\u0027s\\Producto\\ProductoUPDATE.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\DTO\u0027s\\Producto\\ProductoUPDATE.cs",
+              "RelativeToolTip": "BosquejoProyecto1\\DTO\u0027s\\Producto\\ProductoUPDATE.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T22:04:40.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductoUPDATE.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\DTO\u0027s\\Producto\\ProductoUPDATE.cs",
+              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\DTO\u0027s\\Producto\\ProductoUPDATE.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\DTO\u0027s\\Producto\\ProductoUPDATE.cs",
+              "RelativeToolTip": "APISistemaCaja-Inventario\\DTO\u0027s\\Producto\\ProductoUPDATE.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T22:04:11.817Z",
               "EditorCaption": ""
             },
             {
@@ -220,20 +254,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormInicializarSaldo.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.cs",
-              "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.cs",
-              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBcAAABVAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "FormCaja.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs",
+              "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs [Dise\u00F1o]",
+              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T20:18:10.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T18:50:16.556Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProductoesController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\ProductoesController.cs",
+              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Controllers\\ProductoesController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\ProductoesController.cs",
+              "RelativeToolTip": "APISistemaCaja-Inventario\\Controllers\\ProductoesController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAQwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T18:29:18.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CajaService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Class\\CajaService.cs",
+              "RelativeDocumentMoniker": "BosquejoProyecto1\\Class\\CajaService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Class\\CajaService.cs",
+              "RelativeToolTip": "BosquejoProyecto1\\Class\\CajaService.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwD4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T20:57:12.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormInicializarSaldo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.cs",
+              "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T20:53:09.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductoCREATE.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\DTO\u0027s\\Producto\\ProductoCREATE.cs",
+              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\DTO\u0027s\\Producto\\ProductoCREATE.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\DTO\u0027s\\Producto\\ProductoCREATE.cs",
+              "RelativeToolTip": "APISistemaCaja-Inventario\\DTO\u0027s\\Producto\\ProductoCREATE.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T18:26:50.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "FormCaja.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs",
@@ -246,42 +327,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CajaService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Class\\CajaService.cs",
-              "RelativeDocumentMoniker": "BosquejoProyecto1\\Class\\CajaService.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Class\\CajaService.cs",
-              "RelativeToolTip": "BosquejoProyecto1\\Class\\CajaService.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwD4AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T20:57:12.447Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormCaja.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs",
-              "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T18:50:16.556Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FormInicializarSaldo.cs [Dise\u00F1o]",
+              "DocumentIndex": 6,
+              "Title": "FormInicializarSaldo.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.cs",
+              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBcAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T20:53:09.856Z"
+              "WhenOpened": "2025-06-22T20:18:10.392Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "FormService.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Class\\FormService.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Class\\FormService.cs",
@@ -293,7 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "FormCerrarCaja.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCerrarCaja.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsCaja\\FormCerrarCaja.cs",
@@ -305,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "FormVerRegistros.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormVerRegistros.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsCaja\\FormVerRegistros.cs",
@@ -317,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "FormsPago.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormsPago.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormsPago.cs",
@@ -329,7 +388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "FormFacturaci\u00F3n.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormFacturaci\u00F3n.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormFacturaci\u00F3n.cs",
@@ -341,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "FormDetallePago.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormDetallePago.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormDetallePago.cs",
@@ -353,7 +412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "DetalleCompra.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Models\\DetalleCompra.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Models\\DetalleCompra.cs",
@@ -365,7 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "Factura.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Models\\Factura.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Models\\Factura.cs",
@@ -377,7 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "DetalleFactura.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Models\\DetalleFactura.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Models\\DetalleFactura.cs",
@@ -389,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "MovimientoCaja.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Models\\MovimientoCaja.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Models\\MovimientoCaja.cs",
@@ -401,7 +460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Models\\Producto.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Models\\Producto.cs",
@@ -413,7 +472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "Compra.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Models\\Compra.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Models\\Compra.cs",
@@ -425,7 +484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "Caja.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Models\\Caja.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Models\\Caja.cs",
@@ -437,7 +496,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "TipodeMovimiento.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Models\\TipodeMovimiento.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Models\\TipodeMovimiento.cs",
@@ -449,43 +508,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "CajaUPDATE.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\DTO\u0027s\\CajaUPDATE.cs",
-              "RelativeDocumentMoniker": "BosquejoProyecto1\\DTO\u0027s\\CajaUPDATE.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\DTO\u0027s\\CajaUPDATE.cs",
-              "RelativeToolTip": "BosquejoProyecto1\\DTO\u0027s\\CajaUPDATE.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\DTO\u0027s\\Caja\\CajaUPDATE.cs",
+              "RelativeDocumentMoniker": "BosquejoProyecto1\\DTO\u0027s\\Caja\\CajaUPDATE.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\DTO\u0027s\\Caja\\CajaUPDATE.cs",
+              "RelativeToolTip": "BosquejoProyecto1\\DTO\u0027s\\Caja\\CajaUPDATE.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T20:28:58.909Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "CajaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\DTO\u0027s\\CajaDTO.cs",
-              "RelativeDocumentMoniker": "BosquejoProyecto1\\DTO\u0027s\\CajaDTO.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\DTO\u0027s\\CajaDTO.cs",
-              "RelativeToolTip": "BosquejoProyecto1\\DTO\u0027s\\CajaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\DTO\u0027s\\Caja\\CajaDTO.cs",
+              "RelativeDocumentMoniker": "BosquejoProyecto1\\DTO\u0027s\\Caja\\CajaDTO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\DTO\u0027s\\Caja\\CajaDTO.cs",
+              "RelativeToolTip": "BosquejoProyecto1\\DTO\u0027s\\Caja\\CajaDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T19:02:25.477Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "CajaCREATE.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\DTO\u0027s\\CajaCREATE.cs",
-              "RelativeDocumentMoniker": "BosquejoProyecto1\\DTO\u0027s\\CajaCREATE.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\DTO\u0027s\\CajaCREATE.cs",
-              "RelativeToolTip": "BosquejoProyecto1\\DTO\u0027s\\CajaCREATE.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\DTO\u0027s\\Caja\\CajaCREATE.cs",
+              "RelativeDocumentMoniker": "BosquejoProyecto1\\DTO\u0027s\\Caja\\CajaCREATE.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\DTO\u0027s\\Caja\\CajaCREATE.cs",
+              "RelativeToolTip": "BosquejoProyecto1\\DTO\u0027s\\Caja\\CajaCREATE.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T20:35:36.969Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "CajaUPDATE.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\DTO\u0027s\\Caja\\CajaUPDATE.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\DTO\u0027s\\Caja\\CajaUPDATE.cs",
@@ -497,7 +556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "CajaCREATE.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\DTO\u0027s\\Caja\\CajaCREATE.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\DTO\u0027s\\Caja\\CajaCREATE.cs",
@@ -509,7 +568,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "CajasController.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\CajasController.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Controllers\\CajasController.cs",
@@ -521,7 +580,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\MainForm.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\MainForm.cs",
@@ -534,7 +593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Controllers\\WeatherForecastController.cs",
@@ -546,7 +605,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "FacturasController.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\FacturasController.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Controllers\\FacturasController.cs",
@@ -558,19 +617,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ProductoesController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\ProductoesController.cs",
-              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Controllers\\ProductoesController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\ProductoesController.cs",
-              "RelativeToolTip": "APISistemaCaja-Inventario\\Controllers\\ProductoesController.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAgwGMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T18:29:18.709Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "ComprasController.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\ComprasController.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Controllers\\ComprasController.cs",
@@ -582,7 +629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "CajaDTO.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\DTO\u0027s\\Caja\\CajaDTO.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\DTO\u0027s\\Caja\\CajaDTO.cs",
@@ -594,7 +641,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "MainForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\MainForm.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\MainForm.cs",
@@ -605,7 +652,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "DetalleCompraCREATE.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\DTO\u0027s\\Compra\\DetalleCompraCREATE.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\DTO\u0027s\\Compra\\DetalleCompraCREATE.cs",
@@ -617,7 +664,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "CompraCREATE.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\DTO\u0027s\\Compra\\CompraCREATE.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\DTO\u0027s\\Compra\\CompraCREATE.cs",
@@ -629,7 +676,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "CompraREAD.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\DTO\u0027s\\Compra\\CompraREAD.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\DTO\u0027s\\Compra\\CompraREAD.cs",
@@ -641,7 +688,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "DetalleCompraREAD.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\DTO\u0027s\\Compra\\DetalleCompraREAD.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\DTO\u0027s\\Compra\\DetalleCompraREAD.cs",
@@ -653,7 +700,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "ProductoREAD.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\DTO\u0027s\\Producto\\ProductoREAD.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\DTO\u0027s\\Producto\\ProductoREAD.cs",
@@ -665,19 +712,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "ProductoCREATE.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\DTO\u0027s\\Producto\\ProductoCREATE.cs",
-              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\DTO\u0027s\\Producto\\ProductoCREATE.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\DTO\u0027s\\Producto\\ProductoCREATE.cs",
-              "RelativeToolTip": "APISistemaCaja-Inventario\\DTO\u0027s\\Producto\\ProductoCREATE.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T18:26:50.215Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "FacturaREAD.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\DTO\u0027s\\Factura\\FacturaREAD.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\DTO\u0027s\\Factura\\FacturaREAD.cs",
@@ -689,7 +724,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "FacturaDETALLE.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\DTO\u0027s\\Factura\\FacturaDETALLE.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\DTO\u0027s\\Factura\\FacturaDETALLE.cs",
@@ -701,7 +736,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "FacturaCREATE.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\DTO\u0027s\\Factura\\FacturaCREATE.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\DTO\u0027s\\Factura\\FacturaCREATE.cs",
