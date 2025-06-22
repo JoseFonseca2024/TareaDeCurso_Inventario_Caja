@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using APISistemaCaja_Inventario.Data;
 using APISistemaCaja_Inventario.Models;
+using APISistemaCaja_Inventario.DTO_s.Caja;
 
 namespace APISistemaCaja_Inventario.Controllers
 {
@@ -23,9 +24,13 @@ namespace APISistemaCaja_Inventario.Controllers
 
         // GET: api/Cajas
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Caja>>> GetCajas()
+        public async Task<ActionResult<IEnumerable<CajaDTO>>> GetCajas()
         {
-            return await _context.Cajas.ToListAsync();
+            return await _context.Cajas.Select(e => new CajaDTO
+            {
+                CajaID = e.CajaID,
+                Saldo = e.Saldo,
+            }).ToListAsync();
         }
 
         // GET: api/Cajas/5
@@ -76,9 +81,24 @@ namespace APISistemaCaja_Inventario.Controllers
         // POST: api/Cajas
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Caja>> PostCaja(Caja caja)
+        public async Task<ActionResult> PostCaja(CajaCREATE dto)
         {
+            var caja = new Caja
+            {
+                Saldo = dto.Saldo
+            };
             _context.Cajas.Add(caja);
+            await _context.SaveChangesAsync();
+
+            var movimiento = new MovimientoCaja
+            {
+                Tipo = TipodeMovimiento.Ingreso,
+                Concepto = $"Inicialización de saldo en caja {caja.Saldo}",
+                Monto = caja.Saldo,
+                Fecha = DateTime.Now,
+                CajaID = caja.CajaID,
+            };
+            _context.MovimientosCaja.Add(movimiento);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetCaja", new { id = caja.CajaID }, caja);

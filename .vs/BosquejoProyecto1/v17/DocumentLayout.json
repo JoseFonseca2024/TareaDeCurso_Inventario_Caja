@@ -1,201 +1,213 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\apisistemacaja-inventario\\controllers\\productoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\controllers\\productoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\apisistemacaja-inventario\\controllers\\movimientocajascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\controllers\\movimientocajascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\apisistemacaja-inventario\\controllers\\facturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\controllers\\facturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\apisistemacaja-inventario\\controllers\\comprascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\controllers\\comprascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\apisistemacaja-inventario\\controllers\\cajascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\apisistemacaja-inventario\\controllers\\cajascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\controllers\\cajascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\forms\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\apisistemacaja-inventario\\dto\u0027s\\caja\\movimientoencajaread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\dto\u0027s\\caja\\movimientoencajaread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\bosquejoproyecto1\\forms\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\apisistemacaja-inventario\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\apisistemacaja-inventario\\data\\sistema_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\apisistemacaja-inventario\\data\\sistema_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\data\\sistema_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\apisistemacaja-inventario\\models\\movimientocaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\apisistemacaja-inventario\\dto\u0027s\\caja\\cajadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\dto\u0027s\\caja\\cajadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\apisistemacaja-inventario\\dto\u0027s\\caja\\cajacreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\dto\u0027s\\caja\\cajacreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\apisistemacaja-inventario\\controllers\\productoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\controllers\\productoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\apisistemacaja-inventario\\controllers\\movimientocajascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\controllers\\movimientocajascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\apisistemacaja-inventario\\controllers\\facturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\controllers\\facturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\apisistemacaja-inventario\\controllers\\comprascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\controllers\\comprascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\apisistemacaja-inventario\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\apisistemacaja-inventario\\models\\movimientocaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\models\\movimientocaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\apisistemacaja-inventario\\models\\tipodemovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\apisistemacaja-inventario\\models\\tipodemovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\models\\tipodemovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\apisistemacaja-inventario\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\apisistemacaja-inventario\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\apisistemacaja-inventario\\models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\apisistemacaja-inventario\\models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\apisistemacaja-inventario\\models\\detallefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\apisistemacaja-inventario\\models\\detallefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\models\\detallefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\apisistemacaja-inventario\\models\\detallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\apisistemacaja-inventario\\models\\detallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\models\\detallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\apisistemacaja-inventario\\models\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\apisistemacaja-inventario\\models\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\models\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\apisistemacaja-inventario\\models\\caja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\apisistemacaja-inventario\\models\\caja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\models\\caja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\forms\\formsinvetario\\forminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\bosquejoproyecto1\\forms\\formsinvetario\\forminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formsinvetario\\forminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\bosquejoproyecto1\\forms\\formsinvetario\\forminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\bosquejoproyecto1\\forms\\formsinvetario\\forminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formsinvetario\\forminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\forms\\formsinvetario\\forminicializacioninventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\bosquejoproyecto1\\forms\\formsinvetario\\forminicializacioninventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formsinvetario\\forminicializacioninventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\bosquejoproyecto1\\forms\\formsinvetario\\forminicializacioninventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\bosquejoproyecto1\\forms\\formsinvetario\\forminicializacioninventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formsinvetario\\forminicializacioninventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\forms\\formsinvetario\\forminicializacioninventario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\bosquejoproyecto1\\forms\\formsinvetario\\forminicializacioninventario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formsinvetario\\forminicializacioninventario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\bosquejoproyecto1\\forms\\formsinvetario\\formregistrocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\bosquejoproyecto1\\forms\\formsinvetario\\formregistrocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formsinvetario\\formregistrocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\forms\\formsinvetario\\formregistrocompra.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\bosquejoproyecto1\\forms\\formsinvetario\\formregistrocompra.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formsinvetario\\formregistrocompra.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\forms\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\bosquejoproyecto1\\forms\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\bosquejoproyecto1\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\bosquejoproyecto1\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\forms\\formscaja\\formverregistros.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\bosquejoproyecto1\\forms\\formscaja\\formverregistros.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formscaja\\formverregistros.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\bosquejoproyecto1\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\forms\\formsinvetario\\formregistrocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\bosquejoproyecto1\\forms\\formsinvetario\\formregistrocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formsinvetario\\formregistrocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\forms\\formscaja\\formcaja.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\bosquejoproyecto1\\forms\\formscaja\\formcaja.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formscaja\\formcaja.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\bosquejoproyecto1\\forms\\formscaja\\formcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\bosquejoproyecto1\\forms\\formscaja\\formcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formscaja\\formcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\bosquejoproyecto1\\forms\\formsfacturaci\u00F3n\\formfacturaci\u00F3n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\bosquejoproyecto1\\forms\\formsfacturaci\u00F3n\\formfacturaci\u00F3n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formsfacturaci\u00F3n\\formfacturaci\u00F3n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\forms\\formsfacturaci\u00F3n\\formspago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\bosquejoproyecto1\\forms\\formsfacturaci\u00F3n\\formspago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formsfacturaci\u00F3n\\formspago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\bosquejoproyecto1\\forms\\formsfacturaci\u00F3n\\formspago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\bosquejoproyecto1\\forms\\formsfacturaci\u00F3n\\formspago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formsfacturaci\u00F3n\\formspago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\bosquejoproyecto1\\forms\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\bosquejoproyecto1\\forms\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\forms\\formscaja\\formcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\bosquejoproyecto1\\forms\\formscaja\\formcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formscaja\\formcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\forms\\formsfacturaci\u00F3n\\formspago.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\bosquejoproyecto1\\forms\\formsfacturaci\u00F3n\\formspago.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formsfacturaci\u00F3n\\formspago.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\bosquejoproyecto1\\forms\\formscaja\\formverregistros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\bosquejoproyecto1\\forms\\formscaja\\formverregistros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formscaja\\formverregistros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\bosquejoproyecto1\\forms\\formsfacturaci\u00F3n\\formdetallepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\bosquejoproyecto1\\forms\\formsfacturaci\u00F3n\\formdetallepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formsfacturaci\u00F3n\\formdetallepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\bosquejoproyecto1\\forms\\formscaja\\forminicializarsaldo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\bosquejoproyecto1\\forms\\formscaja\\forminicializarsaldo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formscaja\\forminicializarsaldo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\bosquejoproyecto1\\forms\\formscaja\\formcerrarcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\bosquejoproyecto1\\forms\\formscaja\\formcerrarcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formscaja\\formcerrarcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\forms\\formscaja\\forminicializarsaldo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\bosquejoproyecto1\\forms\\formscaja\\forminicializarsaldo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formscaja\\forminicializarsaldo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\forms\\formsfacturaci\u00F3n\\formdetallepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\bosquejoproyecto1\\forms\\formsfacturaci\u00F3n\\formdetallepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formsfacturaci\u00F3n\\formdetallepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\forms\\formsfacturaci\u00F3n\\formfacturaci\u00F3n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\bosquejoproyecto1\\forms\\formsfacturaci\u00F3n\\formfacturaci\u00F3n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formsfacturaci\u00F3n\\formfacturaci\u00F3n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\class\\formservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\bosquejoproyecto1\\class\\formservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\class\\formservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\forms\\formsfacturaci\u00F3n\\formdetallepago.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\bosquejoproyecto1\\forms\\formsfacturaci\u00F3n\\formdetallepago.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formsfacturaci\u00F3n\\formdetallepago.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\bosquejoproyecto1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\forms\\formscaja\\formcerrarcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\bosquejoproyecto1\\forms\\formscaja\\formcerrarcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formscaja\\formcerrarcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\forms\\formscaja\\formverregistros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\bosquejoproyecto1\\forms\\formscaja\\formverregistros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formscaja\\formverregistros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\forms\\formscaja\\formcerrarcaja.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\source\\repos\\tareadecurso_inventario_caja\\bosquejoproyecto1\\forms\\formscaja\\formcerrarcaja.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formscaja\\formcerrarcaja.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -206,20 +218,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "FormInicioSesion.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormInicioSesion.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormInicioSesion.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormInicioSesion.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormInicioSesion.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormInicioSesion.cs",
               "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormInicioSesion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-19T00:32:04.138Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovimientoEnCajaREAD.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\DTO\u0027s\\Caja\\MovimientoEnCajaREAD.cs",
+              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\DTO\u0027s\\Caja\\MovimientoEnCajaREAD.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\DTO\u0027s\\Caja\\MovimientoEnCajaREAD.cs",
+              "RelativeToolTip": "APISistemaCaja-Inventario\\DTO\u0027s\\Caja\\MovimientoEnCajaREAD.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T04:21:27.401Z",
               "EditorCaption": ""
             },
             {
@@ -244,28 +269,56 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductoesController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\ProductoesController.cs",
-              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Controllers\\ProductoesController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\ProductoesController.cs",
-              "RelativeToolTip": "APISistemaCaja-Inventario\\Controllers\\ProductoesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "CajaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\DTO\u0027s\\Caja\\CajaDTO.cs",
+              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\DTO\u0027s\\Caja\\CajaDTO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\DTO\u0027s\\Caja\\CajaDTO.cs",
+              "RelativeToolTip": "APISistemaCaja-Inventario\\DTO\u0027s\\Caja\\CajaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T02:43:22.268Z",
+              "WhenOpened": "2025-06-22T04:13:52.544Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "CajaCREATE.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\DTO\u0027s\\Caja\\CajaCREATE.cs",
+              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\DTO\u0027s\\Caja\\CajaCREATE.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\DTO\u0027s\\Caja\\CajaCREATE.cs",
+              "RelativeToolTip": "APISistemaCaja-Inventario\\DTO\u0027s\\Caja\\CajaCREATE.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T04:10:21.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductoesController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Controllers\\ProductoesController.cs",
+              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Controllers\\ProductoesController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Controllers\\ProductoesController.cs",
+              "RelativeToolTip": "APISistemaCaja-Inventario\\Controllers\\ProductoesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T02:43:22.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "MovimientoCajasController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\MovimientoCajasController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Controllers\\MovimientoCajasController.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Controllers\\MovimientoCajasController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\MovimientoCajasController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Controllers\\MovimientoCajasController.cs",
               "RelativeToolTip": "APISistemaCaja-Inventario\\Controllers\\MovimientoCajasController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -273,11 +326,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "FacturasController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\FacturasController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Controllers\\FacturasController.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Controllers\\FacturasController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\FacturasController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Controllers\\FacturasController.cs",
               "RelativeToolTip": "APISistemaCaja-Inventario\\Controllers\\FacturasController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -285,11 +338,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "ComprasController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\ComprasController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Controllers\\ComprasController.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Controllers\\ComprasController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\ComprasController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Controllers\\ComprasController.cs",
               "RelativeToolTip": "APISistemaCaja-Inventario\\Controllers\\ComprasController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -297,23 +350,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "CajasController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\CajasController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Controllers\\CajasController.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Controllers\\CajasController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\CajasController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Controllers\\CajasController.cs",
               "RelativeToolTip": "APISistemaCaja-Inventario\\Controllers\\CajasController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAmwGYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T02:37:04.761Z"
+              "WhenOpened": "2025-06-22T02:37:04.761Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\appsettings.json",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\appsettings.json",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\appsettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\appsettings.json",
               "RelativeToolTip": "APISistemaCaja-Inventario\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -321,11 +375,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "TipodeMovimiento.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Models\\TipodeMovimiento.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Models\\TipodeMovimiento.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Models\\TipodeMovimiento.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Models\\TipodeMovimiento.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Models\\TipodeMovimiento.cs",
               "RelativeToolTip": "APISistemaCaja-Inventario\\Models\\TipodeMovimiento.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -333,11 +387,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "MovimientoCaja.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Models\\MovimientoCaja.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Models\\MovimientoCaja.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Models\\MovimientoCaja.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Models\\MovimientoCaja.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Models\\MovimientoCaja.cs",
               "RelativeToolTip": "APISistemaCaja-Inventario\\Models\\MovimientoCaja.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAywAoAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -345,23 +399,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "Sistema_Context.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Data\\Sistema_Context.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Data\\Sistema_Context.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Data\\Sistema_Context.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Data\\Sistema_Context.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Data\\Sistema_Context.cs",
               "RelativeToolTip": "APISistemaCaja-Inventario\\Data\\Sistema_Context.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T02:08:47.407Z"
+              "WhenOpened": "2025-06-22T02:08:47.407Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Models\\Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Models\\Producto.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Models\\Producto.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Models\\Producto.cs",
               "RelativeToolTip": "APISistemaCaja-Inventario\\Models\\Producto.cs",
               "ViewState": "AgIAABAAAAAAAAAAAADwvxYAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -369,11 +424,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "DetalleFactura.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Models\\DetalleFactura.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Models\\DetalleFactura.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Models\\DetalleFactura.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Models\\DetalleFactura.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Models\\DetalleFactura.cs",
               "RelativeToolTip": "APISistemaCaja-Inventario\\Models\\DetalleFactura.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -381,11 +436,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "DetalleCompra.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Models\\DetalleCompra.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Models\\DetalleCompra.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Models\\DetalleCompra.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Models\\DetalleCompra.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Models\\DetalleCompra.cs",
               "RelativeToolTip": "APISistemaCaja-Inventario\\Models\\DetalleCompra.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAA9wBQAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -393,11 +448,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Compra.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Models\\Compra.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Models\\Compra.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Models\\Compra.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Models\\Compra.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Models\\Compra.cs",
               "RelativeToolTip": "APISistemaCaja-Inventario\\Models\\Compra.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwBIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -405,11 +460,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Factura.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Models\\Factura.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Models\\Factura.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Models\\Factura.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Models\\Factura.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Models\\Factura.cs",
               "RelativeToolTip": "APISistemaCaja-Inventario\\Models\\Factura.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAwAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -417,11 +472,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "Caja.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Models\\Caja.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Models\\Caja.cs",
               "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Models\\Caja.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Models\\Caja.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Models\\Caja.cs",
               "RelativeToolTip": "APISistemaCaja-Inventario\\Models\\Caja.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -429,11 +484,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "FormInicializacionInventario.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormInicializacionInventario.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormInicializacionInventario.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsInvetario\\FormInicializacionInventario.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormInicializacionInventario.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormInicializacionInventario.cs",
               "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsInvetario\\FormInicializacionInventario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -442,22 +497,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "FormInventario.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormInventario.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormInventario.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsInvetario\\FormInventario.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormInventario.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsInvetario\\FormInventario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormInventario.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T20:50:36.507Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "FormInventario.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormInventario.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormInventario.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsInvetario\\FormInventario.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormInventario.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormInventario.cs",
               "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsInvetario\\FormInventario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -465,22 +520,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "FormInicializacionInventario.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormInicializacionInventario.cs",
+              "DocumentIndex": 22,
+              "Title": "FormInicializacionInventario.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormInicializacionInventario.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsInvetario\\FormInicializacionInventario.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormInicializacionInventario.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsInvetario\\FormInicializacionInventario.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormInicializacionInventario.cs [Design]",
+              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsInvetario\\FormInicializacionInventario.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T00:38:43.951Z"
+              "WhenOpened": "2025-06-21T00:38:43.951Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "FormInicializacionInventario.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormInicializacionInventario.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormInicializacionInventario.Designer.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsInvetario\\FormInicializacionInventario.Designer.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormInicializacionInventario.Designer.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormInicializacionInventario.Designer.cs",
               "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsInvetario\\FormInicializacionInventario.Designer.cs",
               "ViewState": "AgIAAIkAAAAAAAAAAAAQwJgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -488,22 +544,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "FormRegistroCompra.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormRegistroCompra.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormRegistroCompra.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsInvetario\\FormRegistroCompra.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormRegistroCompra.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsInvetario\\FormRegistroCompra.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormRegistroCompra.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T21:24:08.136Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "FormRegistroCompra.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormRegistroCompra.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormRegistroCompra.Designer.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsInvetario\\FormRegistroCompra.Designer.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormRegistroCompra.Designer.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormRegistroCompra.Designer.cs",
               "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsInvetario\\FormRegistroCompra.Designer.cs",
               "ViewState": "AgIAAPYAAAAAAAAAAIBJwAkBAABrAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -511,22 +567,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "MainForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\MainForm.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\MainForm.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\MainForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BosquejoProyecto1\\Forms\\MainForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\MainForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-19T00:51:04.525Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\MainForm.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\MainForm.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\MainForm.cs",
               "RelativeToolTip": "BosquejoProyecto1\\Forms\\MainForm.cs",
               "ViewState": "AgIAAEYAAAAAAAAAAAAmwFYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -534,11 +590,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "FormVerRegistros.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormVerRegistros.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsCaja\\FormVerRegistros.Designer.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsCaja\\FormVerRegistros.Designer.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormVerRegistros.Designer.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsCaja\\FormVerRegistros.Designer.cs",
               "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsCaja\\FormVerRegistros.Designer.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAowBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -546,11 +602,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "MainForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\MainForm.Designer.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\MainForm.Designer.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\MainForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\MainForm.Designer.cs",
               "RelativeToolTip": "BosquejoProyecto1\\Forms\\MainForm.Designer.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAowBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -558,11 +614,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "FormRegistroCompra.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormRegistroCompra.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormRegistroCompra.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsInvetario\\FormRegistroCompra.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormRegistroCompra.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormRegistroCompra.cs",
               "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsInvetario\\FormRegistroCompra.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAQwCEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -570,11 +626,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "FormCaja.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.Designer.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.Designer.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.Designer.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.Designer.cs",
               "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.Designer.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAowBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -582,44 +638,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "FormCaja.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-19T22:30:35.092Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "FormFacturaci\u00F3n.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormFacturaci\u00F3n.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormFacturaci\u00F3n.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormFacturaci\u00F3n.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormFacturaci\u00F3n.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormFacturaci\u00F3n.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormFacturaci\u00F3n.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T13:54:24.467Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "FormsPago.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormsPago.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormsPago.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormsPago.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormsPago.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormsPago.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormsPago.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T14:26:37.056Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "FormsPago.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormsPago.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormsPago.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormsPago.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormsPago.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormsPago.cs",
               "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormsPago.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwBkAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -627,22 +683,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "FormInicioSesion.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormInicioSesion.cs",
+              "DocumentIndex": 36,
+              "Title": "FormInicioSesion.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormInicioSesion.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormInicioSesion.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormInicioSesion.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormInicioSesion.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormInicioSesion.cs [Design]",
+              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormInicioSesion.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T22:40:13.263Z"
+              "WhenOpened": "2025-06-19T22:40:13.263Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "FormCaja.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs",
               "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAQwBcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -650,11 +707,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "FormsPago.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormsPago.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormsPago.Designer.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormsPago.Designer.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormsPago.Designer.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormsPago.Designer.cs",
               "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormsPago.Designer.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAowBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -662,55 +719,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "FormVerRegistros.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormVerRegistros.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsCaja\\FormVerRegistros.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsCaja\\FormVerRegistros.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormVerRegistros.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsCaja\\FormVerRegistros.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormVerRegistros.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-19T23:40:23.585Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "FormDetallePago.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormDetallePago.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormDetallePago.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormDetallePago.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormDetallePago.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormDetallePago.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormDetallePago.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T15:27:14.904Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 41,
               "Title": "FormInicializarSaldo.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T00:13:14.383Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 42,
               "Title": "FormCerrarCaja.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCerrarCaja.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCerrarCaja.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsCaja\\FormCerrarCaja.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCerrarCaja.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsCaja\\FormCerrarCaja.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCerrarCaja.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T00:28:39.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 43,
               "Title": "FormInicializarSaldo.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.Designer.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.Designer.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.Designer.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.Designer.cs",
               "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.Designer.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAQwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -718,11 +775,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 44,
               "Title": "FormDetallePago.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormDetallePago.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormDetallePago.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormDetallePago.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormDetallePago.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormDetallePago.cs",
               "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormDetallePago.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAArwBkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -730,11 +787,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 45,
               "Title": "FormFacturaci\u00F3n.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormFacturaci\u00F3n.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormFacturaci\u00F3n.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormFacturaci\u00F3n.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormFacturaci\u00F3n.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormFacturaci\u00F3n.cs",
               "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormFacturaci\u00F3n.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAADgvxQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -742,11 +799,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 46,
               "Title": "FormService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Class\\FormService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Class\\FormService.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Class\\FormService.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Class\\FormService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Class\\FormService.cs",
               "RelativeToolTip": "BosquejoProyecto1\\Class\\FormService.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAQwD8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -754,11 +811,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 47,
               "Title": "FormDetallePago.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormDetallePago.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormDetallePago.Designer.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormDetallePago.Designer.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormDetallePago.Designer.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormDetallePago.Designer.cs",
               "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormDetallePago.Designer.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAQwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -766,11 +823,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 48,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Program.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Program.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Program.cs",
               "RelativeToolTip": "BosquejoProyecto1\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -778,11 +835,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 49,
               "Title": "FormCerrarCaja.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCerrarCaja.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCerrarCaja.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsCaja\\FormCerrarCaja.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCerrarCaja.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCerrarCaja.cs",
               "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsCaja\\FormCerrarCaja.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAcwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -790,11 +847,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 50,
               "Title": "FormVerRegistros.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormVerRegistros.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsCaja\\FormVerRegistros.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsCaja\\FormVerRegistros.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormVerRegistros.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsCaja\\FormVerRegistros.cs",
               "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsCaja\\FormVerRegistros.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAjwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -802,11 +859,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 51,
               "Title": "FormCerrarCaja.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCerrarCaja.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCerrarCaja.Designer.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsCaja\\FormCerrarCaja.Designer.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCerrarCaja.Designer.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCerrarCaja.Designer.cs",
               "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsCaja\\FormCerrarCaja.Designer.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAIwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
