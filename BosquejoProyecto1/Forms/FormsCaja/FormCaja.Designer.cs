@@ -171,6 +171,7 @@
             Name = "FormCaja";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormFacturación";
+            Load += FormCaja_Load;
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

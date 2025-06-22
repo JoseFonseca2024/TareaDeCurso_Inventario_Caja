@@ -75,8 +75,8 @@
         "IsRequired": true
       },
       {
-        "Name": "caja",
-        "Type": "APISistemaCaja_Inventario.Models.Caja",
+        "Name": "dto",
+        "Type": "APISistemaCaja_Inventario.DTO_s.Caja.CajaUPDATE",
         "IsRequired": true
       }
     ],

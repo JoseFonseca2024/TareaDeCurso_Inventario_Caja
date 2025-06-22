@@ -16,6 +16,6 @@ namespace APISistemaCaja_Inventario.Models
 
         [Column(TypeName = "decimal(7,2)")]
         public decimal Total { get; set; }
-        public List<DetalleCompra> Detalles { get; set; } = new();
+        public List<DetalleCompra> Detalles { get; set; } = new List<DetalleCompra>();
     }
 }

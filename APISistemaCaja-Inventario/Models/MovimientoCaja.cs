@@ -8,8 +8,10 @@ namespace APISistemaCaja_Inventario.Models
         [Key]
         public int MovimientoID { get; set; }
 
+        [Required]
         public TipodeMovimiento Tipo { get; set; }
 
+        [Required]
         [Column(TypeName = "decimal(18,2)")]
         public decimal Monto { get; set; }
 

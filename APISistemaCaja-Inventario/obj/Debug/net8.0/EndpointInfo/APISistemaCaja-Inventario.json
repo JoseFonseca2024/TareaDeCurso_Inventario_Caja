@@ -130,17 +130,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Caja"
+                "$ref": "#/components/schemas/CajaUPDATE"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Caja"
+                "$ref": "#/components/schemas/CajaUPDATE"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Caja"
+                "$ref": "#/components/schemas/CajaUPDATE"
               }
             }
           }
@@ -905,6 +905,9 @@
   "components": {
     "schemas": {
       "Caja": {
+        "required": [
+          "saldo"
+        ],
         "type": "object",
         "properties": {
           "cajaID": {
@@ -942,6 +945,16 @@
             "type": "integer",
             "format": "int32"
           },
+          "saldo": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CajaUPDATE": {
+        "type": "object",
+        "properties": {
           "saldo": {
             "type": "number",
             "format": "double"
@@ -1033,6 +1046,10 @@
         "additionalProperties": false
       },
       "DetalleCompra": {
+        "required": [
+          "cantidad",
+          "productoID"
+        ],
         "type": "object",
         "properties": {
           "detalleCompraID": {
@@ -1132,6 +1149,10 @@
         "additionalProperties": false
       },
       "DetalleFactura": {
+        "required": [
+          "cantidad",
+          "productoID"
+        ],
         "type": "object",
         "properties": {
           "detalleFacturaID": {
@@ -1297,7 +1318,9 @@
       },
       "MovimientoCaja": {
         "required": [
-          "concepto"
+          "concepto",
+          "monto",
+          "tipo"
         ],
         "type": "object",
         "properties": {
@@ -1332,6 +1355,8 @@
       },
       "Producto": {
         "required": [
+          "cantidad",
+          "costoProducto",
           "nombreProducto"
         ],
         "type": "object",

@@ -1,31 +1,29 @@
-﻿
-
-using BosquejoProyecto1.Class;
+﻿using BosquejoProyecto1.Class;
+using BosquejoProyecto1.DTO_s;
+using System.Net.Http.Json;
 
 namespace BosquejoProyecto1.Forms.FormsCaja
 {
     public partial class FormInicializarSaldo : Form
     {
         private readonly FormService _formService = new FormService();
+        private readonly CajaService _cajaService = new CajaService();
+        public readonly string url = "https://localhost:7064/api/Cajas";
+        HttpClient cliente = new HttpClient();
+
         public FormInicializarSaldo()
         {
             InitializeComponent();
             _formService.CerrarConValidación(lblExit, this);
             _formService.CambiodeColor(lblExit);
+            _formService.BloquearTeclas(txtSaldo);
         }
 
-        private void btnAceptar_Click(object sender, EventArgs e)
+        private async void btnAceptar_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(textBox1.Text))
-            {
-                label2.Visible = true;
-                label2.Text = "Ingrese un valor al saldo";
-            }
-            else
-            {
-                this.Close();
-            }
+            await _cajaService.InicializarSaldo(this,txtSaldo, label2, url, cliente);
         }
-
+        
+       
     }
 }

@@ -9,6 +9,7 @@ namespace BosquejoProyecto1.Forms
     public partial class FormCaja : Form
     {
         private readonly FormService _formService = new FormService();
+        private readonly CajaService _cajaService = new CajaService();
         public readonly string url = "https://localhost:7064/api/Cajas";
         HttpClient cliente = new HttpClient();
 
@@ -16,24 +17,11 @@ namespace BosquejoProyecto1.Forms
         {
             InitializeComponent();
             _formService.CambiodeColor(lblExit);
-            CargarSaldo(txtSaldo);
         }
 
-        private async void CargarSaldo(TextBox txt)
+        private async void FormCaja_Load(object sender, EventArgs e)
         {
-            try
-            {
-                var cajas = await cliente.GetFromJsonAsync<List<CajaDTO>>(url);
-                var cajaAbierta = cajas?.FirstOrDefault(); 
-                if (cajaAbierta != null)
-                    txt.Text = $"C$ {cajaAbierta.Saldo}";
-                else
-                    txt.Text = "C$ -";
-            }
-            catch
-            {
-                txt.Text = "C$ -";
-            }
+            await _cajaService.CargarSaldo(txtSaldo, cliente, url);
         }
 
         private void lblExit_Click(object sender, EventArgs e)

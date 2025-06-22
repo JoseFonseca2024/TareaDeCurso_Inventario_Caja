@@ -33,7 +33,7 @@
             lblEgresos = new Label();
             label1 = new Label();
             label2 = new Label();
-            textBox1 = new TextBox();
+            txtSaldo = new TextBox();
             btnAceptar = new Button();
             panel2.SuspendLayout();
             SuspendLayout();
@@ -100,12 +100,12 @@
             label2.Text = "El dato ingresado tiene que ser mayor a 0*";
             label2.Visible = false;
             // 
-            // textBox1
+            // txtSaldo
             // 
-            textBox1.Location = new Point(137, 96);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(376, 23);
-            textBox1.TabIndex = 19;
+            txtSaldo.Location = new Point(137, 96);
+            txtSaldo.Name = "txtSaldo";
+            txtSaldo.Size = new Size(376, 23);
+            txtSaldo.TabIndex = 19;
             // 
             // btnAceptar
             // 
@@ -124,7 +124,7 @@
             BackColor = Color.LightGray;
             ClientSize = new Size(538, 195);
             Controls.Add(btnAceptar);
-            Controls.Add(textBox1);
+            Controls.Add(txtSaldo);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(lblEgresos);
@@ -146,7 +146,7 @@
         private Label lblEgresos;
         private Label label1;
         private Label label2;
-        private TextBox textBox1;
+        private TextBox txtSaldo;
         private Button btnAceptar;
     }
 }

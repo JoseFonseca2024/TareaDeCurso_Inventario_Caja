@@ -50,30 +50,14 @@ namespace APISistemaCaja_Inventario.Controllers
         // PUT: api/Cajas/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutCaja(int id, Caja caja)
+        public async Task<IActionResult> PutCaja(int id, CajaUPDATE dto)
         {
-            if (id != caja.CajaID)
-            {
-                return BadRequest();
-            }
+            var caja = await _context.Cajas.FindAsync(id);
+            if (caja == null) return NotFound();
 
-            _context.Entry(caja).State = EntityState.Modified;
+            caja.Saldo = dto.Saldo;
 
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!CajaExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+            await _context.SaveChangesAsync();
 
             return NoContent();
         }

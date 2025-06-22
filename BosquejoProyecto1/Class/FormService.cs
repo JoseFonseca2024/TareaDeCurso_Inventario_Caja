@@ -66,6 +66,16 @@ namespace BosquejoProyecto1.Class
             };
 
         }
+        public void BloquearTeclas(TextBox txt)
+        {
+            txt.KeyPress += (s, e) =>
+            {
+                if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && e.KeyChar != '.')
+                {
+                    e.Handled = true; // Bloquea cualquier otra tecla que no sea numero o punto decimal
+                }
 
+            };
+        }
     }
 }
