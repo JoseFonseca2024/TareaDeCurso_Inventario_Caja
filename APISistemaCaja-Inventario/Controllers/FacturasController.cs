@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using APISistemaCaja_Inventario.Data;
 using APISistemaCaja_Inventario.Models;
+using APISistemaCaja_Inventario.DTO_s.Factura;
+using System.Reflection.Metadata.Ecma335;
 
 namespace APISistemaCaja_Inventario.Controllers
 {
@@ -23,9 +25,25 @@ namespace APISistemaCaja_Inventario.Controllers
 
         // GET: api/Facturas
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Factura>>> GetFacturas()
+        public async Task<ActionResult<IEnumerable<FacturaREAD>>> GetFacturas()
         {
-            return await _context.Facturas.ToListAsync();
+            return await _context.Facturas.Include(e => e.Detalles).Select(e => new FacturaREAD
+            {
+                FacturaID = e.FacturaID,
+                Fecha = e.Fecha,
+                Subtotal = e.Subtotal,
+                IVA = e.IVA,
+                Total = e.Total,
+                Detalles = e.Detalles.Select(d => new FacturaDETALLE
+                {
+                    DetalleFacturaID = d.FacturaID,
+                    ProductoID = d.ProductoID,
+                    NombreProducto = d.Producto.NombreProducto,
+                    Cantidad = d.Cantidad,
+                    PrecioconIVA = d.PrecioconIVA,
+                    Total = d.Cantidad * d.PrecioconIVA
+                }).ToList()
+            }).ToListAsync();
         }
 
         // GET: api/Facturas/5
@@ -76,12 +94,67 @@ namespace APISistemaCaja_Inventario.Controllers
         // POST: api/Facturas
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Factura>> PostFactura(Factura factura)
+        public async Task<ActionResult> PostFactura(FacturaCREATE dto)
         {
+            var factura = new Factura
+            {
+                Fecha = dto.Fecha,
+                Detalles = new List<DetalleFactura>()
+
+            };
+
+            decimal subtotal = 0;
+            decimal IVA = Convert.ToDecimal(0.15);
+
+            foreach (var detalleDTO in dto.Detalles)
+            {
+                var producto = await _context.Productos.FindAsync(detalleDTO.ProductoID);
+                if (producto == null)
+                {
+                    return BadRequest($"Producto con ID {detalleDTO.ProductoID} no encontrado.");
+                }
+
+                producto.Cantidad -= detalleDTO.Cantidad;
+                decimal precioConIVA = producto.PrecioconIVA;
+                decimal precioSinIVA = precioConIVA / (1 + IVA);
+
+                var detalle = new DetalleFactura
+                {
+                    ProductoID = detalleDTO.ProductoID,
+                    Cantidad = detalleDTO.Cantidad,
+                    PrecioconIVA = precioConIVA
+                };
+
+                subtotal += precioSinIVA * detalle.Cantidad;
+                factura.Detalles.Add(detalle);
+            }
+
+
+            factura.Subtotal = Math.Round(subtotal, 2);
+            factura.IVA = Math.Round(factura.Subtotal * IVA, 2);
+            factura.Total = factura.Subtotal + factura.IVA;
+
             _context.Facturas.Add(factura);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetFactura", new { id = factura.FacturaID }, factura);
+            var caja = await _context.Cajas.Include(c => c.Movimientos).FirstOrDefaultAsync(c => c.FechaCierre == null);
+
+            var movimiento = new MovimientoCaja
+            {
+                Tipo = TipodeMovimiento.Ingreso,
+                Concepto = $"Ingreso por venta según factura : {factura.FacturaID}",
+                Monto = factura.Total,
+                Fecha = DateTime.Now,
+                CajaID = caja.CajaID
+            };
+
+            caja.Saldo += factura.Total;
+            _context.MovimientosCaja.Add(movimiento);
+            _context.Cajas.Update(caja);
+
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(GetFactura), new { id = factura.FacturaID }, factura);
         }
 
         // DELETE: api/Facturas/5

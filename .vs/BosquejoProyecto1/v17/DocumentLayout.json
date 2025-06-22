@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\fares\\source\\repos\\TareaDeCurso_Inventario_Caja\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\fares\\source\\repos\\tareadecurso_inventario_caja\\apisistemacaja-inventario\\controllers\\facturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\controllers\\facturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\fares\\source\\repos\\tareadecurso_inventario_caja\\apisistemacaja-inventario\\dto\u0027s\\factura\\facturaread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\dto\u0027s\\factura\\facturaread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\fares\\source\\repos\\tareadecurso_inventario_caja\\apisistemacaja-inventario\\models\\detallefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\models\\detallefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\fares\\source\\repos\\tareadecurso_inventario_caja\\apisistemacaja-inventario\\models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,10 +27,6 @@
       "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\dto\u0027s\\factura\\facturacreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\fares\\source\\repos\\tareadecurso_inventario_caja\\apisistemacaja-inventario\\models\\detallefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\models\\detallefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\fares\\source\\repos\\tareadecurso_inventario_caja\\bosquejoproyecto1\\forms\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -34,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "FormInicioSesion.cs",
               "DocumentMoniker": "C:\\Users\\fares\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormInicioSesion.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormInicioSesion.cs",
@@ -47,72 +51,19 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-19T00:32:04.138Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DetalleFactura.cs",
-              "DocumentMoniker": "C:\\Users\\fares\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Models\\DetalleFactura.cs",
-              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Models\\DetalleFactura.cs",
-              "ToolTip": "C:\\Users\\fares\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Models\\DetalleFactura.cs",
-              "RelativeToolTip": "APISistemaCaja-Inventario\\Models\\DetalleFactura.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T05:11:23.815Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Factura.cs",
-              "DocumentMoniker": "C:\\Users\\fares\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Models\\Factura.cs",
-              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Models\\Factura.cs",
-              "ToolTip": "C:\\Users\\fares\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Models\\Factura.cs",
-              "RelativeToolTip": "APISistemaCaja-Inventario\\Models\\Factura.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T05:10:46.36Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FacturaREAD.cs",
-              "DocumentMoniker": "C:\\Users\\fares\\Source\\Repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\DTO\u0027s\\Factura\\FacturaREAD.cs",
-              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\DTO\u0027s\\Factura\\FacturaREAD.cs",
-              "ToolTip": "C:\\Users\\fares\\Source\\Repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\DTO\u0027s\\Factura\\FacturaREAD.cs",
-              "RelativeToolTip": "APISistemaCaja-Inventario\\DTO\u0027s\\Factura\\FacturaREAD.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
+              "Title": "FacturasController.cs",
+              "DocumentMoniker": "C:\\Users\\fares\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Controllers\\FacturasController.cs",
+              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Controllers\\FacturasController.cs",
+              "ToolTip": "C:\\Users\\fares\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Controllers\\FacturasController.cs",
+              "RelativeToolTip": "APISistemaCaja-Inventario\\Controllers\\FacturasController.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAAAJwAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T04:51:54.742Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FacturaDETALLE.cs",
-              "DocumentMoniker": "C:\\Users\\fares\\Source\\Repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\DTO\u0027s\\Factura\\FacturaDETALLE.cs",
-              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\DTO\u0027s\\Factura\\FacturaDETALLE.cs",
-              "ToolTip": "C:\\Users\\fares\\Source\\Repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\DTO\u0027s\\Factura\\FacturaDETALLE.cs",
-              "RelativeToolTip": "APISistemaCaja-Inventario\\DTO\u0027s\\Factura\\FacturaDETALLE.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T04:51:40.193Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FacturaCREATE.cs",
-              "DocumentMoniker": "C:\\Users\\fares\\Source\\Repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\DTO\u0027s\\Factura\\FacturaCREATE.cs",
-              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\DTO\u0027s\\Factura\\FacturaCREATE.cs",
-              "ToolTip": "C:\\Users\\fares\\Source\\Repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\DTO\u0027s\\Factura\\FacturaCREATE.cs",
-              "RelativeToolTip": "APISistemaCaja-Inventario\\DTO\u0027s\\Factura\\FacturaCREATE.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T04:50:58.597Z",
+              "WhenOpened": "2025-06-22T05:22:11.142Z",
               "EditorCaption": ""
             },
             {
@@ -146,6 +97,68 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DetalleFactura.cs",
+              "DocumentMoniker": "C:\\Users\\fares\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Models\\DetalleFactura.cs",
+              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Models\\DetalleFactura.cs",
+              "ToolTip": "C:\\Users\\fares\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Models\\DetalleFactura.cs",
+              "RelativeToolTip": "APISistemaCaja-Inventario\\Models\\DetalleFactura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T05:11:23.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Factura.cs",
+              "DocumentMoniker": "C:\\Users\\fares\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Models\\Factura.cs",
+              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Models\\Factura.cs",
+              "ToolTip": "C:\\Users\\fares\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\Models\\Factura.cs",
+              "RelativeToolTip": "APISistemaCaja-Inventario\\Models\\Factura.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T05:10:46.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FacturaREAD.cs",
+              "DocumentMoniker": "C:\\Users\\fares\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\DTO\u0027s\\Factura\\FacturaREAD.cs",
+              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\DTO\u0027s\\Factura\\FacturaREAD.cs",
+              "ToolTip": "C:\\Users\\fares\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\DTO\u0027s\\Factura\\FacturaREAD.cs",
+              "RelativeToolTip": "APISistemaCaja-Inventario\\DTO\u0027s\\Factura\\FacturaREAD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T04:51:54.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FacturaDETALLE.cs",
+              "DocumentMoniker": "C:\\Users\\fares\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\DTO\u0027s\\Factura\\FacturaDETALLE.cs",
+              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\DTO\u0027s\\Factura\\FacturaDETALLE.cs",
+              "ToolTip": "C:\\Users\\fares\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\DTO\u0027s\\Factura\\FacturaDETALLE.cs",
+              "RelativeToolTip": "APISistemaCaja-Inventario\\DTO\u0027s\\Factura\\FacturaDETALLE.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T04:51:40.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FacturaCREATE.cs",
+              "DocumentMoniker": "C:\\Users\\fares\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\DTO\u0027s\\Factura\\FacturaCREATE.cs",
+              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\DTO\u0027s\\Factura\\FacturaCREATE.cs",
+              "ToolTip": "C:\\Users\\fares\\source\\repos\\TareaDeCurso_Inventario_Caja\\APISistemaCaja-Inventario\\DTO\u0027s\\Factura\\FacturaCREATE.cs",
+              "RelativeToolTip": "APISistemaCaja-Inventario\\DTO\u0027s\\Factura\\FacturaCREATE.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T04:50:58.597Z"
             }
           ]
         }

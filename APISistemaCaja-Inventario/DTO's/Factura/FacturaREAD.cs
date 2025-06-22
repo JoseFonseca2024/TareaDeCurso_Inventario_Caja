@@ -1,6 +1,6 @@
 ﻿namespace APISistemaCaja_Inventario.DTO_s.Factura
 {
-    public class FacturaRead
+    public class FacturaREAD
     {
         public int FacturaID { get; set; }
         public decimal Subtotal { get; set; }
