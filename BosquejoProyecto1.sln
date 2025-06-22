@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35506.116 d17.12
+VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BosquejoProyecto1", "BosquejoProyecto1\BosquejoProyecto1.csproj", "{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APISistemaCaja-Inventario", "APISistemaCaja-Inventario\APISistemaCaja-Inventario.csproj", "{8CAAD171-EF7C-4688-892F-365176834D66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CAAD171-EF7C-4688-892F-365176834D66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CAAD171-EF7C-4688-892F-365176834D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CAAD171-EF7C-4688-892F-365176834D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CAAD171-EF7C-4688-892F-365176834D66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,6 @@
+@APISistemaCaja_Inventario_HostAddress = http://localhost:5209
+
+GET {{APISistemaCaja_Inventario_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
