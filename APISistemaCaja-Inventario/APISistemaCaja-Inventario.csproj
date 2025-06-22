@@ -20,7 +20,6 @@
 
   <ItemGroup>
     <Folder Include="DTO%27s\Compra\" />
-    <Folder Include="DTO%27s\Factura\" />
     <Folder Include="DTO%27s\Producto\" />
   </ItemGroup>
 
