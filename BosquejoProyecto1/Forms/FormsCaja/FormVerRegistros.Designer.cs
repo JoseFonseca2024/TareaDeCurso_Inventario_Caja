@@ -34,13 +34,13 @@
             dgvIngresos = new DataGridView();
             label1 = new Label();
             label2 = new Label();
-            dataGridView1 = new DataGridView();
+            dgvEgresos = new DataGridView();
             label3 = new Label();
             label4 = new Label();
             label5 = new Label();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvIngresos).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvEgresos).BeginInit();
             SuspendLayout();
             // 
             // lblExit
@@ -116,14 +116,14 @@
             label2.TabIndex = 13;
             label2.Text = "Monto de ingresos:";
             // 
-            // dataGridView1
+            // dgvEgresos
             // 
-            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(552, 116);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(510, 347);
-            dataGridView1.TabIndex = 11;
+            dgvEgresos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvEgresos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvEgresos.Location = new Point(552, 116);
+            dgvEgresos.Name = "dgvEgresos";
+            dgvEgresos.Size = new Size(510, 347);
+            dgvEgresos.TabIndex = 11;
             // 
             // label3
             // 
@@ -174,7 +174,7 @@
             Controls.Add(label2);
             Controls.Add(label4);
             Controls.Add(label1);
-            Controls.Add(dataGridView1);
+            Controls.Add(dgvEgresos);
             Controls.Add(dgvIngresos);
             Controls.Add(label3);
             Controls.Add(lblIngresos);
@@ -186,7 +186,7 @@
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dgvIngresos).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvEgresos).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -199,7 +199,7 @@
         private DataGridView dgvIngresos;
         private Label label1;
         private Label label2;
-        private DataGridView dataGridView1;
+        private DataGridView dgvEgresos;
         private Label label3;
         private Label label4;
         private Label label5;
