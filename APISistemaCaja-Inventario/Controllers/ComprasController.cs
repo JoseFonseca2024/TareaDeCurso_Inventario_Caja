@@ -24,9 +24,26 @@ namespace APISistemaCaja_Inventario.Controllers
 
         // GET: api/Compras
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Compra>>> GetCompras()
+        public async Task<ActionResult<IEnumerable<CompraREAD>>> GetCompras()
         {
-            return await _context.Compras.ToListAsync();
+            return await _context.Compras.Include(e => e.Detalles).Select(e => new CompraREAD
+            {
+                CompraID = e.CompraID,
+                Fecha = e.Fecha,
+                Subtotal = e.Subtotal,
+                IVA = e.IVA,
+                Total = e.Total,
+                Detalles = e.Detalles.Select(e => new DetalleCompraREAD
+                {
+                    DetalleCompraID = e.DetalleCompraID,
+                    ProductoID = e.ProductoID,
+                    NombreProducto = e.Producto.NombreProducto,
+                    Cantidad = e.Cantidad,
+                    CostoUnitario = e.CostoUnitario,
+                    IVAUnitario = e.IVA_Acreditable_Unitario,
+                    Total = e.Total
+                }).ToList()
+            }).ToListAsync();
         }
 
         // GET: api/Compras/5
@@ -79,6 +96,8 @@ namespace APISistemaCaja_Inventario.Controllers
         [HttpPost]
         public async Task<ActionResult> PostCompra(CompraCREATE dto)
         {
+            decimal IVA = Convert.ToDecimal(0.15);
+
             var compra = new Compra
             {
                 Fecha = dto.Fecha,
@@ -86,7 +105,6 @@ namespace APISistemaCaja_Inventario.Controllers
             };
 
             decimal subtotal = 0;
-            decimal IVA = 0.15m;
 
             foreach (var detalleDTO in dto.Detalles)
             {
@@ -101,11 +119,14 @@ namespace APISistemaCaja_Inventario.Controllers
                 // Actualizar inventario: sumar cantidad comprada
                 producto.Cantidad += detalleDTO.Cantidad;
 
+                decimal ivaunitario = producto.CostoProducto * IVA;
+
                 var detalle = new DetalleCompra
                 {
                     ProductoID = detalleDTO.ProductoID,
                     Cantidad = detalleDTO.Cantidad,
-                    PrecioUnitario = producto.CostoProducto
+                    CostoUnitario = producto.CostoProducto,
+                    IVA_Acreditable_Unitario = ivaunitario
                 };
 
                 compra.Detalles.Add(detalle);
@@ -118,6 +139,8 @@ namespace APISistemaCaja_Inventario.Controllers
             compra.Total = compra.Subtotal + compra.IVA;
 
             _context.Compras.Add(compra);
+            await _context.SaveChangesAsync();
+
 
             // Registrar egreso en caja
             var caja = await _context.Cajas.FirstOrDefaultAsync(c => c.FechaCierre == null);

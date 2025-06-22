@@ -18,7 +18,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Caja"
+                    "$ref": "#/components/schemas/CajaDTO"
                   }
                 }
               },
@@ -26,7 +26,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Caja"
+                    "$ref": "#/components/schemas/CajaDTO"
                   }
                 }
               },
@@ -34,7 +34,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Caja"
+                    "$ref": "#/components/schemas/CajaDTO"
                   }
                 }
               }
@@ -50,41 +50,24 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Caja"
+                "$ref": "#/components/schemas/CajaCREATE"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Caja"
+                "$ref": "#/components/schemas/CajaCREATE"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Caja"
+                "$ref": "#/components/schemas/CajaCREATE"
               }
             }
           }
         },
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Caja"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Caja"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Caja"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
@@ -203,7 +186,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Compra"
+                    "$ref": "#/components/schemas/CompraREAD"
                   }
                 }
               },
@@ -211,7 +194,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Compra"
+                    "$ref": "#/components/schemas/CompraREAD"
                   }
                 }
               },
@@ -219,7 +202,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Compra"
+                    "$ref": "#/components/schemas/CompraREAD"
                   }
                 }
               }
@@ -235,41 +218,24 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Compra"
+                "$ref": "#/components/schemas/CompraCREATE"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Compra"
+                "$ref": "#/components/schemas/CompraCREATE"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Compra"
+                "$ref": "#/components/schemas/CompraCREATE"
               }
             }
           }
         },
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Compra"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Compra"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Compra"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
@@ -388,7 +354,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Factura"
+                    "$ref": "#/components/schemas/FacturaREAD"
                   }
                 }
               },
@@ -396,7 +362,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Factura"
+                    "$ref": "#/components/schemas/FacturaREAD"
                   }
                 }
               },
@@ -404,7 +370,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Factura"
+                    "$ref": "#/components/schemas/FacturaREAD"
                   }
                 }
               }
@@ -420,41 +386,24 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Factura"
+                "$ref": "#/components/schemas/FacturaCREATE"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Factura"
+                "$ref": "#/components/schemas/FacturaCREATE"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Factura"
+                "$ref": "#/components/schemas/FacturaCREATE"
               }
             }
           }
         },
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Factura"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Factura"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Factura"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
@@ -758,7 +707,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Producto"
+                    "$ref": "#/components/schemas/ProductoREAD"
                   }
                 }
               },
@@ -766,7 +715,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Producto"
+                    "$ref": "#/components/schemas/ProductoREAD"
                   }
                 }
               },
@@ -774,7 +723,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Producto"
+                    "$ref": "#/components/schemas/ProductoREAD"
                   }
                 }
               }
@@ -790,41 +739,24 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Producto"
+                "$ref": "#/components/schemas/ProductoCREATE"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Producto"
+                "$ref": "#/components/schemas/ProductoCREATE"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Producto"
+                "$ref": "#/components/schemas/ProductoCREATE"
               }
             }
           }
         },
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Producto"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Producto"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Producto"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
@@ -1002,6 +934,30 @@
         },
         "additionalProperties": false
       },
+      "CajaCREATE": {
+        "type": "object",
+        "properties": {
+          "saldo": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CajaDTO": {
+        "type": "object",
+        "properties": {
+          "cajaID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "saldo": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
       "Compra": {
         "type": "object",
         "properties": {
@@ -1035,6 +991,56 @@
         },
         "additionalProperties": false
       },
+      "CompraCREATE": {
+        "type": "object",
+        "properties": {
+          "fecha": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "detalles": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DetalleCompraCREATE"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CompraREAD": {
+        "type": "object",
+        "properties": {
+          "compraID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "fecha": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "subtotal": {
+            "type": "number",
+            "format": "double"
+          },
+          "iva": {
+            "type": "number",
+            "format": "double"
+          },
+          "total": {
+            "type": "number",
+            "format": "double"
+          },
+          "detalles": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DetalleCompraREAD"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "DetalleCompra": {
         "type": "object",
         "properties": {
@@ -1060,14 +1066,76 @@
             "type": "integer",
             "format": "int32"
           },
-          "precioUnitario": {
+          "costoUnitario": {
             "type": "number",
             "format": "double"
+          },
+          "ivA_Acreditable_Unitario": {
+            "type": "number",
+            "format": "double"
+          },
+          "subtotal": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          },
+          "ivaTotal": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
           },
           "total": {
             "type": "number",
             "format": "double",
             "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DetalleCompraCREATE": {
+        "type": "object",
+        "properties": {
+          "productoID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "cantidad": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DetalleCompraREAD": {
+        "type": "object",
+        "properties": {
+          "detalleCompraID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "productoID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombreProducto": {
+            "type": "string",
+            "nullable": true
+          },
+          "cantidad": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "costoUnitario": {
+            "type": "number",
+            "format": "double"
+          },
+          "ivaUnitario": {
+            "type": "number",
+            "format": "double"
+          },
+          "total": {
+            "type": "number",
+            "format": "double"
           }
         },
         "additionalProperties": false
@@ -1109,6 +1177,20 @@
         },
         "additionalProperties": false
       },
+      "DetalleFacturaCREATE": {
+        "type": "object",
+        "properties": {
+          "productoID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "cantidad": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
       "Factura": {
         "type": "object",
         "properties": {
@@ -1136,6 +1218,86 @@
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/DetalleFactura"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "FacturaCREATE": {
+        "type": "object",
+        "properties": {
+          "fecha": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "detalles": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DetalleFacturaCREATE"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "FacturaDETALLE": {
+        "type": "object",
+        "properties": {
+          "detalleFacturaID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "productoID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombreProducto": {
+            "type": "string",
+            "nullable": true
+          },
+          "cantidad": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "precioconIVA": {
+            "type": "number",
+            "format": "double"
+          },
+          "total": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "FacturaREAD": {
+        "type": "object",
+        "properties": {
+          "facturaID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "subtotal": {
+            "type": "number",
+            "format": "double"
+          },
+          "iva": {
+            "type": "number",
+            "format": "double"
+          },
+          "total": {
+            "type": "number",
+            "format": "double"
+          },
+          "fecha": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "detalles": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/FacturaDETALLE"
             },
             "nullable": true
           }
@@ -1203,6 +1365,62 @@
           "cantidad": {
             "maximum": 2147483647,
             "minimum": 0,
+            "type": "integer",
+            "format": "int32"
+          },
+          "fechaIngreso": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProductoCREATE": {
+        "type": "object",
+        "properties": {
+          "nombreProducto": {
+            "type": "string",
+            "nullable": true
+          },
+          "costoProducto": {
+            "type": "number",
+            "format": "double"
+          },
+          "precioConIVA": {
+            "type": "number",
+            "format": "double"
+          },
+          "cantidad": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "fechaIngreso": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProductoREAD": {
+        "type": "object",
+        "properties": {
+          "productoID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombreProducto": {
+            "type": "string",
+            "nullable": true
+          },
+          "costoProducto": {
+            "type": "number",
+            "format": "double"
+          },
+          "precioConIVA": {
+            "type": "number",
+            "format": "double"
+          },
+          "cantidad": {
             "type": "integer",
             "format": "int32"
           },

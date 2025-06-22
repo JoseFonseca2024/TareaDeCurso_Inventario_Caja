@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APISistemaCaja-Inventario")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ba76b84a56e2bfd9d3a536f0ae379b579b8de76")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+035a72179a74a7cfb9b3ef1b3e230a6edeec4359")]
 [assembly: System.Reflection.AssemblyProductAttribute("APISistemaCaja-Inventario")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APISistemaCaja-Inventario")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

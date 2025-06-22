@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[APISistemaCaja_Inventario.Models.Caja, APISistemaCaja-Inventario, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[APISistemaCaja_Inventario.DTO_s.Caja.CajaDTO, APISistemaCaja-Inventario, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -28,22 +28,12 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "caja",
-        "Type": "APISistemaCaja_Inventario.Models.Caja",
+        "Name": "dto",
+        "Type": "APISistemaCaja_Inventario.DTO_s.Caja.CajaCREATE",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "APISistemaCaja_Inventario.Models.Caja",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "APISistemaCaja_Inventario.Controllers.CajasController",
@@ -118,7 +108,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[APISistemaCaja_Inventario.Models.Compra, APISistemaCaja-Inventario, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[APISistemaCaja_Inventario.DTO_s.Compra.CompraREAD, APISistemaCaja-Inventario, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -137,22 +127,12 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "compra",
-        "Type": "APISistemaCaja_Inventario.Models.Compra",
+        "Name": "dto",
+        "Type": "APISistemaCaja_Inventario.DTO_s.Compra.CompraCREATE",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "APISistemaCaja_Inventario.Models.Compra",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "APISistemaCaja_Inventario.Controllers.ComprasController",
@@ -227,7 +207,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[APISistemaCaja_Inventario.Models.Factura, APISistemaCaja-Inventario, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[APISistemaCaja_Inventario.DTO_s.Factura.FacturaREAD, APISistemaCaja-Inventario, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -246,22 +226,12 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "factura",
-        "Type": "APISistemaCaja_Inventario.Models.Factura",
+        "Name": "dto",
+        "Type": "APISistemaCaja_Inventario.DTO_s.Factura.FacturaCREATE",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "APISistemaCaja_Inventario.Models.Factura",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "APISistemaCaja_Inventario.Controllers.FacturasController",
@@ -445,7 +415,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[APISistemaCaja_Inventario.Models.Producto, APISistemaCaja-Inventario, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[APISistemaCaja_Inventario.DTO_s.Producto.ProductoREAD, APISistemaCaja-Inventario, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -464,22 +434,12 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "producto",
-        "Type": "APISistemaCaja_Inventario.Models.Producto",
+        "Name": "dto",
+        "Type": "APISistemaCaja_Inventario.DTO_s.Producto.ProductoCREATE",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "APISistemaCaja_Inventario.Models.Producto",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "APISistemaCaja_Inventario.Controllers.ProductoesController",

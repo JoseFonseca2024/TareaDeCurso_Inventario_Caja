@@ -17,7 +17,11 @@ namespace APISistemaCaja_Inventario.Models
 
         public int Cantidad { get; set; }
         [Column(TypeName = "decimal(18,2)")]
-        public decimal PrecioUnitario { get; set; }
-        public decimal Total => Cantidad * PrecioUnitario;
+        public decimal CostoUnitario { get; set; }
+        [Column(TypeName = "decimal(18,2)")]
+        public decimal IVA_Acreditable_Unitario { get; set; }
+        public decimal Subtotal => CostoUnitario * Cantidad;
+        public decimal IVATotal => IVA_Acreditable_Unitario * Cantidad;
+        public decimal Total => (CostoUnitario + IVA_Acreditable_Unitario) * Cantidad;
     }
 }

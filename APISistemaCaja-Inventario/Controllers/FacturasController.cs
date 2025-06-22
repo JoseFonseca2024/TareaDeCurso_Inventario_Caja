@@ -41,7 +41,7 @@ namespace APISistemaCaja_Inventario.Controllers
                     NombreProducto = d.Producto.NombreProducto,
                     Cantidad = d.Cantidad,
                     PrecioconIVA = d.PrecioconIVA,
-                    Total = d.Cantidad * d.PrecioconIVA
+                    Total = d.Total
                 }).ToList()
             }).ToListAsync();
         }

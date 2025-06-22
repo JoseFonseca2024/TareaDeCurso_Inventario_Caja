@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BosquejoProyecto1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ba76b84a56e2bfd9d3a536f0ae379b579b8de76")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8580fc07c368880e05e85637702b7e87e84703af")]
 [assembly: System.Reflection.AssemblyProductAttribute("BosquejoProyecto1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BosquejoProyecto1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
