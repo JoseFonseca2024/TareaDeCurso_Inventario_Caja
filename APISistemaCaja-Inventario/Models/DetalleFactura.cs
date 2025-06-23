@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace APISistemaCaja_Inventario.Models
 {
+    // Representa un producto específico dentro de una factura (detalle de venta)
     public class DetalleFactura
     {
         [Key]

@@ -1,5 +1,6 @@
 ﻿namespace APISistemaCaja_Inventario.DTO_s.Factura
 {
+    // DTO para representar los detalles leídos de una factura
     public class FacturaDETALLE
     {
         public int DetalleFacturaID { get; set; }

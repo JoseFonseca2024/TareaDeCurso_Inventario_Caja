@@ -24,6 +24,7 @@ namespace APISistemaCaja_Inventario.Controllers
         }
 
         // GET: api/Facturas
+        // Retorna todas las facturas con sus detalles y nombre de los productos
         [HttpGet]
         public async Task<ActionResult<IEnumerable<FacturaREAD>>> GetFacturas()
         {
@@ -47,6 +48,7 @@ namespace APISistemaCaja_Inventario.Controllers
         }
 
         // GET: api/Facturas/5
+        // Retorna una factura específica por su ID
         [HttpGet("{id}")]
         public async Task<ActionResult<Factura>> GetFactura(int id)
         {
@@ -54,27 +56,28 @@ namespace APISistemaCaja_Inventario.Controllers
 
             if (factura == null)
             {
-                return NotFound();
+                return NotFound();// Si no se encuentra la factura, retorna 404
             }
 
             return factura;
         }
 
         // PUT: api/Facturas/5
+        // Actualiza una factura existente (requiere que el ID coincida)
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutFactura(int id, Factura factura)
         {
             if (id != factura.FacturaID)
             {
-                return BadRequest();
+                return BadRequest(); // ID no coincide con el objeto recibido
             }
 
             _context.Entry(factura).State = EntityState.Modified;
 
             try
             {
-                await _context.SaveChangesAsync();
+                await _context.SaveChangesAsync(); // Guarda los cambios
             }
             catch (DbUpdateConcurrencyException)
             {
@@ -84,14 +87,15 @@ namespace APISistemaCaja_Inventario.Controllers
                 }
                 else
                 {
-                    throw;
+                    throw;// Si es otro error, relanza la excepción
                 }
             }
 
-            return NoContent();
+            return NoContent();// Éxito sin contenido
         }
 
         // POST: api/Facturas
+        // Crea una nueva factura, descuenta productos del inventario, registra en caja
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult> PostFactura(FacturaCREATE dto)
@@ -104,8 +108,9 @@ namespace APISistemaCaja_Inventario.Controllers
             };
 
             decimal subtotal = 0;
-            decimal IVA = Convert.ToDecimal(0.15);
+            decimal IVA = Convert.ToDecimal(0.15);// IVA del 15%
 
+            // Recorre cada producto de la factura
             foreach (var detalleDTO in dto.Detalles)
             {
                 var producto = await _context.Productos.FindAsync(detalleDTO.ProductoID);
@@ -113,29 +118,30 @@ namespace APISistemaCaja_Inventario.Controllers
                 {
                     return BadRequest($"Producto con ID {detalleDTO.ProductoID} no encontrado.");
                 }
-
+                // Descuenta el stock
                 producto.Cantidad -= detalleDTO.Cantidad;
                 decimal precioConIVA = producto.PrecioconIVA;
                 decimal precioSinIVA = precioConIVA / (1 + IVA);
 
+                // Crea el detalle de factura
                 var detalle = new DetalleFactura
                 {
                     ProductoID = detalleDTO.ProductoID,
                     Cantidad = detalleDTO.Cantidad,
                     PrecioconIVA = precioConIVA
                 };
-
+                // Acumula subtotal
                 subtotal += precioSinIVA * detalle.Cantidad;
                 factura.Detalles.Add(detalle);
             }
-
+            // Calcula totales
             factura.Subtotal = Math.Round(subtotal, 2);
             factura.IVA = Math.Round(factura.Subtotal * IVA, 2);
             factura.Total = factura.Subtotal + factura.IVA;
-
+            // Guarda la factura
             _context.Facturas.Add(factura);
             await _context.SaveChangesAsync();
-
+            // Verifica que haya caja activa
             var caja = await _context.Cajas.FirstOrDefaultAsync();
             if (caja == null)
                 return BadRequest("No existe caja para registrar el ingreso.");
@@ -143,7 +149,7 @@ namespace APISistemaCaja_Inventario.Controllers
             // Opcional: validar que caja esté abierta
             if (caja.Saldo < 0)
                 return BadRequest("La caja está cerrada.");
-
+            // Registra el ingreso en la caja
             var movimiento = new MovimientoCaja
             {
                 Tipo = TipodeMovimiento.Ingreso,
@@ -158,11 +164,12 @@ namespace APISistemaCaja_Inventario.Controllers
             _context.Cajas.Update(caja);
 
             await _context.SaveChangesAsync();
-
+            // Retorna la factura creada con ubicación
             return CreatedAtAction(nameof(GetFactura), new { id = factura.FacturaID }, factura);
         }
 
         // DELETE: api/Facturas/5
+        // Elimina una factura por ID
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteFactura(int id)
         {
@@ -175,9 +182,9 @@ namespace APISistemaCaja_Inventario.Controllers
             _context.Facturas.Remove(factura);
             await _context.SaveChangesAsync();
 
-            return NoContent();
+            return NoContent(); // Eliminación exitosa
         }
-
+        // Verifica si existe una factura con el ID dado
         private bool FacturaExists(int id)
         {
             return _context.Facturas.Any(e => e.FacturaID == id);

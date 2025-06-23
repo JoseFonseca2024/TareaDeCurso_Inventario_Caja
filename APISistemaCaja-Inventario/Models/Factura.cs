@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace APISistemaCaja_Inventario.Models
 {
+    // Representa una factura general con totales y una lista de productos vendidos
     public class Factura
     {
         [Key]
