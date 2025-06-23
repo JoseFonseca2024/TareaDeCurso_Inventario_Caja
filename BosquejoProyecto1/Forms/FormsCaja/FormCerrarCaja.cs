@@ -15,11 +15,22 @@ namespace BosquejoProyecto1.Forms.FormsCaja
         private decimal saldoRegistro = 0;
         private decimal diferencia = 0;
 
+        private bool banderadevalidación = false;
         public FormCerrarCaja()
         {
             InitializeComponent();
             _formService.CerrarConValidación(lblSalir, this);
             _formService.CambiodeColor(lblSalir);
+            _formService.BloquearTeclas(txt1cor);
+            _formService.BloquearTeclas(txt5cor);
+            _formService.BloquearTeclas(txt10cor);
+            _formService.BloquearTeclas(txt20cor);
+            _formService.BloquearTeclas(txt50cor);
+            _formService.BloquearTeclas(txt100cor);
+            _formService.BloquearTeclas(txt200cor);
+            _formService.BloquearTeclas(txt500cor);
+            _formService.BloquearTeclas(txt1000cor);
+
 
         }
 
@@ -41,10 +52,18 @@ namespace BosquejoProyecto1.Forms.FormsCaja
                 lblDiferencia.BackColor = Color.Red;
                 lblDiferencia.Text = $"Diferencia: {diferencia:N2}";
             }
+
+            //Bandera para verificar que antes se haya hecho el calculo
+            banderadevalidación = true;
         }
 
         private async void btnAceptar_Click(object sender, EventArgs e)
         {
+            if (banderadevalidación == false)
+            {
+                MessageBox.Show("Debe calcular el arqueo antes de cerrar la caja.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
             if (diferencia == 0)
             {
                 DialogResult resp = MessageBox.Show("Esta seguro que quiere cerrar caja?", "Confirmacion", MessageBoxButtons.YesNo, MessageBoxIcon.Question);

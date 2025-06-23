@@ -39,8 +39,8 @@
             txtNombre = new TextBox();
             cmbExistencia = new ComboBox();
             button3 = new Button();
-            button2 = new Button();
-            button1 = new Button();
+            btnActualizar = new Button();
+            btnRegistrar = new Button();
             label5 = new Label();
             label4 = new Label();
             label3 = new Label();
@@ -51,7 +51,7 @@
             label7 = new Label();
             dgvCompra = new DataGridView();
             label8 = new Label();
-            button4 = new Button();
+            btnAceptar = new Button();
             panel2.SuspendLayout();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)numUnidades).BeginInit();
@@ -104,8 +104,8 @@
             groupBox1.Controls.Add(txtNombre);
             groupBox1.Controls.Add(cmbExistencia);
             groupBox1.Controls.Add(button3);
-            groupBox1.Controls.Add(button2);
-            groupBox1.Controls.Add(button1);
+            groupBox1.Controls.Add(btnActualizar);
+            groupBox1.Controls.Add(btnRegistrar);
             groupBox1.Controls.Add(label5);
             groupBox1.Controls.Add(label4);
             groupBox1.Controls.Add(label3);
@@ -177,26 +177,29 @@
             button3.TabIndex = 14;
             button3.Text = "Eliminar";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
-            // button2
+            // btnActualizar
             // 
-            button2.Font = new Font("Microsoft JhengHei", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.Location = new Point(142, 236);
-            button2.Name = "button2";
-            button2.Size = new Size(86, 30);
-            button2.TabIndex = 14;
-            button2.Text = "Actualizar";
-            button2.UseVisualStyleBackColor = true;
+            btnActualizar.Font = new Font("Microsoft JhengHei", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnActualizar.Location = new Point(142, 236);
+            btnActualizar.Name = "btnActualizar";
+            btnActualizar.Size = new Size(86, 30);
+            btnActualizar.TabIndex = 14;
+            btnActualizar.Text = "Actualizar";
+            btnActualizar.UseVisualStyleBackColor = true;
+            btnActualizar.Click += btnActualizar_Click;
             // 
-            // button1
+            // btnRegistrar
             // 
-            button1.Font = new Font("Microsoft JhengHei", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.Location = new Point(28, 236);
-            button1.Name = "button1";
-            button1.Size = new Size(86, 30);
-            button1.TabIndex = 14;
-            button1.Text = "Registrar";
-            button1.UseVisualStyleBackColor = true;
+            btnRegistrar.Font = new Font("Microsoft JhengHei", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnRegistrar.Location = new Point(28, 236);
+            btnRegistrar.Name = "btnRegistrar";
+            btnRegistrar.Size = new Size(86, 30);
+            btnRegistrar.TabIndex = 14;
+            btnRegistrar.Text = "Registrar";
+            btnRegistrar.UseVisualStyleBackColor = true;
+            btnRegistrar.Click += btnRegistrar_Click;
             // 
             // label5
             // 
@@ -311,15 +314,16 @@
             label8.TabIndex = 11;
             label8.Text = "Total:";
             // 
-            // button4
+            // btnAceptar
             // 
-            button4.Font = new Font("Microsoft JhengHei", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button4.Location = new Point(756, 399);
-            button4.Name = "button4";
-            button4.Size = new Size(132, 30);
-            button4.TabIndex = 14;
-            button4.Text = "Aceptar Compra";
-            button4.UseVisualStyleBackColor = true;
+            btnAceptar.Font = new Font("Microsoft JhengHei", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnAceptar.Location = new Point(756, 399);
+            btnAceptar.Name = "btnAceptar";
+            btnAceptar.Size = new Size(132, 30);
+            btnAceptar.TabIndex = 14;
+            btnAceptar.Text = "Aceptar Compra";
+            btnAceptar.UseVisualStyleBackColor = true;
+            btnAceptar.Click += btnAceptar_Click;
             // 
             // FormRegistroCompra
             // 
@@ -333,7 +337,7 @@
             Controls.Add(label7);
             Controls.Add(label1);
             Controls.Add(panel2);
-            Controls.Add(button4);
+            Controls.Add(btnAceptar);
             FormBorderStyle = FormBorderStyle.None;
             Name = "FormRegistroCompra";
             StartPosition = FormStartPosition.CenterScreen;
@@ -356,8 +360,8 @@
         private Label label1;
         private GroupBox groupBox1;
         private Button button3;
-        private Button button2;
-        private Button button1;
+        private Button btnActualizar;
+        private Button btnRegistrar;
         private Label label4;
         private Label label3;
         private Label label2;
@@ -372,7 +376,7 @@
         private Label label7;
         private DataGridView dgvCompra;
         private Label label8;
-        private Button button4;
+        private Button btnAceptar;
         private TextBox txtID;
         private Label lblID;
     }

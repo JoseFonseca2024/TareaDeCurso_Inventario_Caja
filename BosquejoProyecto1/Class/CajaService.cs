@@ -1,14 +1,8 @@
 ﻿using BosquejoProyecto1.DTO_s;
 using BosquejoProyecto1.DTO_s.Caja;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http.Json;
-using System.Security.Policy;
-using System.Text;
 using System.Text.Json.Serialization;
 using System.Text.Json;
-using System.Threading.Tasks;
 
 namespace BosquejoProyecto1.Class
 {
@@ -125,7 +119,7 @@ namespace BosquejoProyecto1.Class
             }
         }
 
-        public async Task<List<MovimientoEnCajaREAD>> ObtenerIngresos(HttpClient client, string url, Label lbl, Label lbl2)
+        public async Task<List<MovimientoEnCajaREAD>> ContarIngresos(HttpClient client, string url, Label lbl)
         {
             var options = new JsonSerializerOptions
             {
@@ -141,12 +135,67 @@ namespace BosquejoProyecto1.Class
                 .ToList() ?? new List<MovimientoEnCajaREAD>();
 
             lbl.Text = $"Cantidad de ingresos: {ingresos.Count}";
-            lbl2.Text = $"Monto de ingresos: C$ {ingresos.Sum(i => i.Monto):N2}";
 
             return ingresos;
         }
 
-        public async Task<List<MovimientoEnCajaREAD>> ObtenerEgresos(HttpClient client, string url, Label lbl, Label lbl2)
+        public async Task<List<MovimientoEnCajaREAD>> SumarIngresos(HttpClient client, string url, Label lbl)
+        {
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            };
+            options.Converters.Add(new JsonStringEnumConverter());
+
+            var stream = await client.GetStreamAsync(url);
+            var movimientos = await JsonSerializer.DeserializeAsync<List<MovimientoEnCajaREAD>>(stream, options);
+
+            var ingresos = movimientos?
+                .Where(m => m.Tipo == TipodeMovimiento.Ingreso)
+                .ToList() ?? new List<MovimientoEnCajaREAD>();
+
+            lbl.Text = $"Monto de ingresos: C$ {ingresos.Sum(i => i.Monto):N2}";
+
+            return ingresos;
+        }
+
+        public async Task<List<MovimientoEnCajaREAD>> ObtenerIngresos(HttpClient client, string url)
+        {
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            };
+            options.Converters.Add(new JsonStringEnumConverter());
+
+            var stream = await client.GetStreamAsync(url);
+            var movimientos = await JsonSerializer.DeserializeAsync<List<MovimientoEnCajaREAD>>(stream, options);
+
+            var ingresos = movimientos?
+                .Where(m => m.Tipo == TipodeMovimiento.Ingreso)
+                .ToList() ?? new List<MovimientoEnCajaREAD>();
+
+            return ingresos;
+        }
+
+        public async Task<List<MovimientoEnCajaREAD>> ObtenerEgresos(HttpClient client, string url)
+        {
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            };
+            options.Converters.Add(new JsonStringEnumConverter());
+
+            var stream = await client.GetStreamAsync(url);
+            var movimientos = await JsonSerializer.DeserializeAsync<List<MovimientoEnCajaREAD>>(stream, options);
+
+            var egresos = movimientos?
+                .Where(m => m.Tipo == TipodeMovimiento.Egreso)
+                .ToList() ?? new List<MovimientoEnCajaREAD>();
+
+            return egresos;
+        }
+
+        public async Task<List<MovimientoEnCajaREAD>> ContarEgresos(HttpClient client, string url, Label lbl)
         {
             var options = new JsonSerializerOptions
             {
@@ -162,8 +211,25 @@ namespace BosquejoProyecto1.Class
                 .ToList() ?? new List<MovimientoEnCajaREAD>();
 
             lbl.Text = $"Cantidad de egresos: {egresos.Count}";
-            lbl2.Text = $"Monto de egresos: C$ {egresos.Sum(e => e.Monto):N2}";
+            return egresos;
+        }
 
+        public async Task<List<MovimientoEnCajaREAD>> SumarEgresos(HttpClient client, string url, Label lbl)
+        {
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            };
+            options.Converters.Add(new JsonStringEnumConverter());
+
+            var stream = await client.GetStreamAsync(url);
+            var movimientos = await JsonSerializer.DeserializeAsync<List<MovimientoEnCajaREAD>>(stream, options);
+
+            var egresos = movimientos?
+                .Where(m => m.Tipo == TipodeMovimiento.Egreso)
+                .ToList() ?? new List<MovimientoEnCajaREAD>();
+
+            lbl.Text = $"Monto de egresos: C$ {egresos.Sum(e => e.Monto):N2}";
             return egresos;
         }
 
@@ -189,12 +255,7 @@ namespace BosquejoProyecto1.Class
             {
                 if (string.IsNullOrWhiteSpace(txt.Text))
                 {
-                    MessageBox.Show($"El campo {txt.Name} está vacío.", "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    return false;
-                }
-                if (!decimal.TryParse(txt.Text, out _))
-                {
-                    MessageBox.Show($"El campo {txt.Name} contiene un valor inválido.", "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show($"El campo {txt.Name} está vacío, porfavor rellenelo.", "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return false;
                 }
             }

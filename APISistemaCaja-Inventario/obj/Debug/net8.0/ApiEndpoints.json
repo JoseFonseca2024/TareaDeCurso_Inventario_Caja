@@ -457,7 +457,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "APISistemaCaja_Inventario.Models.Producto",
+        "Type": "APISistemaCaja_Inventario.DTO_s.Producto.ProductoREAD",
         "MediaTypes": [
           "text/plain",
           "application/json",

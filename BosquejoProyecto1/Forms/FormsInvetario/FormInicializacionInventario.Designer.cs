@@ -32,21 +32,21 @@
             txtPrecio = new TextBox();
             txtCostoProducto = new TextBox();
             txtNombreProducto = new TextBox();
-            numericUpDown1 = new NumericUpDown();
+            btnEliminar = new Button();
+            btnActualizar = new Button();
+            numCantidad = new NumericUpDown();
             label3 = new Label();
+            btnRegistrar = new Button();
             label4 = new Label();
             label5 = new Label();
             label6 = new Label();
             dgvRegistroProductos = new DataGridView();
-            btnRegistrar = new Button();
-            btnEliminar = new Button();
-            btnActualizar = new Button();
             label1 = new Label();
             label2 = new Label();
             panel2 = new Panel();
             lblExit = new Label();
             groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numCantidad).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dgvRegistroProductos).BeginInit();
             panel2.SuspendLayout();
             SuspendLayout();
@@ -58,7 +58,7 @@
             groupBox1.Controls.Add(txtNombreProducto);
             groupBox1.Controls.Add(btnEliminar);
             groupBox1.Controls.Add(btnActualizar);
-            groupBox1.Controls.Add(numericUpDown1);
+            groupBox1.Controls.Add(numCantidad);
             groupBox1.Controls.Add(label3);
             groupBox1.Controls.Add(btnRegistrar);
             groupBox1.Controls.Add(label4);
@@ -97,15 +97,38 @@
             txtNombreProducto.Name = "txtNombreProducto";
             txtNombreProducto.Size = new Size(127, 29);
             txtNombreProducto.TabIndex = 12;
-            txtNombreProducto.KeyPress += txtNombreProducto_KeyPress;
             // 
-            // numericUpDown1
+            // btnEliminar
             // 
-            numericUpDown1.Location = new Point(136, 157);
-            numericUpDown1.Margin = new Padding(2);
-            numericUpDown1.Name = "numericUpDown1";
-            numericUpDown1.Size = new Size(126, 29);
-            numericUpDown1.TabIndex = 11;
+            btnEliminar.Location = new Point(243, 207);
+            btnEliminar.Margin = new Padding(2);
+            btnEliminar.Name = "btnEliminar";
+            btnEliminar.Size = new Size(83, 30);
+            btnEliminar.TabIndex = 3;
+            btnEliminar.Text = "Eliminar";
+            btnEliminar.UseVisualStyleBackColor = true;
+            btnEliminar.Click += btnEliminar_Click;
+            // 
+            // btnActualizar
+            // 
+            btnActualizar.Location = new Point(135, 207);
+            btnActualizar.Margin = new Padding(2);
+            btnActualizar.Name = "btnActualizar";
+            btnActualizar.Size = new Size(90, 30);
+            btnActualizar.TabIndex = 4;
+            btnActualizar.Text = "Actualizar";
+            btnActualizar.UseVisualStyleBackColor = true;
+            btnActualizar.Click += btnActualizar_Click;
+            // 
+            // numCantidad
+            // 
+            numCantidad.Location = new Point(136, 157);
+            numCantidad.Margin = new Padding(2);
+            numCantidad.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            numCantidad.Name = "numCantidad";
+            numCantidad.Size = new Size(126, 29);
+            numCantidad.TabIndex = 11;
+            numCantidad.Value = new decimal(new int[] { 1, 0, 0, 0 });
             // 
             // label3
             // 
@@ -117,6 +140,17 @@
             label3.Size = new Size(70, 19);
             label3.TabIndex = 7;
             label3.Text = "Nombre:";
+            // 
+            // btnRegistrar
+            // 
+            btnRegistrar.Location = new Point(15, 207);
+            btnRegistrar.Margin = new Padding(2);
+            btnRegistrar.Name = "btnRegistrar";
+            btnRegistrar.Size = new Size(85, 30);
+            btnRegistrar.TabIndex = 2;
+            btnRegistrar.Text = "Registrar";
+            btnRegistrar.UseVisualStyleBackColor = true;
+            btnRegistrar.Click += btnRegistrar_Click;
             // 
             // label4
             // 
@@ -160,36 +194,6 @@
             dgvRegistroProductos.RowHeadersWidth = 62;
             dgvRegistroProductos.Size = new Size(451, 221);
             dgvRegistroProductos.TabIndex = 1;
-            // 
-            // btnRegistrar
-            // 
-            btnRegistrar.Location = new Point(15, 207);
-            btnRegistrar.Margin = new Padding(2);
-            btnRegistrar.Name = "btnRegistrar";
-            btnRegistrar.Size = new Size(85, 30);
-            btnRegistrar.TabIndex = 2;
-            btnRegistrar.Text = "Registrar";
-            btnRegistrar.UseVisualStyleBackColor = true;
-            // 
-            // btnEliminar
-            // 
-            btnEliminar.Location = new Point(243, 207);
-            btnEliminar.Margin = new Padding(2);
-            btnEliminar.Name = "btnEliminar";
-            btnEliminar.Size = new Size(83, 30);
-            btnEliminar.TabIndex = 3;
-            btnEliminar.Text = "Eliminar";
-            btnEliminar.UseVisualStyleBackColor = true;
-            // 
-            // btnActualizar
-            // 
-            btnActualizar.Location = new Point(135, 207);
-            btnActualizar.Margin = new Padding(2);
-            btnActualizar.Name = "btnActualizar";
-            btnActualizar.Size = new Size(90, 30);
-            btnActualizar.TabIndex = 4;
-            btnActualizar.Text = "Actualizar";
-            btnActualizar.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -255,7 +259,7 @@
             Text = "FormInicializacionInventario";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numCantidad).EndInit();
             ((System.ComponentModel.ISupportInitialize)dgvRegistroProductos).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
@@ -279,7 +283,7 @@
         private TextBox txtPrecio;
         private TextBox txtCostoProducto;
         private TextBox txtNombreProducto;
-        private NumericUpDown numericUpDown1;
+        private NumericUpDown numCantidad;
         private Panel panel2;
         private Label lblExit;
     }

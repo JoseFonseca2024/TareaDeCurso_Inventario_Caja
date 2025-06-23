@@ -37,9 +37,6 @@
     <Compile Update="Forms\FormsInvetario\FormStock.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\FormsInvetario\FormVerRegistro.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="Forms\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>

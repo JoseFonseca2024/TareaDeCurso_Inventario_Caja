@@ -28,31 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dataGridView1 = new DataGridView();
+            dgvStock = new DataGridView();
             panel1 = new Panel();
             lblExit = new Label();
             lblIngresos = new Label();
             groupBox1 = new GroupBox();
+            numID = new NumericUpDown();
+            txtNombre = new TextBox();
             btnBucarNombre = new Button();
             btnBuscarporID = new Button();
-            comboBox1 = new ComboBox();
             label2 = new Label();
             label1 = new Label();
-            textBox1 = new TextBox();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            btnAceptar = new Button();
+            ((System.ComponentModel.ISupportInitialize)dgvStock).BeginInit();
             panel1.SuspendLayout();
             groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)numID).BeginInit();
             SuspendLayout();
             // 
-            // dataGridView1
+            // dgvStock
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(31, 91);
-            dataGridView1.Margin = new Padding(3, 2, 3, 2);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(649, 279);
-            dataGridView1.TabIndex = 0;
+            dgvStock.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvStock.Location = new Point(31, 91);
+            dgvStock.Margin = new Padding(3, 2, 3, 2);
+            dgvStock.Name = "dgvStock";
+            dgvStock.RowHeadersWidth = 51;
+            dgvStock.Size = new Size(649, 279);
+            dgvStock.TabIndex = 0;
             // 
             // panel1
             // 
@@ -86,7 +88,7 @@
             lblIngresos.BackColor = Color.Transparent;
             lblIngresos.Font = new Font("Microsoft JhengHei", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblIngresos.ForeColor = SystemColors.ActiveCaptionText;
-            lblIngresos.Location = new Point(305, 43);
+            lblIngresos.Location = new Point(304, 40);
             lblIngresos.Name = "lblIngresos";
             lblIngresos.Size = new Size(103, 40);
             lblIngresos.TabIndex = 13;
@@ -94,10 +96,10 @@
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(textBox1);
+            groupBox1.Controls.Add(numID);
+            groupBox1.Controls.Add(txtNombre);
             groupBox1.Controls.Add(btnBucarNombre);
             groupBox1.Controls.Add(btnBuscarporID);
-            groupBox1.Controls.Add(comboBox1);
             groupBox1.Controls.Add(label2);
             groupBox1.Controls.Add(label1);
             groupBox1.Font = new Font("Microsoft PhagsPa", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -109,6 +111,22 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Busqueda";
             // 
+            // numID
+            // 
+            numID.Location = new Point(142, 59);
+            numID.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            numID.Name = "numID";
+            numID.Size = new Size(106, 27);
+            numID.TabIndex = 6;
+            numID.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
+            // txtNombre
+            // 
+            txtNombre.Location = new Point(129, 21);
+            txtNombre.Name = "txtNombre";
+            txtNombre.Size = new Size(210, 27);
+            txtNombre.TabIndex = 5;
+            // 
             // btnBucarNombre
             // 
             btnBucarNombre.ForeColor = SystemColors.ActiveCaptionText;
@@ -118,6 +136,7 @@
             btnBucarNombre.TabIndex = 4;
             btnBucarNombre.Text = "Buscar por Nombre";
             btnBucarNombre.UseVisualStyleBackColor = true;
+            btnBucarNombre.Click += btnBucarNombre_Click;
             // 
             // btnBuscarporID
             // 
@@ -128,14 +147,7 @@
             btnBuscarporID.TabIndex = 4;
             btnBuscarporID.Text = "Buscar por ID";
             btnBuscarporID.UseVisualStyleBackColor = true;
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(142, 58);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(121, 28);
-            comboBox1.TabIndex = 1;
+            btnBuscarporID.Click += btnBuscarporID_Click;
             // 
             // label2
             // 
@@ -157,48 +169,57 @@
             label1.TabIndex = 0;
             label1.Text = "Codigo ID:";
             // 
-            // textBox1
+            // btnAceptar
             // 
-            textBox1.Location = new Point(129, 21);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(210, 27);
-            textBox1.TabIndex = 5;
+            btnAceptar.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnAceptar.ForeColor = SystemColors.ActiveCaptionText;
+            btnAceptar.Location = new Point(267, 506);
+            btnAceptar.Name = "btnAceptar";
+            btnAceptar.Size = new Size(161, 28);
+            btnAceptar.TabIndex = 4;
+            btnAceptar.Text = "Aceptar";
+            btnAceptar.UseVisualStyleBackColor = true;
+            btnAceptar.Click += btnAceptar_Click;
             // 
             // FormStock
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightGray;
-            ClientSize = new Size(699, 508);
+            ClientSize = new Size(699, 552);
             Controls.Add(groupBox1);
             Controls.Add(lblIngresos);
             Controls.Add(panel1);
-            Controls.Add(dataGridView1);
+            Controls.Add(btnAceptar);
+            Controls.Add(dgvStock);
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 2, 3, 2);
             Name = "FormStock";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "FormStock";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvStock).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)numID).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private DataGridView dataGridView1;
+        private DataGridView dgvStock;
         private Panel panel1;
         private Label lblExit;
         private Label lblIngresos;
         private GroupBox groupBox1;
         private Button btnBucarNombre;
         private Button btnBuscarporID;
-        private ComboBox comboBox1;
         private Label label2;
         private Label label1;
-        private TextBox textBox1;
+        private TextBox txtNombre;
+        private NumericUpDown numID;
+        private Button btnAceptar;
     }
 }

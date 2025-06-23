@@ -32,24 +32,23 @@
             lblExit = new Label();
             groupBox1 = new GroupBox();
             btnAgregar = new Button();
-            btnBucarNombre = new Button();
-            btnBuscarporID = new Button();
-            numericUpDown1 = new NumericUpDown();
+            btnBuscarProducto = new Button();
+            numCantidad = new NumericUpDown();
+            txtId = new TextBox();
+            txtNombre = new TextBox();
             txtPrecio = new TextBox();
-            comboBox2 = new ComboBox();
-            comboBox1 = new ComboBox();
             label4 = new Label();
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
-            dataGridView1 = new DataGridView();
+            dgvFactura = new DataGridView();
             btnQuitar = new Button();
             btnPagar = new Button();
-            label5 = new Label();
+            lblTotal = new Label();
             panel2.SuspendLayout();
             groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numCantidad).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvFactura).BeginInit();
             SuspendLayout();
             // 
             // panel2
@@ -79,12 +78,11 @@
             // groupBox1
             // 
             groupBox1.Controls.Add(btnAgregar);
-            groupBox1.Controls.Add(btnBucarNombre);
-            groupBox1.Controls.Add(btnBuscarporID);
-            groupBox1.Controls.Add(numericUpDown1);
+            groupBox1.Controls.Add(btnBuscarProducto);
+            groupBox1.Controls.Add(numCantidad);
+            groupBox1.Controls.Add(txtId);
+            groupBox1.Controls.Add(txtNombre);
             groupBox1.Controls.Add(txtPrecio);
-            groupBox1.Controls.Add(comboBox2);
-            groupBox1.Controls.Add(comboBox1);
             groupBox1.Controls.Add(label4);
             groupBox1.Controls.Add(label3);
             groupBox1.Controls.Add(label2);
@@ -101,41 +99,47 @@
             // btnAgregar
             // 
             btnAgregar.ForeColor = SystemColors.ActiveCaptionText;
-            btnAgregar.Location = new Point(523, 36);
+            btnAgregar.Location = new Point(457, 36);
             btnAgregar.Name = "btnAgregar";
             btnAgregar.Size = new Size(161, 28);
             btnAgregar.TabIndex = 4;
             btnAgregar.Text = "Agregar a Factura";
             btnAgregar.UseVisualStyleBackColor = true;
+            btnAgregar.Click += btnAgregar_Click;
             // 
-            // btnBucarNombre
+            // btnBuscarProducto
             // 
-            btnBucarNombre.ForeColor = SystemColors.ActiveCaptionText;
-            btnBucarNombre.Location = new Point(346, 36);
-            btnBucarNombre.Name = "btnBucarNombre";
-            btnBucarNombre.Size = new Size(161, 28);
-            btnBucarNombre.TabIndex = 4;
-            btnBucarNombre.Text = "Buscar por Nombre";
-            btnBucarNombre.UseVisualStyleBackColor = true;
+            btnBuscarProducto.ForeColor = SystemColors.ActiveCaptionText;
+            btnBuscarProducto.Location = new Point(242, 36);
+            btnBuscarProducto.Name = "btnBuscarProducto";
+            btnBuscarProducto.Size = new Size(161, 28);
+            btnBuscarProducto.TabIndex = 4;
+            btnBuscarProducto.Text = "Buscar Producto";
+            btnBuscarProducto.UseVisualStyleBackColor = true;
+            btnBuscarProducto.Click += btnBuscarProducto_Click;
             // 
-            // btnBuscarporID
+            // numCantidad
             // 
-            btnBuscarporID.ForeColor = SystemColors.ActiveCaptionText;
-            btnBuscarporID.Location = new Point(164, 36);
-            btnBuscarporID.Name = "btnBuscarporID";
-            btnBuscarporID.Size = new Size(161, 28);
-            btnBuscarporID.TabIndex = 4;
-            btnBuscarporID.Text = "Buscar por ID";
-            btnBuscarporID.UseVisualStyleBackColor = true;
+            numCantidad.Location = new Point(747, 106);
+            numCantidad.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            numCantidad.Name = "numCantidad";
+            numCantidad.Size = new Size(89, 27);
+            numCantidad.TabIndex = 3;
+            numCantidad.Value = new decimal(new int[] { 1, 0, 0, 0 });
             // 
-            // numericUpDown1
+            // txtId
             // 
-            numericUpDown1.Location = new Point(747, 106);
-            numericUpDown1.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
-            numericUpDown1.Name = "numericUpDown1";
-            numericUpDown1.Size = new Size(89, 27);
-            numericUpDown1.TabIndex = 3;
-            numericUpDown1.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            txtId.Location = new Point(92, 102);
+            txtId.Name = "txtId";
+            txtId.Size = new Size(121, 27);
+            txtId.TabIndex = 2;
+            // 
+            // txtNombre
+            // 
+            txtNombre.Location = new Point(315, 105);
+            txtNombre.Name = "txtNombre";
+            txtNombre.Size = new Size(121, 27);
+            txtNombre.TabIndex = 2;
             // 
             // txtPrecio
             // 
@@ -143,22 +147,6 @@
             txtPrecio.Name = "txtPrecio";
             txtPrecio.Size = new Size(121, 27);
             txtPrecio.TabIndex = 2;
-            // 
-            // comboBox2
-            // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(315, 105);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(121, 28);
-            comboBox2.TabIndex = 1;
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(108, 105);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(121, 28);
-            comboBox1.TabIndex = 1;
             // 
             // label4
             // 
@@ -200,13 +188,13 @@
             label1.TabIndex = 0;
             label1.Text = "Codigo ID:";
             // 
-            // dataGridView1
+            // dgvFactura
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(12, 232);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(684, 227);
-            dataGridView1.TabIndex = 10;
+            dgvFactura.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvFactura.Location = new Point(12, 232);
+            dgvFactura.Name = "dgvFactura";
+            dgvFactura.Size = new Size(684, 227);
+            dgvFactura.TabIndex = 10;
             // 
             // btnQuitar
             // 
@@ -217,6 +205,7 @@
             btnQuitar.TabIndex = 4;
             btnQuitar.Text = "Quitar de Factura";
             btnQuitar.UseVisualStyleBackColor = true;
+            btnQuitar.Click += btnQuitar_Click;
             // 
             // btnPagar
             // 
@@ -229,16 +218,16 @@
             btnPagar.UseVisualStyleBackColor = true;
             btnPagar.Click += btnPagar_Click;
             // 
-            // label5
+            // lblTotal
             // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.ForeColor = Color.Red;
-            label5.Location = new Point(708, 437);
-            label5.Name = "label5";
-            label5.Size = new Size(74, 22);
-            label5.TabIndex = 11;
-            label5.Text = "TOTAL: ";
+            lblTotal.AutoSize = true;
+            lblTotal.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTotal.ForeColor = Color.Red;
+            lblTotal.Location = new Point(708, 437);
+            lblTotal.Name = "lblTotal";
+            lblTotal.Size = new Size(74, 22);
+            lblTotal.TabIndex = 11;
+            lblTotal.Text = "TOTAL: ";
             // 
             // FormFacturación
             // 
@@ -246,8 +235,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightGray;
             ClientSize = new Size(890, 471);
-            Controls.Add(label5);
-            Controls.Add(dataGridView1);
+            Controls.Add(lblTotal);
+            Controls.Add(dgvFactura);
             Controls.Add(groupBox1);
             Controls.Add(btnPagar);
             Controls.Add(btnQuitar);
@@ -260,8 +249,8 @@
             panel2.PerformLayout();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numCantidad).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvFactura).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -276,16 +265,15 @@
         private Label label3;
         private Label label2;
         private Label label1;
-        private Button btnBucarNombre;
-        private Button btnBuscarporID;
-        private NumericUpDown numericUpDown1;
+        private Button btnBuscarProducto;
+        private NumericUpDown numCantidad;
         private TextBox txtPrecio;
-        private ComboBox comboBox2;
-        private ComboBox comboBox1;
         private Button btnAgregar;
-        private DataGridView dataGridView1;
+        private DataGridView dgvFactura;
         private Button btnQuitar;
         private Button btnPagar;
-        private Label label5;
+        private Label lblTotal;
+        private TextBox txtId;
+        private TextBox txtNombre;
     }
 }

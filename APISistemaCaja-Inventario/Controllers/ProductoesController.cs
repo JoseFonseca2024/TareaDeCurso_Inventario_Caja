@@ -33,9 +33,8 @@ namespace APISistemaCaja_Inventario.Controllers
             }).ToListAsync();
         }
 
-        // GET: api/Productoes/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Producto>> GetProducto(int id)
+        public async Task<ActionResult<ProductoREAD>> GetProducto(int id)
         {
             var producto = await _context.Productos.FindAsync(id);
 
@@ -44,8 +43,19 @@ namespace APISistemaCaja_Inventario.Controllers
                 return NotFound();
             }
 
-            return producto;
+            var dto = new ProductoREAD
+            {
+                ProductoID = producto.ProductoID,
+                NombreProducto = producto.NombreProducto,
+                CostoProducto = producto.CostoProducto,
+                PrecioConIVA = producto.PrecioconIVA,
+                Cantidad = producto.Cantidad,
+                FechaIngreso = producto.FechaIngreso
+            };
+
+            return dto;
         }
+
 
         // PUT: api/Productoes/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754

@@ -31,11 +31,11 @@
             panel2 = new Panel();
             lblSalir = new Label();
             groupBox1 = new GroupBox();
-            label5 = new Label();
-            label4 = new Label();
-            label3 = new Label();
-            label2 = new Label();
-            label1 = new Label();
+            lblCambio = new Label();
+            lblPago = new Label();
+            lblTotal = new Label();
+            lblIva = new Label();
+            lblSubtotal = new Label();
             button1 = new Button();
             panel2.SuspendLayout();
             groupBox1.SuspendLayout();
@@ -67,11 +67,11 @@
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(label5);
-            groupBox1.Controls.Add(label4);
-            groupBox1.Controls.Add(label3);
-            groupBox1.Controls.Add(label2);
-            groupBox1.Controls.Add(label1);
+            groupBox1.Controls.Add(lblCambio);
+            groupBox1.Controls.Add(lblPago);
+            groupBox1.Controls.Add(lblTotal);
+            groupBox1.Controls.Add(lblIva);
+            groupBox1.Controls.Add(lblSubtotal);
             groupBox1.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             groupBox1.ForeColor = SystemColors.ActiveCaptionText;
             groupBox1.Location = new Point(14, 52);
@@ -81,60 +81,60 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Detalle Pago";
             // 
-            // label5
+            // lblCambio
             // 
-            label5.AutoSize = true;
-            label5.BackColor = Color.Lavender;
-            label5.Font = new Font("Segoe UI", 20.25F);
-            label5.Location = new Point(29, 239);
-            label5.Name = "label5";
-            label5.Size = new Size(116, 37);
-            label5.TabIndex = 0;
-            label5.Text = "Cambio:";
+            lblCambio.AutoSize = true;
+            lblCambio.BackColor = Color.Lavender;
+            lblCambio.Font = new Font("Segoe UI", 20.25F);
+            lblCambio.Location = new Point(29, 239);
+            lblCambio.Name = "lblCambio";
+            lblCambio.Size = new Size(116, 37);
+            lblCambio.TabIndex = 0;
+            lblCambio.Text = "Cambio:";
             // 
-            // label4
+            // lblPago
             // 
-            label4.AutoSize = true;
-            label4.BackColor = Color.Lavender;
-            label4.Font = new Font("Segoe UI", 20.25F);
-            label4.Location = new Point(29, 186);
-            label4.Name = "label4";
-            label4.Size = new Size(163, 37);
-            label4.TabIndex = 0;
-            label4.Text = "Pagado con:";
+            lblPago.AutoSize = true;
+            lblPago.BackColor = Color.Lavender;
+            lblPago.Font = new Font("Segoe UI", 20.25F);
+            lblPago.Location = new Point(29, 186);
+            lblPago.Name = "lblPago";
+            lblPago.Size = new Size(163, 37);
+            lblPago.TabIndex = 0;
+            lblPago.Text = "Pagado con:";
             // 
-            // label3
+            // lblTotal
             // 
-            label3.AutoSize = true;
-            label3.BackColor = Color.Lavender;
-            label3.Font = new Font("Segoe UI", 20.25F);
-            label3.Location = new Point(29, 135);
-            label3.Name = "label3";
-            label3.Size = new Size(175, 37);
-            label3.TabIndex = 0;
-            label3.Text = "Total a Pagar:";
+            lblTotal.AutoSize = true;
+            lblTotal.BackColor = Color.Lavender;
+            lblTotal.Font = new Font("Segoe UI", 20.25F);
+            lblTotal.Location = new Point(29, 135);
+            lblTotal.Name = "lblTotal";
+            lblTotal.Size = new Size(175, 37);
+            lblTotal.TabIndex = 0;
+            lblTotal.Text = "Total a Pagar:";
             // 
-            // label2
+            // lblIva
             // 
-            label2.AutoSize = true;
-            label2.BackColor = Color.Lavender;
-            label2.Font = new Font("Segoe UI", 20.25F);
-            label2.Location = new Point(29, 83);
-            label2.Name = "label2";
-            label2.Size = new Size(62, 37);
-            label2.TabIndex = 0;
-            label2.Text = "IVA:";
+            lblIva.AutoSize = true;
+            lblIva.BackColor = Color.Lavender;
+            lblIva.Font = new Font("Segoe UI", 20.25F);
+            lblIva.Location = new Point(29, 83);
+            lblIva.Name = "lblIva";
+            lblIva.Size = new Size(62, 37);
+            lblIva.TabIndex = 0;
+            lblIva.Text = "IVA:";
             // 
-            // label1
+            // lblSubtotal
             // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.Lavender;
-            label1.Font = new Font("Segoe UI", 20.25F);
-            label1.Location = new Point(29, 36);
-            label1.Name = "label1";
-            label1.Size = new Size(125, 37);
-            label1.TabIndex = 0;
-            label1.Text = "SubTotal:";
+            lblSubtotal.AutoSize = true;
+            lblSubtotal.BackColor = Color.Lavender;
+            lblSubtotal.Font = new Font("Segoe UI", 20.25F);
+            lblSubtotal.Location = new Point(29, 36);
+            lblSubtotal.Name = "lblSubtotal";
+            lblSubtotal.Size = new Size(125, 37);
+            lblSubtotal.TabIndex = 0;
+            lblSubtotal.Text = "SubTotal:";
             // 
             // button1
             // 
@@ -173,11 +173,11 @@
         private Panel panel2;
         private Label lblSalir;
         private GroupBox groupBox1;
-        private Label label5;
-        private Label label4;
-        private Label label3;
-        private Label label2;
-        private Label label1;
+        private Label lblCambio;
+        private Label lblPago;
+        private Label lblTotal;
+        private Label lblIva;
+        private Label lblSubtotal;
         private Button button1;
     }
 }

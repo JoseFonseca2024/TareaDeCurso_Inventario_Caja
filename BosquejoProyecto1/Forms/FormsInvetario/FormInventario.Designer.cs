@@ -33,7 +33,6 @@
             btnStock = new Button();
             pictureBox1 = new PictureBox();
             btnInicializar = new Button();
-            btnVerIngresos = new Button();
             txtSaldo = new TextBox();
             label3 = new Label();
             label2 = new Label();
@@ -50,7 +49,7 @@
             panel2.Dock = DockStyle.Top;
             panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(686, 35);
+            panel2.Size = new Size(606, 35);
             panel2.TabIndex = 8;
             // 
             // lblExit
@@ -61,7 +60,7 @@
             lblExit.Cursor = Cursors.Hand;
             lblExit.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblExit.ForeColor = SystemColors.Control;
-            lblExit.Location = new Point(661, 7);
+            lblExit.Location = new Point(581, 7);
             lblExit.Name = "lblExit";
             lblExit.Size = new Size(21, 20);
             lblExit.TabIndex = 1;
@@ -75,11 +74,12 @@
             btnStock.TabIndex = 20;
             btnStock.Text = "Stock";
             btnStock.UseVisualStyleBackColor = true;
+            btnStock.Click += btnStock_Click;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.inventario;
-            pictureBox1.Location = new Point(508, 40);
+            pictureBox1.Location = new Point(423, 41);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(160, 155);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -95,15 +95,6 @@
             btnInicializar.Text = "Inicializar Saldo de inventario";
             btnInicializar.UseVisualStyleBackColor = true;
             btnInicializar.Click += btnInicializar_Click;
-            // 
-            // btnVerIngresos
-            // 
-            btnVerIngresos.Location = new Point(389, 166);
-            btnVerIngresos.Name = "btnVerIngresos";
-            btnVerIngresos.Size = new Size(102, 30);
-            btnVerIngresos.TabIndex = 18;
-            btnVerIngresos.Text = "Ver Registros ";
-            btnVerIngresos.UseVisualStyleBackColor = true;
             // 
             // txtSaldo
             // 
@@ -165,12 +156,11 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightGray;
-            ClientSize = new Size(686, 214);
+            ClientSize = new Size(606, 214);
             Controls.Add(button1);
             Controls.Add(btnStock);
             Controls.Add(pictureBox1);
             Controls.Add(btnInicializar);
-            Controls.Add(btnVerIngresos);
             Controls.Add(txtSaldo);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -180,6 +170,7 @@
             Name = "FormInventario";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormInventario";
+            Load += FormInventario_Load;
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -193,7 +184,6 @@
         private Button btnStock;
         private PictureBox pictureBox1;
         private Button btnInicializar;
-        private Button btnVerIngresos;
         private TextBox txtSaldo;
         private Label label3;
         private Label label2;

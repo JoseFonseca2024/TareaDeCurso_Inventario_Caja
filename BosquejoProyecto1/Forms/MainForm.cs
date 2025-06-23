@@ -12,6 +12,8 @@ namespace BosquejoProyecto1
         private readonly FormService formService = new FormService();
         public readonly string url = "https://localhost:7064/api/Cajas";
         HttpClient cliente = new HttpClient();
+        private ProductoService productoService = new ProductoService();
+        private readonly string urlProductos = "https://localhost:7064/api/Productoes";
 
         public MainForm(string usuario)
         {
@@ -82,18 +84,23 @@ namespace BosquejoProyecto1
 
         private async void btnFacturar_Click(object sender, EventArgs e)
         {
-
             var cajas = await cliente.GetFromJsonAsync<List<CajaDTO>>(url);
             var caja = cajas?.FirstOrDefault();
 
-            if (caja != null && caja.Saldo > 0)
+            bool existencia = await productoService.ExistenciadeInventario(cliente, urlProductos);
+
+            if (caja != null && caja.Saldo > 0 && existencia==true)
             {
                 var form = new FormFacturación();
                 form.ShowDialog();
             }
-            else
+            else if (caja == null || caja.Saldo == 0)
             {
                 MessageBox.Show("No hay caja abierta para facturar. Inicialice saldo en caja primeramente", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else if (existencia == false)
+            {
+                MessageBox.Show("No hay inventario inicializado para facturar. Inicialice inventario primeramente", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

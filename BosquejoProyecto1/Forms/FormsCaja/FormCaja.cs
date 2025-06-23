@@ -32,6 +32,9 @@ namespace BosquejoProyecto1.Forms
             {
                 txtSaldo.Text = $"C$ {saldoEnCaja.ToString()}";
             }
+
+            await _cajaService.ContarIngresos(cliente, url, label2);
+            await _cajaService.ContarEgresos(cliente,url, label3);
         }
 
         private void lblExit_Click(object sender, EventArgs e)

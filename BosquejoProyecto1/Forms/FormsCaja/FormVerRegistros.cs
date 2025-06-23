@@ -31,10 +31,14 @@ namespace BosquejoProyecto1.Forms
 
         private async void FormVerRegistros_Load(object sender, EventArgs e)
         {
-            var ingresos = await _cajaService.ObtenerIngresos(cliente, url,lblContadorIngresos, lblMontoIngresoso);
+            var contadoringresos = await _cajaService.ContarIngresos(cliente, url,lblContadorIngresos);
+            var sumaringresos = await _cajaService.SumarIngresos(cliente,url,lblMontoIngresoso);
+            var ingresos = await _cajaService.ObtenerIngresos(cliente, url);
             dgvIngresos.DataSource = ingresos;
 
-            var egresos = await _cajaService.ObtenerEgresos(cliente, url, lblContadorEgresos, lblEgresosMonto);
+            var egresos = await _cajaService.ObtenerEgresos(cliente, url);
+            var contaregresos = await _cajaService.ContarEgresos(cliente, url, lblContadorEgresos);
+            var sumaregresos = await _cajaService.SumarEgresos(cliente, url, lblEgresosMonto);  
             dgvEgresos.DataSource = egresos;
         }
 

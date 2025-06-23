@@ -77,5 +77,20 @@ namespace BosquejoProyecto1.Class
 
             };
         }
+
+        public void CargarParametros(DataGridView dg, TextBox txt1, TextBox txt2, TextBox txt3, NumericUpDown num)
+        {
+            dg.CellClick += (s, e) =>
+            {
+                if (e.RowIndex >= 0)
+                {
+                    DataGridViewRow fila = dg.Rows[e.RowIndex];
+                    txt1.Text = fila.Cells["NombreProducto"].Value.ToString();
+                    txt2.Text = fila.Cells["CostoProducto"].Value?.ToString();
+                    txt3.Text = fila.Cells["PrecioConIVA"].Value?.ToString();
+                    num.Value = Convert.ToDecimal(fila.Cells["Cantidad"].Value);
+                }
+            };
+        }
     }
 }
