@@ -1,61 +1,121 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\ferpa\\source\\repos\\tareadecurso_inventario_caja\\bosquejoproyecto1\\forms\\formsinvetario\\formstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formsinvetario\\formstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\forms\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\bosquejoproyecto1\\forms\\formsinvetario\\formverregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formsinvetario\\formverregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\forms\\formscaja\\formcerrarcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formscaja\\formcerrarcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\bosquejoproyecto1\\forms\\formsinvetario\\forminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formsinvetario\\forminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\class\\cajaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\class\\cajaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\ferpa\\source\\repos\\tareadecurso_inventario_caja\\bosquejoproyecto1\\forms\\formsinvetario\\formstock.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formsinvetario\\formstock.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\forms\\formscaja\\formcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formscaja\\formcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\bosquejoproyecto1\\forms\\formsfacturaci\u00F3n\\formfacturaci\u00F3n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formsfacturaci\u00F3n\\formfacturaci\u00F3n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\apisistemacaja-inventario\\controllers\\cajascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\controllers\\cajascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\bosquejoproyecto1\\forms\\formsfacturaci\u00F3n\\formdetallepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formsfacturaci\u00F3n\\formdetallepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\bosquejoproyecto1\\forms\\formscaja\\forminicializarsaldo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formscaja\\forminicializarsaldo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\bosquejoproyecto1\\forms\\formscaja\\formcerrarcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formscaja\\formcerrarcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\ferpa\\source\\repos\\tareadecurso_inventario_caja\\bosquejoproyecto1\\forms\\formsinvetario\\formstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formsinvetario\\formstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\bosquejoproyecto1\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\bosquejoproyecto1\\forms\\formscaja\\formverregistros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formscaja\\formverregistros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\bosquejoproyecto1\\forms\\formsinvetario\\forminicializacioninventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formsinvetario\\forminicializacioninventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\bosquejoproyecto1\\forms\\formscaja\\formcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\bosquejoproyecto1\\forms\\formscaja\\formcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formscaja\\formcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\bosquejoproyecto1\\forms\\formsinvetario\\formregistrocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\dto\u0027s\\caja\\cajaupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\dto\u0027s\\caja\\cajaupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\apisistemacaja-inventario\\dto\u0027s\\caja\\cajaupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\dto\u0027s\\caja\\cajaupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\dto\u0027s\\caja\\cajadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\dto\u0027s\\caja\\cajadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\bosquejoproyecto1\\forms\\formscaja\\formcerrarcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formscaja\\formcerrarcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\forms\\formscaja\\forminicializarsaldo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formscaja\\forminicializarsaldo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\bosquejoproyecto1\\forms\\formscaja\\forminicializarsaldo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formscaja\\forminicializarsaldo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\bosquejoproyecto1\\forms\\formscaja\\formverregistros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formscaja\\formverregistros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\apisistemacaja-inventario\\controllers\\movimientocajascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\controllers\\movimientocajascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\class\\tipodemovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\class\\tipodemovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\class\\formservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\class\\formservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\dto\u0027s\\caja\\movimientoencajaread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\dto\u0027s\\caja\\movimientoencajaread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\apisistemacaja-inventario\\dto\u0027s\\caja\\movimientoencajaread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\dto\u0027s\\caja\\movimientoencajaread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\apisistemacaja-inventario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAAD171-EF7C-4688-892F-365176834D66}|APISistemaCaja-Inventario\\APISistemaCaja-Inventario.csproj|solutionrelative:apisistemacaja-inventario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\forms\\formscaja\\formverregistros.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formscaja\\formverregistros.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\forms\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\bosquejoproyecto1\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\bosquejoproyecto1\\forms\\formsinvetario\\forminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formsinvetario\\forminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\forms\\formsinvetario\\formstock.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formsinvetario\\formstock.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\bosquejoproyecto1\\forms\\formsfacturaci\u00F3n\\formfacturaci\u00F3n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formsfacturaci\u00F3n\\formfacturaci\u00F3n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\bosquejoproyecto1\\forms\\formsfacturaci\u00F3n\\formdetallepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formsfacturaci\u00F3n\\formdetallepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|c:\\users\\usuario\\documents\\uni\\2025\\programaci\u00F3n ii\\bosquejoproyecto1\\bosquejoproyecto1\\forms\\formsinvetario\\formstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formsinvetario\\formstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\bosquejoproyecto1\\forms\\formsinvetario\\forminicializacioninventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formsinvetario\\forminicializacioninventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\bosquejoproyecto1\\forms\\formsinvetario\\formregistrocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DA3D27B0-2FC6-46D3-A555-07BFFAD3C2FC}|BosquejoProyecto1\\BosquejoProyecto1.csproj|solutionrelative:bosquejoproyecto1\\forms\\formsinvetario\\formregistrocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -66,11 +126,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 19,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormInicioSesion.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormInicioSesion.cs",
+              "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormInicioSesion.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormInicioSesion.cs",
+              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormInicioSesion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T23:24:08.814Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -79,6 +149,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
@@ -94,45 +168,127 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MainForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\MainForm.cs",
-              "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\MainForm.cs",
-              "ToolTip": "C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\MainForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BosquejoProyecto1\\Forms\\MainForm.cs [Dise\u00F1o]",
+              "DocumentIndex": 2,
+              "Title": "CajaService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Class\\CajaService.cs",
+              "RelativeDocumentMoniker": "BosquejoProyecto1\\Class\\CajaService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Class\\CajaService.cs",
+              "RelativeToolTip": "BosquejoProyecto1\\Class\\CajaService.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAqwLQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T22:42:17.658Z"
+              "WhenOpened": "2025-06-22T23:16:00.071Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FormVerRegistros.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsCaja\\FormVerRegistros.cs",
-              "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsCaja\\FormVerRegistros.cs",
-              "ToolTip": "C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsCaja\\FormVerRegistros.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsCaja\\FormVerRegistros.cs [Dise\u00F1o]",
+              "DocumentIndex": 1,
+              "Title": "FormCerrarCaja.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCerrarCaja.cs",
+              "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsCaja\\FormCerrarCaja.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCerrarCaja.cs",
+              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsCaja\\FormCerrarCaja.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T22:38:18.719Z"
+              "WhenOpened": "2025-06-23T00:20:02.004Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FormInicializarSaldo.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.cs",
-              "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.cs",
-              "ToolTip": "C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.cs [Dise\u00F1o]",
+              "DocumentIndex": 5,
+              "Title": "FormCaja.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs",
+              "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs [Dise\u00F1o]",
+              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T22:38:16.284Z",
+              "WhenOpened": "2025-06-22T22:38:13.258Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormCaja.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs",
+              "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs",
+              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAqwC4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T23:22:09.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CajasController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\CajasController.cs",
+              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Controllers\\CajasController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\CajasController.cs",
+              "RelativeToolTip": "APISistemaCaja-Inventario\\Controllers\\CajasController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T01:25:34.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CajaUPDATE.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\DTO\u0027s\\Caja\\CajaUPDATE.cs",
+              "RelativeDocumentMoniker": "BosquejoProyecto1\\DTO\u0027s\\Caja\\CajaUPDATE.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\DTO\u0027s\\Caja\\CajaUPDATE.cs",
+              "RelativeToolTip": "BosquejoProyecto1\\DTO\u0027s\\Caja\\CajaUPDATE.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T01:26:00.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "CajaUPDATE.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\DTO\u0027s\\Caja\\CajaUPDATE.cs",
+              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\DTO\u0027s\\Caja\\CajaUPDATE.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\DTO\u0027s\\Caja\\CajaUPDATE.cs",
+              "RelativeToolTip": "APISistemaCaja-Inventario\\DTO\u0027s\\Caja\\CajaUPDATE.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T01:25:51.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CajaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\DTO\u0027s\\Caja\\CajaDTO.cs",
+              "RelativeDocumentMoniker": "BosquejoProyecto1\\DTO\u0027s\\Caja\\CajaDTO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\DTO\u0027s\\Caja\\CajaDTO.cs",
+              "RelativeToolTip": "BosquejoProyecto1\\DTO\u0027s\\Caja\\CajaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T01:24:07.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormInicializarSaldo.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.cs",
+              "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.cs",
+              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T01:17:38.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "FormCerrarCaja.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCerrarCaja.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCerrarCaja.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsCaja\\FormCerrarCaja.cs",
-              "ToolTip": "C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCerrarCaja.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCerrarCaja.cs [Dise\u00F1o]",
               "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsCaja\\FormCerrarCaja.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T22:38:14.742Z",
@@ -140,69 +296,183 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "FormCaja.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs",
-              "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs",
-              "ToolTip": "C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsCaja\\FormCaja.cs [Dise\u00F1o]",
+              "DocumentIndex": 11,
+              "Title": "FormInicializarSaldo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.cs",
+              "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsCaja\\FormInicializarSaldo.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T22:38:13.258Z"
+              "WhenOpened": "2025-06-22T22:38:16.284Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
+              "Title": "FormVerRegistros.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormVerRegistros.cs",
+              "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsCaja\\FormVerRegistros.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormVerRegistros.cs [Dise\u00F1o]",
+              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsCaja\\FormVerRegistros.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T22:38:18.719Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MovimientoCajasController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\MovimientoCajasController.cs",
+              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Controllers\\MovimientoCajasController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Controllers\\MovimientoCajasController.cs",
+              "RelativeToolTip": "APISistemaCaja-Inventario\\Controllers\\MovimientoCajasController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAIwBUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T23:49:08.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TipodeMovimiento.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Class\\TipodeMovimiento.cs",
+              "RelativeDocumentMoniker": "BosquejoProyecto1\\Class\\TipodeMovimiento.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Class\\TipodeMovimiento.cs",
+              "RelativeToolTip": "BosquejoProyecto1\\Class\\TipodeMovimiento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T23:14:43.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FormService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Class\\FormService.cs",
+              "RelativeDocumentMoniker": "BosquejoProyecto1\\Class\\FormService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Class\\FormService.cs",
+              "RelativeToolTip": "BosquejoProyecto1\\Class\\FormService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T23:50:56.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MovimientoEnCajaREAD.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\DTO\u0027s\\Caja\\MovimientoEnCajaREAD.cs",
+              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\DTO\u0027s\\Caja\\MovimientoEnCajaREAD.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\DTO\u0027s\\Caja\\MovimientoEnCajaREAD.cs",
+              "RelativeToolTip": "APISistemaCaja-Inventario\\DTO\u0027s\\Caja\\MovimientoEnCajaREAD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T23:47:10.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MovimientoEnCajaREAD.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\DTO\u0027s\\Caja\\MovimientoEnCajaREAD.cs",
+              "RelativeDocumentMoniker": "BosquejoProyecto1\\DTO\u0027s\\Caja\\MovimientoEnCajaREAD.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\DTO\u0027s\\Caja\\MovimientoEnCajaREAD.cs",
+              "RelativeToolTip": "BosquejoProyecto1\\DTO\u0027s\\Caja\\MovimientoEnCajaREAD.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T23:47:36.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Program.cs",
+              "RelativeDocumentMoniker": "APISistemaCaja-Inventario\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\APISistemaCaja-Inventario\\Program.cs",
+              "RelativeToolTip": "APISistemaCaja-Inventario\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T23:46:04.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FormVerRegistros.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormVerRegistros.Designer.cs",
+              "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsCaja\\FormVerRegistros.Designer.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsCaja\\FormVerRegistros.Designer.cs",
+              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsCaja\\FormVerRegistros.Designer.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAhwLkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T23:38:02.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FormInicioSesion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormInicioSesion.cs",
+              "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormInicioSesion.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormInicioSesion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormInicioSesion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T23:24:07.717Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MainForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\MainForm.cs",
+              "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\MainForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "BosquejoProyecto1\\Forms\\MainForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T22:42:17.658Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "FormFacturaci\u00F3n.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormFacturaci\u00F3n.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormFacturaci\u00F3n.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormFacturaci\u00F3n.cs",
               "ToolTip": "C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormFacturaci\u00F3n.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormFacturaci\u00F3n.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormFacturaci\u00F3n.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T22:38:00.737Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-06-22T22:38:00.737Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 25,
               "Title": "FormDetallePago.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormDetallePago.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormDetallePago.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormDetallePago.cs",
               "ToolTip": "C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormDetallePago.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormDetallePago.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsFacturaci\u00F3n\\FormDetallePago.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T22:37:57.869Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-06-22T22:37:57.869Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 27,
               "Title": "FormInicializacionInventario.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormInicializacionInventario.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormInicializacionInventario.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsInvetario\\FormInicializacionInventario.cs",
               "ToolTip": "C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormInicializacionInventario.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsInvetario\\FormInicializacionInventario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormInicializacionInventario.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T22:37:49.56Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormVerRegistro.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormVerRegistro.cs",
-              "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsInvetario\\FormVerRegistro.cs",
-              "ToolTip": "C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormVerRegistro.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsInvetario\\FormVerRegistro.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T22:33:03.753Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 23,
               "Title": "FormStock.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormStock.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormStock.Designer.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsInvetario\\FormStock.Designer.cs",
-              "ToolTip": "C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormStock.Designer.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormStock.Designer.cs",
               "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsInvetario\\FormStock.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -211,11 +481,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 26,
               "Title": "FormStock.cs",
-              "DocumentMoniker": "C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormStock.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormStock.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsInvetario\\FormStock.cs",
-              "ToolTip": "C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormStock.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormStock.cs",
               "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsInvetario\\FormStock.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAADgvxMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -224,38 +494,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 28,
               "Title": "FormRegistroCompra.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormRegistroCompra.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormRegistroCompra.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsInvetario\\FormRegistroCompra.cs",
               "ToolTip": "C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormRegistroCompra.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsInvetario\\FormRegistroCompra.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormRegistroCompra.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T22:23:21.957Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 22,
               "Title": "FormInventario.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormInventario.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\UNI\\2025\\Programaci\u00F3n II\\BosquejoProyecto1\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormInventario.cs",
               "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsInvetario\\FormInventario.cs",
               "ToolTip": "C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormInventario.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsInvetario\\FormInventario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormInventario.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T22:20:09.797Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormStock.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormStock.cs",
-              "RelativeDocumentMoniker": "BosquejoProyecto1\\Forms\\FormsInvetario\\FormStock.cs",
-              "ToolTip": "C:\\Users\\ferpa\\source\\repos\\TareaDeCurso_Inventario_Caja\\BosquejoProyecto1\\Forms\\FormsInvetario\\FormStock.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BosquejoProyecto1\\Forms\\FormsInvetario\\FormStock.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T22:19:54.966Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-06-22T22:20:09.797Z"
             }
           ]
         }

@@ -306,7 +306,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[APISistemaCaja_Inventario.Models.MovimientoCaja, APISistemaCaja-Inventario, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[APISistemaCaja_Inventario.DTO_s.Caja.MovimientoEnCajaREAD, APISistemaCaja-Inventario, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -481,8 +481,8 @@
         "IsRequired": true
       },
       {
-        "Name": "producto",
-        "Type": "APISistemaCaja_Inventario.Models.Producto",
+        "Name": "dto",
+        "Type": "APISistemaCaja_Inventario.DTO_s.Producto.ProductoUPDATE",
         "IsRequired": true
       }
     ],

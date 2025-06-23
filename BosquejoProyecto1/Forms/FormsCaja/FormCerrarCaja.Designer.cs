@@ -51,9 +51,9 @@
             txt1000cor = new TextBox();
             groupBox1 = new GroupBox();
             btnCalcular = new Button();
-            label15 = new Label();
-            label14 = new Label();
-            label13 = new Label();
+            lblDiferencia = new Label();
+            lblTotalArqueo = new Label();
+            lblSaldosegunRegistro = new Label();
             panel2 = new Panel();
             lblSalir = new Label();
             btnAceptar = new Button();
@@ -293,9 +293,9 @@
             // 
             groupBox1.BackColor = Color.Gray;
             groupBox1.Controls.Add(btnCalcular);
-            groupBox1.Controls.Add(label15);
-            groupBox1.Controls.Add(label14);
-            groupBox1.Controls.Add(label13);
+            groupBox1.Controls.Add(lblDiferencia);
+            groupBox1.Controls.Add(lblTotalArqueo);
+            groupBox1.Controls.Add(lblSaldosegunRegistro);
             groupBox1.Controls.Add(txt1000cor);
             groupBox1.Controls.Add(txt500cor);
             groupBox1.Controls.Add(txt200cor);
@@ -335,36 +335,37 @@
             btnCalcular.TabIndex = 24;
             btnCalcular.Text = "Calcular";
             btnCalcular.UseVisualStyleBackColor = true;
+            btnCalcular.Click += btnCalcular_Click;
             // 
-            // label15
+            // lblDiferencia
             // 
-            label15.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            label15.AutoSize = true;
-            label15.Location = new Point(9, 391);
-            label15.Name = "label15";
-            label15.Size = new Size(83, 21);
-            label15.TabIndex = 23;
-            label15.Text = "Diferencia:";
+            lblDiferencia.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            lblDiferencia.AutoSize = true;
+            lblDiferencia.Location = new Point(9, 391);
+            lblDiferencia.Name = "lblDiferencia";
+            lblDiferencia.Size = new Size(83, 21);
+            lblDiferencia.TabIndex = 23;
+            lblDiferencia.Text = "Diferencia:";
             // 
-            // label14
+            // lblTotalArqueo
             // 
-            label14.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            label14.AutoSize = true;
-            label14.Location = new Point(9, 370);
-            label14.Name = "label14";
-            label14.Size = new Size(146, 21);
-            label14.TabIndex = 23;
-            label14.Text = "Total según Arqueo:";
+            lblTotalArqueo.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            lblTotalArqueo.AutoSize = true;
+            lblTotalArqueo.Location = new Point(9, 370);
+            lblTotalArqueo.Name = "lblTotalArqueo";
+            lblTotalArqueo.Size = new Size(146, 21);
+            lblTotalArqueo.TabIndex = 23;
+            lblTotalArqueo.Text = "Total según Arqueo:";
             // 
-            // label13
+            // lblSaldosegunRegistro
             // 
-            label13.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            label13.AutoSize = true;
-            label13.Location = new Point(9, 349);
-            label13.Name = "label13";
-            label13.Size = new Size(156, 21);
-            label13.TabIndex = 22;
-            label13.Text = "Saldo según registro:";
+            lblSaldosegunRegistro.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            lblSaldosegunRegistro.AutoSize = true;
+            lblSaldosegunRegistro.Location = new Point(9, 349);
+            lblSaldosegunRegistro.Name = "lblSaldosegunRegistro";
+            lblSaldosegunRegistro.Size = new Size(156, 21);
+            lblSaldosegunRegistro.TabIndex = 22;
+            lblSaldosegunRegistro.Text = "Saldo según registro:";
             // 
             // panel2
             // 
@@ -416,6 +417,7 @@
             Name = "FormCerrarCaja";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormCerrarCaja";
+            Load += FormCerrarCaja_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             panel2.ResumeLayout(false);
@@ -450,10 +452,10 @@
         private GroupBox groupBox1;
         private Panel panel2;
         private Label lblSalir;
-        private Label label14;
-        private Label label13;
+        private Label lblTotalArqueo;
+        private Label lblSaldosegunRegistro;
         private Button btnCalcular;
-        private Label label15;
+        private Label lblDiferencia;
         private Button btnAceptar;
     }
 }

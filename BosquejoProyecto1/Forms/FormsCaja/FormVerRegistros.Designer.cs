@@ -32,12 +32,12 @@
             panel2 = new Panel();
             lblIngresos = new Label();
             dgvIngresos = new DataGridView();
-            label1 = new Label();
-            label2 = new Label();
+            lblContadorIngresos = new Label();
+            lblMontoIngresoso = new Label();
             dgvEgresos = new DataGridView();
             label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
+            lblContadorEgresos = new Label();
+            lblEgresosMonto = new Label();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvIngresos).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dgvEgresos).BeginInit();
@@ -90,31 +90,31 @@
             dgvIngresos.Size = new Size(510, 347);
             dgvIngresos.TabIndex = 11;
             // 
-            // label1
+            // lblContadorIngresos
             // 
-            label1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            label1.AutoSize = true;
-            label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Microsoft JhengHei", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = SystemColors.ActiveCaptionText;
-            label1.Location = new Point(18, 479);
-            label1.Name = "label1";
-            label1.Size = new Size(171, 21);
-            label1.TabIndex = 12;
-            label1.Text = "Cantidad de ingresos";
+            lblContadorIngresos.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            lblContadorIngresos.AutoSize = true;
+            lblContadorIngresos.BackColor = Color.Transparent;
+            lblContadorIngresos.Font = new Font("Microsoft JhengHei", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblContadorIngresos.ForeColor = SystemColors.ActiveCaptionText;
+            lblContadorIngresos.Location = new Point(18, 479);
+            lblContadorIngresos.Name = "lblContadorIngresos";
+            lblContadorIngresos.Size = new Size(171, 21);
+            lblContadorIngresos.TabIndex = 12;
+            lblContadorIngresos.Text = "Cantidad de ingresos";
             // 
-            // label2
+            // lblMontoIngresoso
             // 
-            label2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            label2.AutoSize = true;
-            label2.BackColor = Color.Transparent;
-            label2.Font = new Font("Microsoft JhengHei", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.ForeColor = SystemColors.ActiveCaptionText;
-            label2.Location = new Point(18, 512);
-            label2.Name = "label2";
-            label2.Size = new Size(158, 21);
-            label2.TabIndex = 13;
-            label2.Text = "Monto de ingresos:";
+            lblMontoIngresoso.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            lblMontoIngresoso.AutoSize = true;
+            lblMontoIngresoso.BackColor = Color.Transparent;
+            lblMontoIngresoso.Font = new Font("Microsoft JhengHei", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblMontoIngresoso.ForeColor = SystemColors.ActiveCaptionText;
+            lblMontoIngresoso.Location = new Point(18, 512);
+            lblMontoIngresoso.Name = "lblMontoIngresoso";
+            lblMontoIngresoso.Size = new Size(158, 21);
+            lblMontoIngresoso.TabIndex = 13;
+            lblMontoIngresoso.Text = "Monto de ingresos:";
             // 
             // dgvEgresos
             // 
@@ -138,31 +138,31 @@
             label3.TabIndex = 10;
             label3.Text = "Egresos";
             // 
-            // label4
+            // lblContadorEgresos
             // 
-            label4.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            label4.AutoSize = true;
-            label4.BackColor = Color.Transparent;
-            label4.Font = new Font("Microsoft JhengHei", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.ForeColor = SystemColors.ActiveCaptionText;
-            label4.Location = new Point(552, 479);
-            label4.Name = "label4";
-            label4.Size = new Size(166, 21);
-            label4.TabIndex = 12;
-            label4.Text = "Cantidad de egresos";
+            lblContadorEgresos.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            lblContadorEgresos.AutoSize = true;
+            lblContadorEgresos.BackColor = Color.Transparent;
+            lblContadorEgresos.Font = new Font("Microsoft JhengHei", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblContadorEgresos.ForeColor = SystemColors.ActiveCaptionText;
+            lblContadorEgresos.Location = new Point(552, 479);
+            lblContadorEgresos.Name = "lblContadorEgresos";
+            lblContadorEgresos.Size = new Size(166, 21);
+            lblContadorEgresos.TabIndex = 12;
+            lblContadorEgresos.Text = "Cantidad de egresos";
             // 
-            // label5
+            // lblEgresosMonto
             // 
-            label5.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            label5.AutoSize = true;
-            label5.BackColor = Color.Transparent;
-            label5.Font = new Font("Microsoft JhengHei", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.ForeColor = SystemColors.ActiveCaptionText;
-            label5.Location = new Point(552, 512);
-            label5.Name = "label5";
-            label5.Size = new Size(153, 21);
-            label5.TabIndex = 13;
-            label5.Text = "Monto de egresos:";
+            lblEgresosMonto.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            lblEgresosMonto.AutoSize = true;
+            lblEgresosMonto.BackColor = Color.Transparent;
+            lblEgresosMonto.Font = new Font("Microsoft JhengHei", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblEgresosMonto.ForeColor = SystemColors.ActiveCaptionText;
+            lblEgresosMonto.Location = new Point(552, 512);
+            lblEgresosMonto.Name = "lblEgresosMonto";
+            lblEgresosMonto.Size = new Size(153, 21);
+            lblEgresosMonto.TabIndex = 13;
+            lblEgresosMonto.Text = "Monto de egresos:";
             // 
             // FormVerRegistros
             // 
@@ -170,10 +170,10 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightGray;
             ClientSize = new Size(1085, 550);
-            Controls.Add(label5);
-            Controls.Add(label2);
-            Controls.Add(label4);
-            Controls.Add(label1);
+            Controls.Add(lblEgresosMonto);
+            Controls.Add(lblMontoIngresoso);
+            Controls.Add(lblContadorEgresos);
+            Controls.Add(lblContadorIngresos);
             Controls.Add(dgvEgresos);
             Controls.Add(dgvIngresos);
             Controls.Add(label3);
@@ -183,6 +183,7 @@
             Name = "FormVerRegistros";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormVerIngresos";
+            Load += FormVerRegistros_Load;
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dgvIngresos).EndInit();
@@ -197,11 +198,11 @@
         private Panel panel2;
         private Label lblIngresos;
         private DataGridView dgvIngresos;
-        private Label label1;
-        private Label label2;
+        private Label lblContadorIngresos;
+        private Label lblMontoIngresoso;
         private DataGridView dgvEgresos;
         private Label label3;
-        private Label label4;
-        private Label label5;
+        private Label lblContadorEgresos;
+        private Label lblEgresosMonto;
     }
 }

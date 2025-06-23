@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using APISistemaCaja_Inventario.Data;
 using APISistemaCaja_Inventario.Models;
+using APISistemaCaja_Inventario.DTO_s.Caja;
 
 namespace APISistemaCaja_Inventario.Controllers
 {
@@ -23,9 +24,16 @@ namespace APISistemaCaja_Inventario.Controllers
 
         // GET: api/MovimientoCajas
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<MovimientoCaja>>> GetMovimientosCaja()
+        public async Task<ActionResult<IEnumerable<MovimientoEnCajaREAD>>> GetMovimientosCaja()
         {
-            return await _context.MovimientosCaja.ToListAsync();
+            return await _context.MovimientosCaja.Select(e => new MovimientoEnCajaREAD
+            {
+                MovimientoID = e.MovimientoID,
+                Tipo = e.Tipo,
+                Concepto = e.Concepto,
+                Monto = e.Monto,
+                Fecha = e.Fecha,
+            }).ToListAsync();
         }
 
         // GET: api/MovimientoCajas/5

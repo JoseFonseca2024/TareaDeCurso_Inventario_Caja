@@ -312,3 +312,5 @@ C:\Users\ferpa\Source\Repos\TareaDeCurso_Inventario_Caja\BosquejoProyecto1\obj\D
 C:\Users\ferpa\Source\Repos\TareaDeCurso_Inventario_Caja\BosquejoProyecto1\obj\Debug\net8.0-windows\BosquejoProyecto1.pdb
 C:\Users\ferpa\Source\Repos\TareaDeCurso_Inventario_Caja\BosquejoProyecto1\obj\Debug\net8.0-windows\BosquejoProyecto1.genruntimeconfig.cache
 C:\Users\ferpa\Source\Repos\TareaDeCurso_Inventario_Caja\BosquejoProyecto1\obj\Debug\net8.0-windows\ref\BosquejoProyecto1.dll
+C:\Users\Usuario\Documents\UNI\2025\Programación II\BosquejoProyecto1\BosquejoProyecto1\obj\Debug\net8.0-windows\BosquejoProyecto1.Forms.FormsInvetario.FormStock.resources
+C:\Users\Usuario\Documents\UNI\2025\Programación II\BosquejoProyecto1\BosquejoProyecto1\obj\Debug\net8.0-windows\BosquejoProyecto1.Forms.FormsInvetario.FormVerRegistro.resources

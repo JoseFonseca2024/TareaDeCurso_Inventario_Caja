@@ -55,7 +55,23 @@ namespace APISistemaCaja_Inventario.Controllers
             var caja = await _context.Cajas.FindAsync(id);
             if (caja == null) return NotFound();
 
+            // Guardar el saldo actual antes de modificarlo
+            var saldoAnterior = caja.Saldo;
+
             caja.Saldo = dto.Saldo;
+
+            await _context.SaveChangesAsync();
+
+            var movimiento = new MovimientoCaja
+            {
+                Tipo = TipodeMovimiento.Egreso,
+                Concepto = $"Cierre de caja por C$ {caja.Saldo}",
+                Monto = caja.Saldo,
+                Fecha = DateTime.Now,
+                CajaID = caja.CajaID,
+            };
+
+            _context.MovimientosCaja.Add(movimiento);
 
             await _context.SaveChangesAsync();
 
@@ -77,7 +93,7 @@ namespace APISistemaCaja_Inventario.Controllers
             var movimiento = new MovimientoCaja
             {
                 Tipo = TipodeMovimiento.Ingreso,
-                Concepto = $"Inicialización de saldo en caja {caja.Saldo}",
+                Concepto = $"Inicialización de saldo en caja por C${caja.Saldo}",
                 Monto = caja.Saldo,
                 Fecha = DateTime.Now,
                 CajaID = caja.CajaID,

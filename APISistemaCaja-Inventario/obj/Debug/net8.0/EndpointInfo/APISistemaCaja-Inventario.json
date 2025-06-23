@@ -522,7 +522,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/MovimientoCaja"
+                    "$ref": "#/components/schemas/MovimientoEnCajaREAD"
                   }
                 }
               },
@@ -530,7 +530,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/MovimientoCaja"
+                    "$ref": "#/components/schemas/MovimientoEnCajaREAD"
                   }
                 }
               },
@@ -538,7 +538,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/MovimientoCaja"
+                    "$ref": "#/components/schemas/MovimientoEnCajaREAD"
                   }
                 }
               }
@@ -819,17 +819,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Producto"
+                "$ref": "#/components/schemas/ProductoUPDATE"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Producto"
+                "$ref": "#/components/schemas/ProductoUPDATE"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Producto"
+                "$ref": "#/components/schemas/ProductoUPDATE"
               }
             }
           }
@@ -1353,6 +1353,31 @@
         },
         "additionalProperties": false
       },
+      "MovimientoEnCajaREAD": {
+        "type": "object",
+        "properties": {
+          "movimientoID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tipo": {
+            "$ref": "#/components/schemas/TipodeMovimiento"
+          },
+          "monto": {
+            "type": "number",
+            "format": "double"
+          },
+          "concepto": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
       "Producto": {
         "required": [
           "cantidad",
@@ -1443,6 +1468,28 @@
           "fechaIngreso": {
             "type": "string",
             "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProductoUPDATE": {
+        "type": "object",
+        "properties": {
+          "nombreProducto": {
+            "type": "string",
+            "nullable": true
+          },
+          "costoProducto": {
+            "type": "number",
+            "format": "double"
+          },
+          "precioConIVA": {
+            "type": "number",
+            "format": "double"
+          },
+          "cantidad": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false

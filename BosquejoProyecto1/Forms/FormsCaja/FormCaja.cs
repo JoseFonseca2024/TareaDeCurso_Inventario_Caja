@@ -12,6 +12,7 @@ namespace BosquejoProyecto1.Forms
         private readonly CajaService _cajaService = new CajaService();
         public readonly string url = "https://localhost:7064/api/Cajas";
         HttpClient cliente = new HttpClient();
+        private decimal saldoEnCaja = 0;
 
         public FormCaja()
         {
@@ -21,7 +22,16 @@ namespace BosquejoProyecto1.Forms
 
         private async void FormCaja_Load(object sender, EventArgs e)
         {
-            await _cajaService.CargarSaldo(txtSaldo, cliente, url);
+            saldoEnCaja = await _cajaService.CargarSaldo(cliente, url);
+
+            if (saldoEnCaja == 0)
+            {
+                txtSaldo.Text = "C$ -";
+            }
+            else
+            {
+                txtSaldo.Text = $"C$ {saldoEnCaja.ToString()}";
+            }
         }
 
         private void lblExit_Click(object sender, EventArgs e)
@@ -29,10 +39,19 @@ namespace BosquejoProyecto1.Forms
             this.Close();
         }
 
-        private void btnVerIngresos_Click(object sender, EventArgs e)
+        private async void btnVerIngresos_Click(object sender, EventArgs e)
         {
-            var form = new FormVerRegistros();
-            form.ShowDialog();
+            bool existeCaja = await _cajaService.ExistenciadeCaja(cliente, url);
+
+            if (existeCaja)
+            {
+                var form = new FormVerRegistros();
+                form.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("No hay registros de caja aún. Inicialice una primero.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void btnInicializar_Click(object sender, EventArgs e)
@@ -41,10 +60,21 @@ namespace BosquejoProyecto1.Forms
             form.ShowDialog();
         }
 
-        private void btnCierre_Click(object sender, EventArgs e)
+        private async void btnCierre_Click(object sender, EventArgs e)
         {
-            var form = new FormCerrarCaja();
-            form.ShowDialog();
+            saldoEnCaja = await _cajaService.CargarSaldo(cliente, url);
+
+            if (saldoEnCaja != 0)
+            {
+                var form = new FormCerrarCaja();
+                form.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("No hay caja activa por cerrar", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
         }
 
 

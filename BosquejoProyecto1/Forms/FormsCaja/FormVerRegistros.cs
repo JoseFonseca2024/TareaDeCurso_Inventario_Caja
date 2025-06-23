@@ -14,6 +14,10 @@ namespace BosquejoProyecto1.Forms
     public partial class FormVerRegistros : Form
     {
         private readonly FormService _formService = new FormService();
+        private readonly CajaService _cajaService = new CajaService();
+        public readonly string url = "https://localhost:7064/api/MovimientoCajas";
+        HttpClient cliente = new HttpClient();
+
         public FormVerRegistros()
         {
             InitializeComponent();
@@ -23,6 +27,15 @@ namespace BosquejoProyecto1.Forms
         private void lblExit_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private async void FormVerRegistros_Load(object sender, EventArgs e)
+        {
+            var ingresos = await _cajaService.ObtenerIngresos(cliente, url,lblContadorIngresos, lblMontoIngresoso);
+            dgvIngresos.DataSource = ingresos;
+
+            var egresos = await _cajaService.ObtenerEgresos(cliente, url, lblContadorEgresos, lblEgresosMonto);
+            dgvEgresos.DataSource = egresos;
         }
 
     }
