@@ -1,13 +1,8 @@
 ﻿using APISistemaCaja_Inventario.Data;
 using APISistemaCaja_Inventario.DTO_s.Compra;
 using APISistemaCaja_Inventario.Models;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace APISistemaCaja_Inventario.Controllers
 {
@@ -149,7 +144,7 @@ namespace APISistemaCaja_Inventario.Controllers
 
             if (caja.Saldo <= 0)
                 return BadRequest("La caja está cerrada o sin saldo disponible para registrar egresos.");
-            
+
             var movimientoCaja = new MovimientoCaja
             {
                 CajaID = caja.CajaID,

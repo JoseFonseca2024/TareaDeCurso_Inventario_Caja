@@ -1,6 +1,4 @@
 ﻿using BosquejoProyecto1.Class;
-using BosquejoProyecto1.DTO_s;
-using System.Net.Http.Json;
 
 namespace BosquejoProyecto1.Forms.FormsCaja
 {
@@ -21,9 +19,9 @@ namespace BosquejoProyecto1.Forms.FormsCaja
 
         private async void btnAceptar_Click(object sender, EventArgs e)
         {
-            await _cajaService.InicializarSaldo(this,txtSaldo, label2, url, cliente);
+            await _cajaService.InicializarSaldo(this, txtSaldo, label2, url, cliente);
         }
-        
-       
+
+
     }
 }

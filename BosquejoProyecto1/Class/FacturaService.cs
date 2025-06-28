@@ -1,11 +1,6 @@
 ﻿using BosquejoProyecto1.DTO_s;
 using BosquejoProyecto1.Forms.FormsInvetario;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http.Json;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BosquejoProyecto1.Class
 {
@@ -104,7 +99,7 @@ namespace BosquejoProyecto1.Class
                 {
                     ProductoID = productoID,
                     Cantidad = cantidad,
-                    
+
                 });
 
                 subtotal += precio * cantidad;

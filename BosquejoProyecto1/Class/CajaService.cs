@@ -1,8 +1,8 @@
 ﻿using BosquejoProyecto1.DTO_s;
 using BosquejoProyecto1.DTO_s.Caja;
 using System.Net.Http.Json;
-using System.Text.Json.Serialization;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace BosquejoProyecto1.Class
 {
@@ -17,16 +17,16 @@ namespace BosquejoProyecto1.Class
                 {
                     if (cajas.Any())
                     {
-                        return true; 
+                        return true;
                     }
                     else
                     {
-                        return false; 
+                        return false;
                     }
                 }
                 else
                 {
-                    return false; 
+                    return false;
                 }
 
             }
@@ -284,7 +284,7 @@ namespace BosquejoProyecto1.Class
                 MessageBox.Show("Error al cerrar la caja.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-    
+
     }
 }
-   
+

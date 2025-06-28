@@ -89,7 +89,7 @@ namespace BosquejoProyecto1
 
             bool existencia = await productoService.ExistenciadeInventario(cliente, urlProductos);
 
-            if (caja != null && caja.Saldo > 0 && existencia==true)
+            if (caja != null && caja.Saldo > 0 && existencia == true)
             {
                 var form = new FormFacturación();
                 form.ShowDialog();

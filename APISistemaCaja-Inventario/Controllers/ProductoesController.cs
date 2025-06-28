@@ -1,9 +1,9 @@
 ﻿
+using APISistemaCaja_Inventario.Data;
+using APISistemaCaja_Inventario.DTO_s.Producto;
+using APISistemaCaja_Inventario.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using APISistemaCaja_Inventario.Data;
-using APISistemaCaja_Inventario.Models;
-using APISistemaCaja_Inventario.DTO_s.Producto;
 
 namespace APISistemaCaja_Inventario.Controllers
 {

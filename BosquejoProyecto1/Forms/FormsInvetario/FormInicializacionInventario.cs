@@ -17,7 +17,7 @@ namespace BosquejoProyecto1.Forms.FormsInvetario
             formService.BloquearTeclas(txtCostoProducto);
             formService.BloquearTeclas(txtPrecio);
             productoService.CargarProducto(dgvRegistroProductos, url, client);
-            formService.CargarParametros(dgvRegistroProductos, txtNombreProducto, txtCostoProducto, txtPrecio, numCantidad);
+            formService.CargarParametrosCompra(dgvRegistroProductos, txtNombreProducto, txtCostoProducto, txtPrecio, numCantidad);
         }
 
         private void LimpiarCampos()
@@ -25,7 +25,7 @@ namespace BosquejoProyecto1.Forms.FormsInvetario
             txtNombreProducto.Clear();
             txtCostoProducto.Clear();
             txtPrecio.Clear();
-            numCantidad.Value = 1;
+            numCantidad.Value = 0;
         }
 
         private void btnRegistrar_Click(object sender, EventArgs e)

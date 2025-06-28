@@ -4,15 +4,15 @@
     {
         public int DetalleFacturaID { get; set; }
 
-        public int  ProductoID { get; set; }
+        public int ProductoID { get; set; }
 
         public string NombreProducto { get; set; }
-                
-        public int Cantidad {  get; set; }
+
+        public int Cantidad { get; set; }
 
         public decimal PrecioconIVA { get; set; }
 
-        public decimal Total {  get; set; }
+        public decimal Total { get; set; }
 
     }
 }

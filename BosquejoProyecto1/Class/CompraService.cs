@@ -1,12 +1,6 @@
 ﻿using BosquejoProyecto1.DTO_s;
 using BosquejoProyecto1.DTO_s.Producto;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http.Json;
-using System.Security.Policy;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BosquejoProyecto1.Class
 {
@@ -26,20 +20,20 @@ namespace BosquejoProyecto1.Class
             _productoService = productoService;
         }
 
-        public async Task AgregarProductoaCompra(
-                ComboBox cmbExistencia,
-                TextBox txtID,
-                TextBox txtNombre,
-                TextBox txtCosto,
-                NumericUpDown numUnidades,
-                DataGridView dgvCompra,
-                Label lblTotal,
-                HttpClient client)
+        public Task AgregarProductoaCompra(
+            ComboBox cmbExistencia,
+            TextBox txtID,
+            TextBox txtNombre,
+            TextBox txtCosto,
+            TextBox txtPrecio,
+            NumericUpDown numUnidades,
+            DataGridView dgvCompra,
+            Label lblTotal)
         {
             if (cmbExistencia.SelectedItem == null)
             {
                 MessageBox.Show("Seleccione si el producto es nuevo o registrado.");
-                return;
+                return Task.CompletedTask;
             }
 
             string tipo = cmbExistencia.SelectedItem.ToString();
@@ -48,13 +42,19 @@ namespace BosquejoProyecto1.Class
             if (cantidad <= 0)
             {
                 MessageBox.Show("La cantidad debe ser mayor que cero.");
-                return;
+                return Task.CompletedTask;
             }
 
-            if (!decimal.TryParse(txtCosto.Text, out decimal costoUnit))
+            if (!decimal.TryParse(txtCosto.Text, out decimal costoUnit) || !decimal.TryParse(txtPrecio.Text, out decimal precio))
             {
-                MessageBox.Show("Costo no válido.");
-                return;
+                MessageBox.Show("Costo o precio no válidos.");
+                return Task.CompletedTask;
+            }
+
+            if (costoUnit <= 0 || precio <= 0)
+            {
+                MessageBox.Show("Los campos de costo y precio deben ser mayores que 0.");
+                return Task.CompletedTask;
             }
 
             DetalleCompraREAD detalle;
@@ -64,41 +64,16 @@ namespace BosquejoProyecto1.Class
                 if (string.IsNullOrWhiteSpace(txtNombre.Text))
                 {
                     MessageBox.Show("Ingrese el nombre del producto nuevo.");
-                    return;
-                }
-
-                // Crear el producto nuevo vía API
-                var nuevoProducto = new ProductoCREATE
-                {
-                    NombreProducto = txtNombre.Text.Trim(),
-                    CostoProducto = costoUnit,
-                    PrecioConIVA = costoUnit * 1.15m, // Asume que el precio incluye IVA, puedes ajustar
-                    Cantidad = 0, // No aumentas stock aún, solo creas producto
-                    FechaIngreso = DateTime.Now
-                };
-
-                var response = await client.PostAsJsonAsync(_urlProducto, nuevoProducto);
-                if (!response.IsSuccessStatusCode)
-                {
-                    MessageBox.Show("Error al crear el producto nuevo.");
-                    return;
-                }
-
-                var productoCreado = await response.Content.ReadFromJsonAsync<ProductoREAD>();
-
-                if (productoCreado == null)
-                {
-                    MessageBox.Show("Error al obtener producto creado.");
-                    return;
+                    return Task.CompletedTask;
                 }
 
                 detalle = new DetalleCompraREAD
                 {
-                    ProductoID = productoCreado.ProductoID,
-                    NombreProducto = productoCreado.NombreProducto,
+                    ProductoID = 0, // Se asignará al confirmar
+                    NombreProducto = txtNombre.Text.Trim(),
                     Cantidad = cantidad,
-                    CostoUnitario = productoCreado.CostoProducto,
-                    IVAUnitario = productoCreado.CostoProducto * 0.15m
+                    CostoUnitario = costoUnit,
+                    IVAUnitario = costoUnit * 0.15m
                 };
             }
             else // Registrado
@@ -106,23 +81,17 @@ namespace BosquejoProyecto1.Class
                 if (!int.TryParse(txtID.Text, out int id))
                 {
                     MessageBox.Show("ID de producto no válido.");
-                    return;
+                    return Task.CompletedTask;
                 }
 
-                var producto = await client.GetFromJsonAsync<ProductoREAD>($"{_urlProducto}/{id}");
-                if (producto == null)
-                {
-                    MessageBox.Show("Producto no encontrado.");
-                    return;
-                }
-
+                // Guardás solo el ID para usarlo luego
                 detalle = new DetalleCompraREAD
                 {
-                    ProductoID = producto.ProductoID,
-                    NombreProducto = producto.NombreProducto,
+                    ProductoID = id,
+                    NombreProducto = txtNombre.Text.Trim(),
                     Cantidad = cantidad,
-                    CostoUnitario = producto.CostoProducto,
-                    IVAUnitario = producto.CostoProducto * 0.15m
+                    CostoUnitario = costoUnit,
+                    IVAUnitario = costoUnit * 0.15m
                 };
             }
 
@@ -130,10 +99,12 @@ namespace BosquejoProyecto1.Class
 
             _detallesActuales.Add(detalle);
 
-            // Refrescar el DataGridView y total
             RefrescarGrid(dgvCompra);
             CalcularTotalFactura(dgvCompra, lblTotal);
+
+            return Task.CompletedTask;
         }
+
 
 
         private void RefrescarGrid(DataGridView dgvCompra)
@@ -201,11 +172,12 @@ namespace BosquejoProyecto1.Class
         }
 
         public async Task ConfirmarCompraAsync(
-            DataGridView dgvCompra,
-            Label lblTotal,
-            HttpClient client,
-            string comprasUrl,
-            string productosUrl)
+             DataGridView dgvCompra,
+             Label lblTotal,
+             HttpClient client,
+             string comprasUrl,
+             string productosUrl,
+             decimal saldoCaja)
         {
             if (_detallesActuales.Count == 0)
             {
@@ -213,7 +185,83 @@ namespace BosquejoProyecto1.Class
                 return;
             }
 
-            var dto = new CompraCREATE
+            decimal totalCompra = _detallesActuales.Sum(d => d.Total);
+
+            if (totalCompra > saldoCaja)
+            {
+                MessageBox.Show("No hay suficiente dinero en caja para realizar esta compra.", "Saldo insuficiente", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // 1. Crear productos nuevos (ProductoID == 0)
+            foreach (var detalle in _detallesActuales.Where(d => d.ProductoID == 0).ToList())
+            {
+                var nuevoProductoDto = new ProductoCREATE
+                {
+                    NombreProducto = detalle.NombreProducto,
+                    CostoProducto = detalle.CostoUnitario,
+                    PrecioConIVA = detalle.CostoUnitario * 1.15m,
+                    Cantidad = detalle.Cantidad,
+                    FechaIngreso = DateTime.Now
+                };
+
+                var response = await client.PostAsJsonAsync(productosUrl, nuevoProductoDto);
+
+                if (!response.IsSuccessStatusCode)
+                {
+                    MessageBox.Show($"Error al crear el producto nuevo: {detalle.NombreProducto}");
+                    return; // aborta la compra si falla crear producto nuevo
+                }
+
+                var productoCreado = await response.Content.ReadFromJsonAsync<ProductoREAD>();
+
+                if (productoCreado == null)
+                {
+                    MessageBox.Show($"Error al obtener producto creado: {detalle.NombreProducto}");
+                    return;
+                }
+
+                // Actualiza el ProductoID en el detalle para usarlo luego en la compra
+                detalle.ProductoID = productoCreado.ProductoID;
+            }
+
+            // 2. Actualizar stock de productos existentes
+            foreach (var detalle in _detallesActuales.Where(d => d.ProductoID != 0))
+            {
+                // Traer producto actual
+                var productoResp = await client.GetAsync($"{productosUrl}/{detalle.ProductoID}");
+                if (!productoResp.IsSuccessStatusCode)
+                {
+                    MessageBox.Show($"No se encontró el producto ID {detalle.ProductoID} para actualizar.");
+                    return;
+                }
+
+                var producto = await productoResp.Content.ReadFromJsonAsync<ProductoREAD>();
+                if (producto == null)
+                {
+                    MessageBox.Show($"Error al leer producto ID {detalle.ProductoID} para actualizar.");
+                    return;
+                }
+
+                // Actualizar cantidad sumando la compra
+                var productoUpdate = new ProductoUPDATE
+                {
+                    NombreProducto = producto.NombreProducto,
+                    CostoProducto = producto.CostoProducto,
+                    PrecioConIVA = producto.PrecioConIVA,
+                    Cantidad = producto.Cantidad + detalle.Cantidad
+                };
+
+                var putResp = await client.PutAsJsonAsync($"{productosUrl}/{detalle.ProductoID}", productoUpdate);
+                if (!putResp.IsSuccessStatusCode)
+                {
+                    MessageBox.Show($"Error al actualizar stock del producto {producto.NombreProducto}");
+                    return;
+                }
+            }
+
+            // 3. Crear compra con detalles (ya con IDs correctos)
+            var compraDto = new CompraCREATE
             {
                 Fecha = DateTime.Now,
                 Detalles = _detallesActuales.Select(d => new DetalleCompraCREATE
@@ -223,23 +271,24 @@ namespace BosquejoProyecto1.Class
                 }).ToList()
             };
 
-            var resp = await client.PostAsJsonAsync(comprasUrl, dto);
-            if (resp.IsSuccessStatusCode)
-            {
-                MessageBox.Show("Compra registrada correctamente.");
-                _detallesActuales.Clear();
-                dgvCompra.DataSource = null;
-                lblTotal.Text = "Total: C$ 0.00";
-
-                // Refrescar productos (cargar desde API)
-                var productos = await client.GetFromJsonAsync<List<ProductoREAD>>(productosUrl);
-                RefrescarGrid(dgvCompra);
-
-            }
-            else
+            var compraResp = await client.PostAsJsonAsync(comprasUrl, compraDto);
+            if (!compraResp.IsSuccessStatusCode)
             {
                 MessageBox.Show("Error al registrar la compra.");
+                return;
             }
+
+            // 4. Limpiar UI y lista temporal
+            MessageBox.Show("Compra registrada correctamente.");
+            _detallesActuales.Clear();
+            dgvCompra.DataSource = null;
+            lblTotal.Text = "Total: C$ 0.00";
+
+            // 5. Refrescar productos en la UI
+            var productos = await client.GetFromJsonAsync<List<ProductoREAD>>(productosUrl);
+            
         }
+
+
     }
 }

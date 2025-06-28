@@ -37,7 +37,7 @@
             label3 = new Label();
             label2 = new Label();
             label4 = new Label();
-            button1 = new Button();
+            btnRellenarInventario = new Button();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -141,15 +141,15 @@
             label4.TabIndex = 15;
             label4.Text = "Valor de inventario:";
             // 
-            // button1
+            // btnRellenarInventario
             // 
-            button1.Location = new Point(261, 165);
-            button1.Name = "button1";
-            button1.Size = new Size(122, 30);
-            button1.TabIndex = 20;
-            button1.Text = "Rellenar inventario";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            btnRellenarInventario.Location = new Point(261, 165);
+            btnRellenarInventario.Name = "btnRellenarInventario";
+            btnRellenarInventario.Size = new Size(122, 30);
+            btnRellenarInventario.TabIndex = 20;
+            btnRellenarInventario.Text = "Rellenar inventario";
+            btnRellenarInventario.UseVisualStyleBackColor = true;
+            btnRellenarInventario.Click += btnRellenarInventario_Click;
             // 
             // FormInventario
             // 
@@ -157,7 +157,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightGray;
             ClientSize = new Size(606, 214);
-            Controls.Add(button1);
+            Controls.Add(btnRellenarInventario);
             Controls.Add(btnStock);
             Controls.Add(pictureBox1);
             Controls.Add(btnInicializar);
@@ -188,6 +188,6 @@
         private Label label3;
         private Label label2;
         private Label label4;
-        private Button button1;
+        private Button btnRellenarInventario;
     }
 }

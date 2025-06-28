@@ -1,7 +1,4 @@
-﻿using Azure;
-using BosquejoProyecto1.Class;
-using System.Security.Policy;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+﻿using BosquejoProyecto1.Class;
 
 
 namespace BosquejoProyecto1.Forms.FormsFacturación

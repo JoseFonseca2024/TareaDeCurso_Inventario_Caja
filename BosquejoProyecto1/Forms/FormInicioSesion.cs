@@ -25,7 +25,7 @@ namespace BosquejoProyecto1
 
         private void lblExit_Click(object sender, EventArgs e)
         {
-                this.Close();
+            this.Close();
         }
 
         private void ptbVerContra_Click(object sender, EventArgs e)

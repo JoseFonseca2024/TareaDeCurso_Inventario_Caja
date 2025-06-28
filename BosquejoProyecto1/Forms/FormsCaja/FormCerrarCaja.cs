@@ -36,7 +36,7 @@ namespace BosquejoProyecto1.Forms.FormsCaja
 
         private async void FormCerrarCaja_Load(object sender, EventArgs e)
         {
-            saldoRegistro = await _cajaService.CargarSaldo( cliente, url);
+            saldoRegistro = await _cajaService.CargarSaldo(cliente, url);
             lblSaldosegunRegistro.Text = $"Saldo según registro {saldoRegistro:N2}";
         }
 
@@ -69,7 +69,7 @@ namespace BosquejoProyecto1.Forms.FormsCaja
                 DialogResult resp = MessageBox.Show("Esta seguro que quiere cerrar caja?", "Confirmacion", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (resp == DialogResult.Yes)
                 {
-                    await _cajaService.CerrarCaja(this,url, cliente);
+                    await _cajaService.CerrarCaja(this, url, cliente);
                 }
                 else
                 {

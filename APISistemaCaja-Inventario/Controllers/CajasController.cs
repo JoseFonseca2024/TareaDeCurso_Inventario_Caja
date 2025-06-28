@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+﻿using APISistemaCaja_Inventario.Data;
+using APISistemaCaja_Inventario.DTO_s.Caja;
+using APISistemaCaja_Inventario.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using APISistemaCaja_Inventario.Data;
-using APISistemaCaja_Inventario.Models;
-using APISistemaCaja_Inventario.DTO_s.Caja;
 
 namespace APISistemaCaja_Inventario.Controllers
 {

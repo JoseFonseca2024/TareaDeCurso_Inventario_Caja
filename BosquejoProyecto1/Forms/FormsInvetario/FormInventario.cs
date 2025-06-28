@@ -6,6 +6,8 @@ namespace BosquejoProyecto1.Forms.FormsInvetario
     {
         private readonly FormService _formService = new FormService();
         private readonly ProductoService _productoService = new ProductoService();
+        private readonly CajaService _cajaService = new CajaService();
+        public readonly string urlCaja = "https://localhost:7064/api/Cajas";
         private readonly string url = "https://localhost:7064/api/Productoes";
         HttpClient client = new HttpClient();
         public FormInventario()
@@ -15,10 +17,23 @@ namespace BosquejoProyecto1.Forms.FormsInvetario
             _formService.CambiodeColor(lblExit);
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private async void btnRellenarInventario_Click(object sender, EventArgs e)
         {
-            var form = new FormRegistroCompra();
-            form.ShowDialog();
+            decimal saldocaja = await _cajaService.CargarSaldo(client, urlCaja);
+            bool existencia = await _productoService.ExistenciadeInventario(client, url);
+            if (existencia == true && saldocaja != 0)
+            {
+                var form = new FormRegistroCompra();
+                form.ShowDialog();
+            }
+            else if (saldocaja == 0)
+            {
+                MessageBox.Show("Incialice el saldo de caja primeramente", "Caja no inicializada", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+            }
+            else
+            {
+                MessageBox.Show("Incialice el slado en inventario primeramente", "Invetario no inicializado", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+            }
         }
 
         private async void btnInicializar_Click(object sender, EventArgs e)

@@ -1,7 +1,5 @@
 ﻿using BosquejoProyecto1.Class;
 using BosquejoProyecto1.Forms.FormsFacturación;
-using BosquejoProyecto1.Forms.FormsInvetario;
-using System.Security.Policy;
 
 
 namespace BosquejoProyecto1.Forms

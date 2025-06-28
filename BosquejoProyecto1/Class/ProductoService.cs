@@ -1,13 +1,5 @@
 ﻿using BosquejoProyecto1.DTO_s.Producto;
-using Microsoft.EntityFrameworkCore.SqlServer.Query.Internal;
-using Microsoft.Identity.Client;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http.Json;
-using System.Security.Policy;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BosquejoProyecto1.Class
 {
@@ -15,6 +7,11 @@ namespace BosquejoProyecto1.Class
     {
         public async void AgregarProducto(TextBox txtNombre, TextBox txtcosto, TextBox txtPrecio, NumericUpDown cantidad, DataGridView dg, string url, HttpClient cliente)
         {
+            if (Convert.ToDecimal(txtcosto.Text) == 0 || Convert.ToDecimal(txtPrecio.Text) == 0 || Convert.ToInt32(cantidad) == 0)
+            {
+                MessageBox.Show("Los campos Costo, Precio y Cantidad no pueden ser igual 0");
+                return;
+            }
             var nuevoprodcuto = new ProductoCREATE
             {
                 NombreProducto = txtNombre.Text,
@@ -26,7 +23,7 @@ namespace BosquejoProyecto1.Class
 
             if (response.IsSuccessStatusCode)
             {
-                MessageBox.Show("Producto Agregado Correctamente");
+                MessageBox.Show("Producto Agregado Correctamente", "Exito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 CargarProducto(dg, url, cliente);
             }
 
@@ -38,7 +35,7 @@ namespace BosquejoProyecto1.Class
             dg.DataSource = productos;
         }
 
-        public async void ActualizarProducto (DataGridView dg,TextBox txtnombre, TextBox txtCosto, TextBox txtPrecio, NumericUpDown cantidad, string url, HttpClient client)
+        public async void ActualizarProducto(DataGridView dg, TextBox txtnombre, TextBox txtCosto, TextBox txtPrecio, NumericUpDown cantidad, string url, HttpClient client)
         {
             if (dg.CurrentRow == null)
             {
@@ -92,8 +89,8 @@ namespace BosquejoProyecto1.Class
 
         public async Task<bool> ExistenciadeInventario(HttpClient client, string url)
         {
-            try 
-            
+            try
+
             {
                 var inventario = await client.GetFromJsonAsync<List<ProductoREAD>>(url);
                 if (inventario != null)
@@ -107,7 +104,7 @@ namespace BosquejoProyecto1.Class
                         return false;
                     }
                 }
-                else 
+                else
                 {
                     return false;
                 }
@@ -119,7 +116,7 @@ namespace BosquejoProyecto1.Class
             }
         }
 
-        public async Task BuscarProductoporNombre (string nombre , DataGridView dgv, HttpClient client, string url)
+        public async Task BuscarProductoporNombre(string nombre, DataGridView dgv, HttpClient client, string url)
         {
             try
             {
@@ -153,7 +150,7 @@ namespace BosquejoProyecto1.Class
                 MessageBox.Show($"Error al buscar producto: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        
+
         public async Task BuscarProductoporID(NumericUpDown idproducto, DataGridView dgv, HttpClient client, string url)
         {
             try
@@ -174,7 +171,7 @@ namespace BosquejoProyecto1.Class
             }
             catch (HttpRequestException)
             {
-                MessageBox.Show("Error de conexión con la API.");
+                MessageBox.Show("Error inesperado", "Error", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
 
         }

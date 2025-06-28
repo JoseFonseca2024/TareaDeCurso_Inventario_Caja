@@ -1,10 +1,9 @@
 ﻿using APISistemaCaja_Inventario.Models;
 using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
 
 namespace APISistemaCaja_Inventario.Data
 {
-    public class Sistema_Context :DbContext
+    public class Sistema_Context : DbContext
     {
         public DbSet<Producto> Productos { get; set; }
         public DbSet<Factura> Facturas { get; set; }

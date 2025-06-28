@@ -50,7 +50,7 @@
             dgvProductos = new DataGridView();
             label7 = new Label();
             dgvCompra = new DataGridView();
-            label8 = new Label();
+            lblTotal = new Label();
             btnAceptar = new Button();
             panel2.SuspendLayout();
             groupBox1.SuspendLayout();
@@ -123,7 +123,6 @@
             // numUnidades
             // 
             numUnidades.Location = new Point(101, 189);
-            numUnidades.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             numUnidades.Name = "numUnidades";
             numUnidades.Size = new Size(120, 27);
             numUnidades.TabIndex = 17;
@@ -302,17 +301,17 @@
             dgvCompra.Size = new Size(725, 289);
             dgvCompra.TabIndex = 13;
             // 
-            // label8
+            // lblTotal
             // 
-            label8.AutoSize = true;
-            label8.BackColor = Color.Transparent;
-            label8.Font = new Font("Microsoft JhengHei", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label8.ForeColor = Color.Red;
-            label8.Location = new Point(756, 664);
-            label8.Name = "label8";
-            label8.Size = new Size(61, 24);
-            label8.TabIndex = 11;
-            label8.Text = "Total:";
+            lblTotal.AutoSize = true;
+            lblTotal.BackColor = Color.Transparent;
+            lblTotal.Font = new Font("Microsoft JhengHei", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTotal.ForeColor = Color.Red;
+            lblTotal.Location = new Point(756, 664);
+            lblTotal.Name = "lblTotal";
+            lblTotal.Size = new Size(61, 24);
+            lblTotal.TabIndex = 11;
+            lblTotal.Text = "Total:";
             // 
             // btnAceptar
             // 
@@ -333,7 +332,7 @@
             Controls.Add(dgvCompra);
             Controls.Add(dgvProductos);
             Controls.Add(groupBox1);
-            Controls.Add(label8);
+            Controls.Add(lblTotal);
             Controls.Add(label7);
             Controls.Add(label1);
             Controls.Add(panel2);
@@ -375,7 +374,7 @@
         private Label label6;
         private Label label7;
         private DataGridView dgvCompra;
-        private Label label8;
+        private Label lblTotal;
         private Button btnAceptar;
         private TextBox txtID;
         private Label lblID;

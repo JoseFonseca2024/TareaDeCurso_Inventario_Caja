@@ -1,8 +1,5 @@
-﻿using BosquejoProyecto1.DTO_s;
-using BosquejoProyecto1.Class;
+﻿using BosquejoProyecto1.Class;
 using BosquejoProyecto1.Forms.FormsCaja;
-using System.Text.Json;
-using System.Net.Http.Json;
 
 namespace BosquejoProyecto1.Forms
 {
@@ -10,7 +7,9 @@ namespace BosquejoProyecto1.Forms
     {
         private readonly FormService _formService = new FormService();
         private readonly CajaService _cajaService = new CajaService();
-        public readonly string url = "https://localhost:7064/api/Cajas";
+        public readonly string urlCaja = "https://localhost:7064/api/Cajas";
+        public readonly string urlMovimientoCaja = "https://localhost:7064/api/MovimientoCajas";
+
         HttpClient cliente = new HttpClient();
         private decimal saldoEnCaja = 0;
 
@@ -22,7 +21,7 @@ namespace BosquejoProyecto1.Forms
 
         private async void FormCaja_Load(object sender, EventArgs e)
         {
-            saldoEnCaja = await _cajaService.CargarSaldo(cliente, url);
+            saldoEnCaja = await _cajaService.CargarSaldo(cliente, urlCaja);
 
             if (saldoEnCaja == 0)
             {
@@ -33,8 +32,8 @@ namespace BosquejoProyecto1.Forms
                 txtSaldo.Text = $"C$ {saldoEnCaja.ToString()}";
             }
 
-            await _cajaService.ContarIngresos(cliente, url, label2);
-            await _cajaService.ContarEgresos(cliente,url, label3);
+            await _cajaService.ContarIngresos(cliente, urlMovimientoCaja, label2);
+            await _cajaService.ContarEgresos(cliente, urlMovimientoCaja, label3);
         }
 
         private void lblExit_Click(object sender, EventArgs e)
@@ -44,7 +43,7 @@ namespace BosquejoProyecto1.Forms
 
         private async void btnVerIngresos_Click(object sender, EventArgs e)
         {
-            bool existeCaja = await _cajaService.ExistenciadeCaja(cliente, url);
+            bool existeCaja = await _cajaService.ExistenciadeCaja(cliente, urlCaja);
 
             if (existeCaja)
             {
@@ -65,7 +64,7 @@ namespace BosquejoProyecto1.Forms
 
         private async void btnCierre_Click(object sender, EventArgs e)
         {
-            saldoEnCaja = await _cajaService.CargarSaldo(cliente, url);
+            saldoEnCaja = await _cajaService.CargarSaldo(cliente, urlCaja);
 
             if (saldoEnCaja != 0)
             {
