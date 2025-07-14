@@ -21,19 +21,19 @@ namespace BosquejoProyecto1.Forms
 
         private async void FormCaja_Load(object sender, EventArgs e)
         {
-            saldoEnCaja = await _cajaService.CargarSaldo(cliente, urlCaja);
-
-            if (saldoEnCaja == 0)
-            {
-                txtSaldo.Text = "C$ -";
-            }
-            else
-            {
-                txtSaldo.Text = $"C$ {saldoEnCaja.ToString()}";
-            }
+            await _cajaService.ActualizarSaldoEnTextBox(cliente, urlCaja, txtSaldo);
 
             await _cajaService.ContarIngresos(cliente, urlMovimientoCaja, label2);
             await _cajaService.ContarEgresos(cliente, urlMovimientoCaja, label3);
+
+            timerActualizarSaldo.Interval = 5000;
+            timerActualizarSaldo.Tick += TimerActualizarSaldo_Tick;
+            timerActualizarSaldo.Start();
+        }
+
+        private async void TimerActualizarSaldo_Tick(object sender, EventArgs e)
+        {
+            await _cajaService.ActualizarSaldoEnTextBox(cliente, urlCaja, txtSaldo);
         }
 
         private void lblExit_Click(object sender, EventArgs e)

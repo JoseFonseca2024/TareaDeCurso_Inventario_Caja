@@ -17,6 +17,17 @@ namespace BosquejoProyecto1.Forms.FormsInvetario
             _formService.CambiodeColor(lblExit);
         }
 
+        private async void FormInventario_Load(object sender, EventArgs e)
+        {
+            await _productoService.ActualizarValorInventario(txtSaldo, client, url);
+            _timerInventario.Interval = 3000; // cada 3 segundos
+            _timerInventario.Tick += async (s, args) =>
+            {
+                await _productoService.ActualizarValorInventario(txtSaldo, client, url);
+            };
+            _timerInventario.Start();
+        }
+
         private async void btnRellenarInventario_Click(object sender, EventArgs e)
         {
             decimal saldocaja = await _cajaService.CargarSaldo(client, urlCaja);
@@ -66,17 +77,5 @@ namespace BosquejoProyecto1.Forms.FormsInvetario
 
         }
 
-        private async void FormInventario_Load(object sender, EventArgs e)
-        {
-            decimal valorinventario = await _productoService.ObtenerValorInventario(client, url);
-            if (valorinventario != 0)
-            {
-                txtSaldo.Text = $"C$ {valorinventario}";
-            }
-            else
-            {
-                txtSaldo.Text = $"C$ -";
-            }
-        }
     }
 }

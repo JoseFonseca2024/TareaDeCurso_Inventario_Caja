@@ -61,7 +61,7 @@ namespace APISistemaCaja_Inventario.Controllers
             {
                 Tipo = TipodeMovimiento.Egreso,
                 Concepto = $"Cierre de caja por C$ {caja.Saldo}",
-                Monto = caja.Saldo,
+                Monto = saldoAnterior,
                 Fecha = DateTime.Now,
                 CajaID = caja.CajaID,
             };
@@ -115,9 +115,5 @@ namespace APISistemaCaja_Inventario.Controllers
             return NoContent();
         }
 
-        private bool CajaExists(int id)
-        {
-            return _context.Cajas.Any(e => e.CajaID == id);
-        }
     }
 }

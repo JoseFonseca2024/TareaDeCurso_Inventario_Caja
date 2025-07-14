@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             panel2 = new Panel();
             lblExit = new Label();
             btnStock = new Button();
@@ -38,6 +39,7 @@
             label2 = new Label();
             label4 = new Label();
             btnRellenarInventario = new Button();
+            _timerInventario = new System.Windows.Forms.Timer(components);
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -189,5 +191,6 @@
         private Label label2;
         private Label label4;
         private Button btnRellenarInventario;
+        private System.Windows.Forms.Timer _timerInventario;
     }
 }

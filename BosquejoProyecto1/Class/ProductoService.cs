@@ -194,5 +194,27 @@ namespace BosquejoProyecto1.Class
             }
         }
 
+        public async Task ActualizarValorInventario(TextBox txt, HttpClient client, string url)
+        {
+            try
+            {
+                var productos = await client.GetFromJsonAsync<List<ProductoREAD>>(url);
+
+                if (productos == null || !productos.Any())
+                {
+                    txt.Text = "C$ -";
+                    return;
+                }
+
+                decimal total = productos.Sum(p => p.CostoProducto * p.Cantidad);
+                txt.Text = $"C$ {total}";
+            }
+            catch
+            {
+                txt.Text = "C$ -";
+            }
+        }
+
+
     }
 }

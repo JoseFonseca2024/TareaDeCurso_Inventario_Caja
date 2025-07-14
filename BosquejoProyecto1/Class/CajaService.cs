@@ -285,6 +285,28 @@ namespace BosquejoProyecto1.Class
             }
         }
 
+        public async Task ActualizarSaldoEnTextBox(HttpClient client, string url, TextBox txt)
+        {
+            try
+            {
+                var cajas = await client.GetFromJsonAsync<List<CajaDTO>>(url);
+                var caja = cajas?.FirstOrDefault();
+
+                if (caja != null && caja.Saldo != 0)
+                {
+                    txt.Text = $"C$ {caja.Saldo:N2}";
+                }
+                else
+                {
+                    txt.Text = "C$ -";
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error al actualizar el saldo: " + ex.Message);
+            }
+        }
+
     }
 }
 

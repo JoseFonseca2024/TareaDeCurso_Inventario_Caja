@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             lblExit = new Label();
             panel2 = new Panel();
             label1 = new Label();
@@ -38,6 +39,7 @@
             btnInicializar = new Button();
             pictureBox1 = new PictureBox();
             btnCierre = new Button();
+            timerActualizarSaldo = new System.Windows.Forms.Timer(components);
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -190,5 +192,6 @@
         private Button btnInicializar;
         private PictureBox pictureBox1;
         private Button btnCierre;
+        private System.Windows.Forms.Timer timerActualizarSaldo;
     }
 }
